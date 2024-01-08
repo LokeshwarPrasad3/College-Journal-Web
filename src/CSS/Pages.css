@@ -1,0 +1,111 @@
+/* 👉 for about page */
+.about_container {
+  margin-top: 4rem;
+  padding: 2rem 15rem;
+  font-family: "signika negative";
+  font-family: "overpass";
+}
+@media only screen and (max-width: 1200px) {
+  .about_container {
+    padding: 2rem 8rem;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .about_container {
+    padding: 2rem 2rem;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .about_container {
+    padding: 1rem 1rem;
+  }
+}
+.about_para {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.about_para {
+  text-align: justify;
+}
+ol {
+  padding: 0 1rem;
+}
+
+/* 👉  page of instruction to author */
+.author_container {
+  margin-top: 4rem;
+  font-family: "overpass";
+  padding: 2rem 15rem;
+  text-align: justify;
+}
+@media only screen and (max-width: 1200px) {
+  .author_container {
+    padding: 2rem 8rem;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .author_container {
+    padding: 2rem 2rem;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .author_container {
+    padding: 1rem 1rem;
+  }
+}
+
+/* 👉editorial policies page */
+.editorial_policies_container {
+  margin-top: 4rem;
+  margin: auto;
+  width: 50%;
+  font-family: "overpass";
+  padding: 2rem 0;
+  text-align: justify;
+}
+@media only screen and (max-width: 1200px) {
+  .editorial_policies_container {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .editorial_policies_container {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .editorial_policies_container {
+    width: 95%;
+  }
+}
+
+
+/* 👉 Peer review policy */
+.peer_review_policy_container {
+  margin-top: 4rem;
+  font-family: "overpass";
+  padding: 2rem 15rem;
+  text-align: justify;
+}
+@media only screen and (max-width: 1200px) {
+  .peer_review_policy_container {
+    padding: 2rem 8rem;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .peer_review_policy_container {
+    padding: 2rem 2rem;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .peer_review_policy_container {
+    padding: 1rem 1rem;
+  }
+}
+
+.sub-heading{
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
