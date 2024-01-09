@@ -23,7 +23,7 @@ const Contents = () => {
 
         <div className="info_grid">
           <div className="grids" id="grid-2">
-            <h4 className="grid_heading">Instructions to Author</h4>
+            <p className="grid_heading">Instructions to Author</p>
             <p className="grid_para">
               The Journal is published monthly adopting the continuous
               publication model and submission is open to researchers in the
@@ -33,7 +33,7 @@ const Contents = () => {
             <img className="img-grid" src="./Images/author.png" alt="" />
           </div>
           <div className="grids" id="grid-3">
-            <h4 className="grid_heading">About the Journal</h4>
+            <p className="grid_heading">About the Journal</p>
             <p className="grid_para">
               International Journal of Scientific research for global Innovation
               is designed to publish research articles in Engineering &
@@ -43,7 +43,7 @@ const Contents = () => {
             <img className="img-grid" src="./Images/about-us.jpg" alt="" />
           </div>
           <div className="grids" id="grid-4">
-            <h4 className="grid_heading">Editorial Policies</h4>
+            <p className="grid_heading">Editorial Policies</p>
             <p className="grid_para">
               IJSRGI is an open access peer-reviewed journal which considers
               manuscripts which comply our instruction with authors.
@@ -52,7 +52,7 @@ const Contents = () => {
             <img className="img-grid" src="./Images/review.jpg" alt="" />
           </div>
           <div className="grids" id="grid-3">
-            <h4 className="grid_heading">Peer Review Policy</h4>
+            <p className="grid_heading">Peer Review Policy</p>
             <p className="grid_para">
               The Journal is published monthly adopting the continuous
               publication model and submission is open to researchers in the

@@ -10,6 +10,7 @@
   align-items: center; */
 }
 .info_container .heading {
+  text-transform: capitalize;
   font-family: 'bree serif';
   text-align: center;
   font-size: 1.7rem;
@@ -47,10 +48,15 @@
 
 .grids {
   color: white;
-  width: 25rem;
-  height: 26rem;
+  width: 18rem;
+  height: 20rem;
   max-height: 26rem;
   overflow: hidden;
+}
+@media (max-width: 500px){
+  .grids {
+    width: 21rem;
+  }
 }
 #grid-1 {
   border: 1px solid #ccc;
@@ -85,12 +91,13 @@
 }
 
 .grid_heading {
-  font-size: 2rem;
+  font-size: 20px;
   margin: 0;
 }
 
 .grid_para {
-  font-size: 1.4rem;
+  text-transform: capitalize;
+  font-size: 15px;
   margin: 10px 0;
 }
 .img-grid {

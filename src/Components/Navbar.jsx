@@ -38,7 +38,7 @@ const Navbar = () => {
             <img src="./Images/logo.png" alt="Pet" className="h-12" />
           </Link>
           <h1 onClick={() => navigate("/")} className="heading_name">
-            Here Heading
+          IJSRGI
           </h1>
         </header>
         {/* show navbar-menu */}
