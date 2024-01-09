@@ -13,7 +13,7 @@ const InstructionAuthor = () => {
 
   return (
     <>
-      <div className="author_container">
+      <div className="author_container page">
         <h2>Instructions to Author</h2>
         <br />
         <p>
@@ -43,20 +43,20 @@ const InstructionAuthor = () => {
         </ol>
         <br />
         <h3>Submission of manuscript</h3>
-    <br />
+        <br />
         <p>
           All manuscripts are reviewed by an editor and members of the Editorial
           Board or Qualified outside reviewers. Decisions will be made as
           rapidly as possible.
         </p>
-    <br />
+        <br />
         <p>
           Preparation of the Manuscript: Manuscript must be written in clear and
           concise English. Either British or American spelling is acceptable. It
           must be sent in Microsoft Word format (.doc or .docx). General format
           of the research papers should be as follows in given template:
         </p>
-    <br />
+        <br />
         <ol>
           <li>Title page</li>
           <li>Abstractand keywords</li>
@@ -83,44 +83,41 @@ const InstructionAuthor = () => {
           not more than 50 characters.
         </p>
         <p>
-        <br />
+          <br />
           <b>Abstract:</b>
           The second page should carry an abstract of not more than 250 words.
           For full research paper, the abstract should be structured into four
           components-
-        <br />
-        <br />
+          <br />
+          <br />
           <b> Keywords: </b>
-          Below the abstract, provide keywords (minimum three
-          but not more than six) in alphabetical orders separated by a comma.
-          
-        <br />
-        <br />
+          Below the abstract, provide keywords (minimum three but not more than
+          six) in alphabetical orders separated by a comma.
+          <br />
+          <br />
           <b> Introduction:</b>
-          Clearly state the purpose of the study. Briefly
-          summarize the rationale of the study and clearly indicate the lacunae
-          or deficiencies in previous studies for which present study has been
+          Clearly state the purpose of the study. Briefly summarize the
+          rationale of the study and clearly indicate the lacunae or
+          deficiencies in previous studies for which present study has been
           taken up. Give only pertinent references. Do not review the subject
           extensively.
           <br />
           <br />
           <b>Research Methods or Methodology:</b>
-          The paper must clearly define
-          the research methods or methodologies used in it. (Mandatory for
-          research articles)
+          The paper must clearly define the research methods or methodologies
+          used in it. (Mandatory for research articles)
           <br />
           <br />
           <b> Results:</b>
-          Include number of observations and the statistical
-          significance of the findings appropriately. Detailed statistical
-          analyses, mathematical derivations, and the like may sometimes be
-          suitably presented in the form of one or more appendices. Present your
-          results in logical sequence in the text, tables and illustrations. Do
-          not repeat in the text all the data already given in tables,
-          illustrations or both. Emphasize and summarize only important
-          observations. Each table should be typed continuously with the text.
-          Legends for illustrations/figures should be typed continuously with
-          the text (as shown in the template).
+          Include number of observations and the statistical significance of the
+          findings appropriately. Detailed statistical analyses, mathematical
+          derivations, and the like may sometimes be suitably presented in the
+          form of one or more appendices. Present your results in logical
+          sequence in the text, tables and illustrations. Do not repeat in the
+          text all the data already given in tables, illustrations or both.
+          Emphasize and summarize only important observations. Each table should
+          be typed continuously with the text. Legends for illustrations/figures
+          should be typed continuously with the text (as shown in the template).
           <br />
           <br />
           <b>Discussion </b> Emphasize the new and important aspects of the

@@ -16,7 +16,7 @@ const ReviewPolicy = () => {
   
   return (
     <>
-      <div className="peer_review_policy_container">
+      <div className="peer_review_policy_container page">
         <h1>Peer Review Policy</h1>
         <br />
         <p>

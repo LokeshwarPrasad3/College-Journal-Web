@@ -13,7 +13,8 @@
   left: 0;
   height: 4rem;
   width: 100%; /* Use width instead of min-width */
-  background-color: #003f5e;
+  /* background-color: #003f5e; */
+  background-color: #274472;
   padding: 0 5rem;
 }
 

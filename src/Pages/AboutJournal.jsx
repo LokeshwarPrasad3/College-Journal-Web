@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 
-const About = () => {
+const AboutJournal = () => {
 
  
   useEffect(() => {
@@ -13,7 +13,7 @@ const About = () => {
 
   return (
     <>
-      <div className="about_container">
+      <div className="about_container page">
         <div className="heading">
           <h2>About the Journal</h2>
         </div>
@@ -21,7 +21,8 @@ const About = () => {
         <div className="about_para">
           <b>
             International Journal of Scientific research for global Innovation
-          </b> is designed to publish research articles in Engineering & Technology,
+          </b>{" "}
+          is designed to publish research articles in Engineering & Technology,
           Mathematics, Management, Medical Sciences, Medicine, Social Science,
           Education, Agriculture, Geography, Advertising, Accounting & Finance,
           Botany, Business Research, Chemistry, Commerce, Computer Application,
@@ -125,8 +126,9 @@ const About = () => {
           </div>
         </div>
       </div>
+
     </>
   );
 };
 
-export default About;
+export default AboutJournal;

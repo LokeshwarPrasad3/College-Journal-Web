@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import Contents from "../Components/Contents";
 import Figure from "../Components/Figure";
 
-const Home = () => {
+const HomePage = () => {
 
  
   useEffect(() => {
@@ -22,4 +22,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default HomePage;

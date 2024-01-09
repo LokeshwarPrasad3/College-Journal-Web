@@ -38,7 +38,7 @@ const Navbar = () => {
             <img src="./Images/logo.png" alt="Pet" className="h-12" />
           </Link>
           <h1 onClick={() => navigate("/")} className="heading_name">
-          IJSRGI
+            IJSRGI
           </h1>
         </header>
         {/* show navbar-menu */}
@@ -76,6 +76,15 @@ const Navbar = () => {
               <Link
                 onClick={toggleResNavbar}
                 className="nav_link "
+                to="/editor-board"
+              >
+                Editor Board
+              </Link>
+            </li>
+            <li className="nav_list">
+              <Link
+                onClick={toggleResNavbar}
+                className="nav_link "
                 to="/instruction-author"
               >
                 Instructions to Author
@@ -88,6 +97,15 @@ const Navbar = () => {
                 to="/review-policy"
               >
                 Review Policy
+              </Link>
+            </li>
+            <li className="nav_list">
+              <Link
+                onClick={toggleResNavbar}
+                className="nav_link "
+                to="/login"
+              >
+                Login
               </Link>
             </li>
           </ul>

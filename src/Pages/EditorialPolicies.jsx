@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 
-const Policies = () => {
+const EditorialPolicies = () => {
   
   useEffect(() => {
     // Scroll to the top when the location changes (route change) or on component mount
@@ -12,7 +12,7 @@ const Policies = () => {
   
   return (
     <>
-      <div className="editorial_policies_container">
+      <div className="editorial_policies_container page">
         <h2>Editorial Policies</h2>
         <br />
         <p>
@@ -61,4 +61,4 @@ const Policies = () => {
   );
 }
 
-export default Policies
+export default EditorialPolicies

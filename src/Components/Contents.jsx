@@ -3,8 +3,6 @@ import "../CSS/Contents.css";
 import ReadMore from "./ReadMore";
 
 const Contents = () => {
-
- 
   useEffect(() => {
     // Scroll to the top when the location changes (route change) or on component mount
     window.scrollTo(0, 0);
@@ -20,18 +18,7 @@ const Contents = () => {
         <h2 className="heading">
           International Journal of Scientific research for global Innovation
         </h2>
-
         <div className="info_grid">
-          <div className="grids" id="grid-2">
-            <p className="grid_heading">Instructions to Author</p>
-            <p className="grid_para">
-              The Journal is published monthly adopting the continuous
-              publication model and submission is open to researchers in the
-              field of medicalsubjects areas across the globe.
-              <ReadMore color={"white"} path={"/instruction-author"} />
-            </p>
-            <img className="img-grid" src="./Images/author.png" alt="" />
-          </div>
           <div className="grids" id="grid-3">
             <p className="grid_heading">About the Journal</p>
             <p className="grid_para">
@@ -50,6 +37,16 @@ const Contents = () => {
               <ReadMore color={"white"} path={"/policies"} />
             </p>
             <img className="img-grid" src="./Images/review.jpg" alt="" />
+          </div>
+          <div className="grids" id="grid-2">
+            <p className="grid_heading">Instructions to Author</p>
+            <p className="grid_para">
+              The Journal is published monthly adopting the continuous
+              publication model and submission is open to researchers in the
+              field of medicalsubjects areas across the globe.
+              <ReadMore color={"white"} path={"/instruction-author"} />
+            </p>
+            <img className="img-grid" src="./Images/author.png" alt="" />
           </div>
           <div className="grids" id="grid-3">
             <p className="grid_heading">Peer Review Policy</p>

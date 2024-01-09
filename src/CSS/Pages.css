@@ -1,6 +1,10 @@
+/* page is hide because of navbar is fixed need margin */
+.page{
+  margin-top: 4rem;
+}
+
 /* 👉 for about page */
 .about_container {
-  margin-top: 4rem;
   padding: 2rem 15rem;
   font-family: "signika negative";
   font-family: "overpass";
@@ -34,7 +38,6 @@ ol {
 
 /* 👉  page of instruction to author */
 .author_container {
-  margin-top: 4rem;
   font-family: "overpass";
   padding: 2rem 15rem;
   text-align: justify;
@@ -57,7 +60,6 @@ ol {
 
 /* 👉editorial policies page */
 .editorial_policies_container {
-  margin-top: 4rem;
   margin: auto;
   width: 50%;
   font-family: "overpass";
@@ -83,7 +85,6 @@ ol {
 
 /* 👉 Peer review policy */
 .peer_review_policy_container {
-  margin-top: 4rem;
   font-family: "overpass";
   padding: 2rem 15rem;
   text-align: justify;
@@ -109,3 +110,9 @@ ol {
   font-weight: bold;
 }
 
+/* page for editors board list */
+.editorboard_container {
+  font-family: "overpass";
+  text-align: center;
+  padding: 2rem 0;
+}

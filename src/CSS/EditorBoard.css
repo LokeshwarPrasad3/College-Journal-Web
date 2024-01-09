@@ -1,0 +1,114 @@
+.editorboard_container {
+    width: 100%;
+}
+.editorboard_container .main_heading{
+    text-align: left;
+    padding-left: 5vw;
+}
+.editorboard_container a {
+  color: gray;
+  text-decoration: none;
+}
+/* for editor chief */
+.chief_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem 0 0rem 0;
+}
+.editor_sub_heading {
+  font-size: 22px;
+  font-weight: bold;
+}
+.editors_image {
+  height: 80px;
+  width: 80px;
+}
+.chief_box {
+    margin: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #f2f2f2; */
+  background-color: #f7f7f7;
+  width: 21rem;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 0.7rem 0;
+}
+@media (max-width: 500px) {
+  .chief_box {
+    width: 23rem;
+    height: auto;
+  padding: 0.6rem 0.3rem;
+
+  }
+}
+.chief_image img {
+  margin: 0.3rem 0;
+}
+.chief_image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0.2rem;
+}
+
+/* another editors */
+.all_editors_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  padding: 0.3rem 0;
+}
+.editor_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  width: 100%;
+  padding: 1rem 0;
+}
+.editor_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #f2f2f2; */
+  background-color: #f7f7f7;
+  width: 21rem;
+  height: 17rem;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  gap: 0.2rem;
+}
+@media (max-width: 500px) {
+  .editor_box {
+    width: 23rem;
+    height: auto;
+  padding: 0.6rem 0.3rem;
+
+  }
+}
+.editor_image img {
+  margin: 0.3rem 0;
+}
+.editor_image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0.2rem;
+}
+hr{
+    margin: auto;
+    opacity: 0.1;
+    width: 60%;
+}
