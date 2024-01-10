@@ -21,7 +21,9 @@ const Footer = () => {
     ""
   ) : (
     <footer className="footer">
-      <p>© Copyright IJSRGI. All Rights Reserved.</p>
+      <p>
+        © Copyright <b>IJSRGI.</b> All Rights Reserved.
+      </p>
     </footer>
   );
 };

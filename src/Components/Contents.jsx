@@ -25,7 +25,7 @@ const Contents = () => {
               International Journal of Scientific research for global Innovation
               is designed to publish research articles in Engineering &
               Technology, Mathematics, Management, Medical Sciences, Medicine,
-              <ReadMore color={"blue"} path={"/about"} />
+              <ReadMore color={"white"} path={"/about"} />
             </p>
             <img className="img-grid" src="./Images/about-us.jpg" alt="" />
           </div>
@@ -55,7 +55,7 @@ const Contents = () => {
               Contribution to editorial decisions Peer review assists editors in
               making editorial decisions and, through editorial communications
               with authors, may assist authors in improving their
-              <ReadMore color={"blue"} path={"/review-policy"} />
+              <ReadMore color={"white"} path={"/review-policy"} />
             </p>
             <img className="img-grid" src="./Images/review-policy.png" alt="" />
           </div>
