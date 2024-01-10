@@ -2,6 +2,13 @@
 export const editorsList =
     [
         {
+            name: "Dr Saket Rungta",
+            designation: "Director",
+            degree: "",
+            college: "Sanjay Rungta Group of Institution",
+            email: "saket.rungta@rungtacolleges.com",
+        },
+        {
             name: "Dr Kuldeep Bansal",
             designation: "Adjunct Professor",
             degree: "",
