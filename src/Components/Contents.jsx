@@ -24,7 +24,7 @@ const Contents = () => {
             <p className="grid_para">
               International Journal of Scientific research for global Innovation
               is designed to publish research articles in Engineering &
-              Technology,
+              Technology, Mathematics, Management, Medical Sciences, Medicine,
               <ReadMore color={"blue"} path={"/about"} />
             </p>
             <img className="img-grid" src="./Images/about-us.jpg" alt="" />
@@ -33,7 +33,8 @@ const Contents = () => {
             <p className="grid_heading">Editorial Policies</p>
             <p className="grid_para">
               IJSRGI is an open access peer-reviewed journal which considers
-              manuscripts which comply our instruction with authors.
+              manuscripts which comply our instruction with authors. The
+              manuscripts are initially screened by the editorial
               <ReadMore color={"white"} path={"/policies"} />
             </p>
             <img className="img-grid" src="./Images/review.jpg" alt="" />
@@ -51,9 +52,9 @@ const Contents = () => {
           <div className="grids" id="grid-3">
             <p className="grid_heading">Peer Review Policy</p>
             <p className="grid_para">
-              The Journal is published monthly adopting the continuous
-              publication model and submission is open to researchers in the
-              field of medicalsubjects areas across the globe.
+              Contribution to editorial decisions Peer review assists editors in
+              making editorial decisions and, through editorial communications
+              with authors, may assist authors in improving their
               <ReadMore color={"blue"} path={"/review-policy"} />
             </p>
             <img className="img-grid" src="./Images/review-policy.png" alt="" />

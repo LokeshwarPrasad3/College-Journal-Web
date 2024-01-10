@@ -17,7 +17,7 @@ const Footer = () => {
     };
   }, [location]); // Include location in the dependency array to ensure it's updated when the route changes
 
-  return route === "/login" || route === "/signup" || route === "/policies" ? (
+  return route === "/login" || route === "/signup" ? (
     ""
   ) : (
     <footer className="footer">

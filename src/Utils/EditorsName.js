@@ -72,4 +72,11 @@ export const editorsList =
             college: "Rungta college of science and technology Durg",
             email: "principal.rcst@rungtacolleges.com"
         },
+        {
+            name: "Sashi Debnath",
+            degree: "",
+            designation: "Research Instructor",
+            college: "University of Texas Southwestern Medical Center",
+            email: "sashi.debnath@utsouthwestern.edu",
+        }
     ]
