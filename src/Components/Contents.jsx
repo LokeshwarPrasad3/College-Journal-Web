@@ -27,7 +27,7 @@ const Contents = () => {
               Technology, Mathematics, Management, Medical Sciences, Medicine,
               <ReadMore color={"white"} path={"/about"} />
             </p>
-            <img className="img-grid" src="./Images/about-us.jpg" alt="" />
+            <img className="img-grid" src="./Images/about-us.png" alt="" />
           </div>
           <div className="grids" id="grid-4">
             <p className="grid_heading">Editorial Policies</p>
@@ -37,7 +37,7 @@ const Contents = () => {
               manuscripts are initially screened by the editorial
               <ReadMore color={"white"} path={"/policies"} />
             </p>
-            <img className="img-grid" src="./Images/review.jpg" alt="" />
+            <img className="img-grid" src="./Images/review.png" alt="" />
           </div>
           <div className="grids" id="grid-2">
             <p className="grid_heading">Instructions to Author</p>

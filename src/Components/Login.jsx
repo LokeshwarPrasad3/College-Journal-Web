@@ -14,7 +14,7 @@ const Login = () => {
                 type="text"
                 id="username"
                 name="username"
-                placeholder="Username"
+                placeholder="Email"
                 required
               />
             </div>

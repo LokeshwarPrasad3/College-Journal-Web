@@ -37,6 +37,15 @@ ol {
 }
 
 /* 👉  page of instruction to author */
+/* some formats */
+.paper_formats{
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0.8rem 0;
+    gap: 10px;
+
+}
 .author_container {
   font-family: "overpass";
   padding: 2rem 15rem;

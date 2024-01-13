@@ -67,9 +67,14 @@
     height: 20rem;
   }
 }
+
 @media (max-width: 575px) {
   .grids {
-    width: 21rem;
+    height: 100%;
+  }
+  .grids {
+    /* width: 21rem; */
+    width: 90%;
   }
 }
 #grid-1 {
@@ -78,7 +83,7 @@
 #grid-2 {
   padding: 20px;
   border: 1px solid #ccc;
-  background-color: #4f5581;
+  background-color: #17b1cf;
   display: flex;
   gap: 2rem;
   flex-direction: column;
@@ -86,7 +91,7 @@
 #grid-3 {
   padding: 20px;
   border: 1px solid #ccc;
-  background-color: #17b1cf;
+  background-color: #4f5581;
   display: flex;
   gap: 2rem;
   flex-direction: column;

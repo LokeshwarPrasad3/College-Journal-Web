@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 
-
 const Figure = () => {
   // state which store current width of window
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -25,12 +24,13 @@ const Figure = () => {
       <div id="main_image_container">
         <img
           id="main_image"
-          src={`${
-            windowWidth > 800
-              ? "./Images/college-1.jpg"
-              : "./Images/college-2.png"
-          } `}
-          alt="main"
+          // src={`${
+          //   windowWidth > 800
+          //     ? "./temp/10.jpg"
+          //     : "./Images/college-2.png"
+          // } `}
+          src="./Images/main_page_image-1.jpg"
+          alt="research-image"
         />
       </div>
     </>

@@ -105,7 +105,7 @@ const Navbar = () => {
                 className="nav_link "
                 to="/login"
               >
-                Login
+                Submit Your Article
               </Link>
             </li>
           </ul>

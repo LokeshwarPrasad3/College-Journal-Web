@@ -57,7 +57,6 @@ const AboutJournal = () => {
           <b>Languages:</b> English <br />
           <h4> Refereed Journalbr </h4>
           <b>Accessibility:</b> Open Access <br />
-          <b>Plagiarism Checker:</b> Plagiarism X <br />
         </div>
         <br />
         <div className="about_points">

@@ -13,7 +13,6 @@ const EditorBoard = () => {
           <p className="editor_sub_heading" >Editor in Chief</p>
           <div className="chief_box">
             <div className="chief_image">
-              <img className="editors_image" src="/Images/profile.png" alt="" />
             <b className="chief_name">Dr. Gyanesh Shrivastava</b>
             </div>
             <p className="chief_college">
@@ -45,11 +44,6 @@ contact :  &nbsp;
                   <React.Fragment key={index}>
                     <div className="editor_box">
                       <div className="editor_image">
-                        <img
-                          className="editors_image"
-                          src="/Images/profile.png"
-                          alt=""
-                        />
                       <b className="editor_name">{editor?.name}</b>
                       </div>
                       <p className="editor_degree">{editor?.degree}</p>
