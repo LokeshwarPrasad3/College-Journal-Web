@@ -29,7 +29,7 @@ const Figure = () => {
           //     ? "./temp/10.jpg"
           //     : "./Images/college-2.png"
           // } `}
-          src="./Images/main_page_image-1.jpg"
+          src="./Images/main_page_image-1-min.jpg"
           alt="research-image"
         />
       </div>
