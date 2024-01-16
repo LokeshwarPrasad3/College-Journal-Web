@@ -17,10 +17,12 @@ const ContactUs = () => {
             <li>
               <a href="mailto:editor@ijsrgi.com">editor@ijsrgi.com</a>
             </li>
-            <li>
-              For Publication Queries Contact No.
-              <span className="mono"> +91 922911555</span>&nbsp;,
-              <span className="mono"> +91 78282 49416</span>
+            <li style={{
+              display: "flex", flexWrap: "wrap", with: '100%'}} >
+              <span>For Publication Queries Contact No.</span>
+              <span>+91 922911555</span>
+              &nbsp;,&nbsp;
+              <span>+91 78282 49416</span>
             </li>
           </ul>
         </div>

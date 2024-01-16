@@ -139,6 +139,7 @@ ol {
   text-align: center;
 }
 .add-lists {
+  text-align: start;
   width: 100%;
   display: flex;
   justify-content: center;
