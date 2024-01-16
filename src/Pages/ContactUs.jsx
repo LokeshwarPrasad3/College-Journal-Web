@@ -16,19 +16,24 @@ const ContactUs = () => {
             <li>
               <a href="mailto:editor@ijsrgi.com">editor@ijsrgi.com</a>
             </li>
-            <li
-              style={{
-                display: "flex",
-                flexWrap: "wrap",
-                with: "100%",
-              }}
-            >
-              <span>For Publication Queries Contact No : </span>&nbsp;
-              <span style={{ textDecoration: "underline" }}>+91 922911555</span>
-              &nbsp;,&nbsp;
-              <span style={{ textDecoration: "underline" }}>
-                +91 7828249416
-              </span>
+            <li>
+              <div
+                className="info_"
+                style={{
+                  display: "flex",
+                  flexWrap: "wrap",
+                  with: "100%",
+                }}
+              >
+                <span>For Publication Queries Contact No : </span>&nbsp;
+                <span style={{ textDecoration: "underline" }}>
+                  +91 922911555
+                </span>
+                &nbsp;,&nbsp;
+                <span style={{ textDecoration: "underline" }}>
+                  +91 7828249416
+                </span>
+              </div>
             </li>
           </ul>
         </div>
