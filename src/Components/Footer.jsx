@@ -40,7 +40,9 @@ const Footer = () => {
   ) : (
     <footer
       style={
-        route === "/contact-us" || route === "/policies"
+        route === "/contact-us" ||
+        route === "/policies" ||
+        route === "/call-for-paper"
           ? footerStyle
           : defaultStyle
       }

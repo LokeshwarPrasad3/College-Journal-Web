@@ -70,27 +70,25 @@ ol {
 
 /* 👉editorial policies page */
 .editorial_policies_container {
-  margin: auto;
-  width: 50%;
   font-family: "Times New Roman";
-  padding: 2rem 0;
   text-align: justify;
   margin-bottom: 3rem;
   margin-top: 4rem;
+  padding: 2rem 15rem;
 }
 @media only screen and (max-width: 1200px) {
   .editorial_policies_container {
-    width: 80%;
+    padding: 2rem 8rem;
   }
 }
 @media only screen and (max-width: 800px) {
   .editorial_policies_container {
-    width: 90%;
+    padding: 2rem 2rem;
   }
 }
 @media only screen and (max-width: 500px) {
   .editorial_policies_container {
-    width: 95%;
+    padding: 1rem 1rem;
   }
 }
 
@@ -162,5 +160,19 @@ ol {
   font-family: "Times New Roman", Times, serif;
 }
 .aboutus_points li a {
+  color: black;
+}
+
+
+/* call for paper page style */
+.callforpaper_container{
+  margin-top: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.callforpaper_container p a{
+  font-size: 1.5rem;
+  font-weight: bold;
   color: black;
 }

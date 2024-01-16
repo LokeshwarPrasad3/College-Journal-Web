@@ -7,9 +7,10 @@ import InstructionAuthor from "./Pages/InstructionAuthor";
 import Policies from "./Pages/EditorialPolicies";
 import ReviewPolicy from "./Pages/ReviewPolicy";
 import EditorBoard from "./Pages/EditorBoard";
-import Login from "./Components/Login";
-import Signup from "./Components/Signup";
+// import Login from "./Components/Login";
+// import Signup from "./Components/Signup";
 import ContactUs from "./Pages/ContactUs";
+import CallForPaper from "./Pages/CallForPaper";
 
 
 const App = () => {
@@ -23,8 +24,9 @@ const App = () => {
         <Route path="/editor-board" element={<EditorBoard />} />
         <Route path="/instruction-author" element={<InstructionAuthor />} />
         <Route path="/review-policy" element={<ReviewPolicy />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/signup" element={<Signup />} />
+        {/* <Route path="/login" element={<Login />} />
+        <Route path="/signup" element={<Signup />} /> */}
+        <Route path="/call-for-paper" element={<CallForPaper />} />
         <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/*" element={<HomePage />} />
       </Routes>
