@@ -1,7 +1,6 @@
 import "../CSS/Pages.css";
 
 const ContactUs = () => {
-  
   return (
     <>
       <div className="contact_us_container">
@@ -17,12 +16,19 @@ const ContactUs = () => {
             <li>
               <a href="mailto:editor@ijsrgi.com">editor@ijsrgi.com</a>
             </li>
-            <li style={{
-              display: "flex", flexWrap: "wrap", with: '100%'}} >
-              <span>For Publication Queries Contact No.</span>
-              <span>+91 922911555</span>
+            <li
+              style={{
+                display: "flex",
+                flexWrap: "wrap",
+                with: "100%",
+              }}
+            >
+              <span>For Publication Queries Contact No : </span>&nbsp;
+              <span style={{ textDecoration: "underline" }}>+91 922911555</span>
               &nbsp;,&nbsp;
-              <span>+91 78282 49416</span>
+              <span style={{ textDecoration: "underline" }}>
+                +91 7828249416
+              </span>
             </li>
           </ul>
         </div>
