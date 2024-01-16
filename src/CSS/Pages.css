@@ -157,7 +157,7 @@ ol {
   font-size: 17px;
 }
 .mono {
-  text-decoration: underline;
+  /* text-decoration: underline; */
   font-family: "Times New Roman", Times, serif;
 }
 .aboutus_points li a {

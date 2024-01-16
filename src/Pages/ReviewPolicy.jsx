@@ -419,11 +419,11 @@ const ReviewPolicy = () => {
         </p>
         <ol>
           <li>
-            <b> &lt;15 % Plagiarism:</b> The manuscript will be given an ID and
+            <b> &lt;20 % Plagiarism:</b> The manuscript will be given an ID and
             They will be advised to wait for the next process through the mail.
           </li>
           <li>
-            <b>15 - 30% Plagiarism:</b> The manuscript will not be given an ID
+            <b>20 - 30% Plagiarism:</b> The manuscript will not be given an ID
             and the manuscript will be sent back to author for content revision.
           </li>
           <li>

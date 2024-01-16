@@ -18,12 +18,9 @@ const ContactUs = () => {
               <a href="mailto:editor@ijsrgi.com">editor@ijsrgi.com</a>
             </li>
             <li>
-              For Conference Queries :{" "}
+              For Publication Queries Contact No.
+              <span className="mono"> +91 922911555</span>&nbsp;,
               <span className="mono"> +91 78282 49416</span>
-            </li>
-            <li>
-              For Publication Queries :{" "}
-              <span className="mono"> +91 922911555</span>{" "}
             </li>
           </ul>
         </div>
