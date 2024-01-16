@@ -3,10 +3,22 @@
   margin-top: 4rem;
 }
 
-/* 👉 for about page */
+/* 👉 for about journal page */
 .about_container {
+  text-align: justify;
   padding: 2rem 15rem;
   font-family: "Times New Roman";
+}
+.about_para {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.about_para {
+  text-align: justify;
+}
+ol {
+  padding: 0 0 0 1rem;
 }
 @media only screen and (max-width: 1200px) {
   .about_container {
@@ -22,17 +34,6 @@
   .about_container {
     padding: 1rem 1rem;
   }
-}
-.about_para {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
-.about_para {
-  text-align: justify;
-}
-ol {
-  padding: 0 1rem;
 }
 
 /* 👉  page of instruction to author */

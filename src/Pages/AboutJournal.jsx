@@ -12,7 +12,7 @@ const AboutJournal = () => {
 
   return (
     <>
-      <div className="about_container page">
+      <div className="about_container page" style={{ textAlign: "justify" }}>
         <div className="heading">
           <h2>About the Journal</h2>
         </div>
@@ -56,7 +56,7 @@ const AboutJournal = () => {
         <ul className="interdisciplinaryTheme" style={{ marginLeft: "2rem" }}>
           {themeList.map((theme, index) => (
             <React.Fragment key={index}>
-              <li>{theme}</li>
+              <li style={{ textAlign: "start" }}>{theme}</li>
             </React.Fragment>
           ))}
         </ul>
@@ -70,7 +70,7 @@ const AboutJournal = () => {
         </div>
         <br />
         <br />
-        <div className="about_points">
+        <div className="about_points" style={{ textAlign: "justify" }}>
           <h2>Area Of Reasearch</h2>
           <br />
           <b> IJSRGI </b> , is a Multidisciplinary Journal focuses on critical

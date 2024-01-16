@@ -38,6 +38,7 @@
   /* place-content: center; */
   justify-content: center;
   align-items: center;
+  text-align: justify;
 }
 @media (max-width: 922px) {
   .info_grid {

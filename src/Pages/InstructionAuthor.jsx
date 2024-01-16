@@ -61,7 +61,7 @@ const InstructionAuthor = () => {
           which includes the following sections:
         </p>
         <br />
-        <ol className="instructionAuthorOL" style={{ marginLeft: "1rem" }}>
+        <ol className="instructionAuthorOL" style={{ marginLeft: "1rem"}}>
           <li>Title </li>
           <li>Abstract</li>
           <li>Keywords</li>
