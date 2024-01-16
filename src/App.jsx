@@ -9,6 +9,7 @@ import ReviewPolicy from "./Pages/ReviewPolicy";
 import EditorBoard from "./Pages/EditorBoard";
 import Login from "./Components/Login";
 import Signup from "./Components/Signup";
+import ContactUs from "./Pages/ContactUs";
 
 
 const App = () => {
@@ -24,6 +25,7 @@ const App = () => {
         <Route path="/review-policy" element={<ReviewPolicy />} />
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
+        <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/*" element={<HomePage />} />
       </Routes>
       <Footer />

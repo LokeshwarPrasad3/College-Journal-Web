@@ -36,14 +36,13 @@
   width: 21rem;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
-  padding: 0.7rem 0;
+  padding: 0.7rem 2rem;
 }
 @media (max-width: 500px) {
   .chief_box {
     width: 23rem;
     height: auto;
-  padding: 0.6rem 0.3rem;
-
+  padding: 0.6rem 2rem;
   }
 }
 .chief_image img {

@@ -59,75 +59,126 @@ const AboutJournal = () => {
           <b>Accessibility:</b> Open Access <br />
         </div>
         <br />
+          <br />
         <div className="about_points">
+          <h2>Area Of Reasearch</h2>
+          <br />
           <b> IJSRGI </b> , is a Multidisciplinary Journal focuses on critical
-          and creative research. This journal seeks to promote original research
-          and cultivate fruitful dialogues between previous and innovative
-          thoughts.
+          and creative research. This journal aims to encourage unique research
+          and foster meaningful conversations that bridge traditional and
+          groundbreaking ideas.
           <br />
           <br />
-          <b> Scope: </b> The journal promotes original academic research in
-          Humanities, Culture, Comparative Education, Social Sciences, Rural
-          Development, Engineering and Technology, Sciences, Art, Commerce and
-          Management. Providing an insight, to transform lives is the motto. One
-          can utilize the opportunities and face challenges of this changing
-          world.
+          <b> Scope: </b> The journal advocates for original scholarly research
+          across various disciplines, including Humanities, Culture, Comparative
+          Education, Social Sciences, Rural Development, Engineering and
+          Technology, Sciences, Art, Commerce, and Management. Its motto is to
+          offer insights that can transform lives, enabling individuals to seize
+          opportunities and navigate challenges in our evolving world.
         </div>
+        <br />
         <br />
         <div className="about_objectives">
           <div className="general">
-            <h3>General : </h3>
-            <br />
+            <h3>General Objective : </h3>
+            {/* <br /> */}
             <p>
-              The million-development goal laid its emphasis on a people-centred
-              approach to recognize human and social capital for sustainable
-              development. These include economic strategies and many other
-              emerging trends.
+              The Million Development Goal underscores a people-centered
+              approach, prioritizing the acknowledgment of human and social
+              capital for sustainable development. This encompasses various
+              economic strategies and emerging trends.
             </p>
+              <br />
             <ol>
               <li>
-                Goal is to create sustainable improvement in the quality of life
-                among the common people.
+                <b>Sustainable Quality of Life:</b> The primary objective is to
+                achieve a sustainable improvement in the quality of life for the
+                common people, emphasizing lasting positive changes in their
+                well-being.
               </li>
+              <br />
               <li>
-                Stake holder-oriented programs, to facilitate increase in per
-                capita income of individual facilities
+                <b>Stakeholder-Oriented Programs: </b>Implementing programs that
+                are oriented towards stakeholders, aiming to facilitate an
+                increase in the per capita income through individual facilities
+                and initiatives.
               </li>
+              <br />
               <li>
-                To empower people in the areas of health, economy, polity and
-                education.
+                <b>Empowerment in Key Areas:</b> The goal is to empower
+                individuals in crucial domains including health, economy,
+                polity, and education, recognizing the interconnectedness of
+                these aspects in fostering overall development.
               </li>
+              <br />
             </ol>
           </div>
           <br />
           <div className="specific">
-            <h3>Specific :</h3>
+            <h3>Specific Objective :</h3>
             <br />
             <ol>
               <li>
-                To publish original empirical research and theoretical studies
-                on adult education, lifelong learning, extension, and economic
-                relations studies.
+                <b>Academic Focus on Adult Education and Lifelong Learning: </b>
+                <br />
+                The primary objective is to publish original empirical research
+                and theoretical studies that contribute to the fields of adult
+                education, lifelong learning, extension, and economic relations
+                studies. By fostering academic exploration in these areas, the
+                goal is to advance knowledge and understanding, thereby
+                promoting innovation and excellence in these crucial domains.
               </li>
+              <br />
               <li>
-                To generate interest in civil society movements, studies on
-                democracy, problems of marginalized sections, cross border
-                terrorism, violation of human rights, ecology, environment and
-                issues in governance at the regional and national level.
+                <b>Promotion of Awareness and Social Engagement: </b>
+                <br />
+                The aim is to generate interest and awareness in critical issues
+                affecting society. This includes civil society movements,
+                studies on democracy, challenges faced by marginalized sections,
+                cross-border terrorism, human rights violations, ecological
+                concerns, environmental issues, and governance challenges at
+                both regional and national levels. By delving into these topics,
+                the objective is to catalyze discussions, prompt informed
+                action, and contribute to the betterment of society.
+              </li>
+              <br />
+              <li>
+                <b>
+                  Integration of Technical Expertise for Practical Solutions:
+                </b>
+                <br />
+                The third objective involves incorporating a technical
+                perspective into the scholarly discourse. By emphasizing the
+                integration of technical expertise, the goal is to explore
+                practical solutions to contemporary challenges. This includes
+                leveraging advancements in technology, data analytics, and
+                innovative methodologies to address complex issues in fields
+                such as adult education, lifelong learning, social engagement,
+                and societal challenges. Through this technical lens, the
+                objective is to not only deepen the academic understanding of
+                these issues but also to propose viable solutions that can have
+                a tangible impact on the ground.
               </li>
             </ol>
             <br />
-            <b>
-              The object is simple and that is to provide a forum for scholarly
-              dialogue on a broad range of topics significant to our times and
-              cultures.
-            </b>
+            <p>The primary objective is to establish a platform for scholarly
+              dialogue encompassing a broad range of topics relevant to
+              contemporary times and cultures. This forum aims to facilitate
+              intellectual discussions, allowing scholars to explore and
+              exchange ideas on diverse subjects that hold significance in the
+              context of our evolving world and varied cultures. By fostering
+              this scholarly dialogue, the goal is to contribute to the
+              collective understanding of pressing issues, encourage
+              interdisciplinary perspectives, and promote the dissemination of
+              knowledge that is pertinent to our dynamic and ever-changing
+              global landscape.
+            </p>
           </div>
         </div>
       </div>
-
     </>
   );
 };
 
 export default AboutJournal;
+ 

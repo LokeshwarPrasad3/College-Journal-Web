@@ -13,223 +13,10 @@ const ReviewPolicy = () => {
     navigate("#navbar");
   }, []);
 
-  
   return (
     <>
       <div className="peer_review_policy_container page">
         <h1>Peer Review Policy</h1>
-        <br />
-        <p>
-          <b className="sub-heading">Duties of Reviewers</b>
-          <br />
-          <br />
-          <b>Contribution to editorial decisions Peer</b>
-          <br />
-          review assists editors in making editorial decisions and, through
-          editorial communications with authors, may assist authors in improving
-          their manuscripts. Peer review is an essential component of formal
-          scholarly communication and lies at the heart of scientific endeavour.
-          AP-SMART shares the view of many that all scholars who wish to
-          contribute to the scientific process have an obligation to do a fair
-          share of reviewing.
-        </p>
-        <p>
-          <br />
-          <b> Promptness</b>
-          <br />
-          Any invited referee who feels unqualified to review the research
-          reported in a manuscript or knows that its prompt review will be
-          impossible should immediately notify the editors and decline the
-          invitation to review so that alternative reviewers can be contacted.
-        </p>
-        <p>
-          <br />
-          <b> Confidentiality</b>
-          <br />
-          Any manuscripts received for review are confidential documents and
-          must be treated as such; they must not be shown to or discussed with
-          others except if authorized by the Editor-in-Chief (who would only do
-          so under exceptional and specific circumstances). This applies also to
-          invited reviewers who decline the review invitation.
-        </p>
-        <p>
-          <br />
-          <b> Standards of objectivity </b>
-          <br />
-          Reviews should be conducted objectively and observations formulated
-          clearly with supporting arguments so that authors can use them for
-          improving the manuscript. Personal criticism of the authors is
-          inappropriate.
-        </p>
-        <p>
-          <br />
-          <b> Acknowledgement of sources</b>
-          <br />
-          Reviewers should identify relevant published work that has not been
-          cited by the authors. Any statement that is an observation, derivation
-          or argument that has been reported in previous publications should be
-          accompanied by the relevant citation. A reviewer should also notify
-          the editors of any substantial similarity or overlap between the
-          manuscript under consideration and any other manuscript (published or
-          unpublished) of which they have personal knowledge.
-        </p>
-        <p>
-          <br />
-          <b> Disclosure and conflicts of interest </b>
-          <br />
-          Any invited referee who has conflicts of interest resulting from
-          competitive, collaborative, or other relationships or connections with
-          any of the authors, companies or institutions connected to the
-          manuscript and the work described therein should immediately notify
-          the editors to declare their conflicts of interest and decline the
-          invitation to review so that alternative reviewers can be contacted.
-          Unpublished material disclosed in a submitted manuscript must not be
-          used in a reviewers own research without the express written consent
-          of the authors. Privileged information or ideas obtained through peer
-          review must be kept confidential and not used for the reviewers
-          personal advantage. This applies also to invited reviewers who decline
-          the review invitation.
-        </p>
-        <p>
-          <br />
-          <b className="sub-heading"> Duties of Editors </b>
-          <br />
-          <br />
-          <b> Fair play and editorial independence </b>
-          <br />
-          Editors evaluate submitted manuscripts exclusively on the basis of
-          their academic merit (importance, originality, clarity) and its
-          relevance to the journals scope, without regard to the authorsrace,
-          gender, sexual orientation, ethnic origin, citizenship, religious
-          belief, political philosophy or institutional affiliation. Decisions
-          to edit and publish are not determined by the policies of governments
-          or any other agencies outside of the journal itself. The
-          Editor-in-Chief has full authority over the entire editorial content
-          of the journal and the timing of publication of that content.
-        </p>
-        <p>
-          <br />
-          <b> Confidentiality</b>
-          <br />
-          Editors and editorial staff will not disclose any information about a
-          submitted manuscript to anyone other than the corresponding author,
-          reviewers, potential reviewers, other editorial advisers, and the
-          publisher, as appropriate.
-        </p>
-        <p>
-          <br />
-          <b>Disclosure and conflicts of interest</b>
-          <br />
-          Editors and editorial board members will not use unpublished
-          information disclosed in a submitted manuscript for their own research
-          purposes without the authorsâ€™ explicit written consent. Privileged
-          information or ideas obtained by editors as a result of handling the
-          manuscript will be kept confidential and not used for their personal
-          advantage. Editors will recuse themselves from considering manuscripts
-          in which they have conflicts of interest resulting from competitive,
-          collaborative, or other relationships/connections with any of the
-          authors, companies or institutions connected to the papers; instead,
-          they will ask another member of the editorial board to handle the
-          manuscript.
-        </p>
-        <p>
-          <br />
-          <b>Publication decisions </b>
-          <br />
-          The editors ensure that all submitted manuscripts being considered for
-          publication undergo peer-review by at least two reviewers who are
-          expert in the field. The Editor-in-Chief is responsible for deciding
-          which of the manuscripts submitted to the journal will be published,
-          based on the validation of the work in question, its importance to
-          researchers and readers, the reviewers comments, and such legal
-          requirements as are currently in force regarding libel, copyright
-          infringement and plagiarism. The Editor-in-Chief may confer with other
-          editors or reviewers in making this decision.
-        </p>
-        <p>
-          <br />
-          <b>Involvement and cooperation in investigations Editors </b>
-          <br />
-          (in conjunction with the publisher and/or society) will take
-          responsive measures when ethical concerns are raised with regard to a
-          submitted manuscript or published paper. Every reported act of
-          unethical publishing behaviour will be looked into, even if it is
-          discovered years after publication. AP-SMART editors follow the COPE
-          Flowcharts when dealing with cases of suspected misconduct. If, on
-          investigation, the ethical concern is well-founded, a correction,
-          retraction, expression of concern or other note as may be relevant,
-          will be published in the journal.
-        </p>
-        <p>
-          <br />
-          <b className="sub-heading">Duties of Reviewers</b>
-          <br />
-          <br />
-          <b>Contribution to editorial decisions</b> Peer review assists editors
-          in making editorial decisions and, through editorial communications
-          with authors, may assist authors in improving their manuscripts. Peer
-          review is an essential component of formal scholarly communication and
-          lies at the heart of scientific endeavour. AP-SMART shares the view of
-          many that all scholars who wish to contribute to the scientific
-          process have an obligation to do a fair share of reviewing.
-        </p>
-        <p>
-          <br />
-          <b> Promptness</b>
-          <br />
-          Any invited referee who feels unqualified to review the research
-          reported in a manuscript or knows that its prompt review will be
-          impossible should immediately notify the editors and decline the
-          invitation to review so that alternative reviewers can be contacted.
-        </p>
-        <p>
-          <br />
-          <b> Confidentiality</b>
-          <br />
-          Any manuscripts received for review are confidential documents and
-          must be treated as such; they must not be shown to or discussed with
-          others except if authorized by the Editor-in-Chief (who would only do
-          so under exceptional and specific circumstances). This applies also to
-          invited reviewers who decline the review invitation.
-        </p>
-        <p>
-          <br />
-          <b> Standards of objectivity </b>
-          <br />
-          Reviews should be conducted objectively and observations formulated
-          clearly with supporting arguments so that authors can use them for
-          improving the manuscript. Personal criticism of the authors is
-          inappropriate.
-        </p>
-        <p>
-          <br />
-          <b> Acknowledgement of sources</b>
-          <br />
-          Reviewers should identify relevant published work that has not been
-          cited by the authors. Any statement that is an observation, derivation
-          or argument that has been reported in previous publications should be
-          accompanied by the relevant citation. A reviewer should also notify
-          the editors of any substantial similarity or overlap between the
-          manuscript under consideration and any other manuscript (published or
-          unpublished) of which they have personal knowledge.
-        </p>
-        <p>
-          <br />
-          <b> Disclosure and conflicts of interest</b>
-          <br />
-          Any invited referee who has conflicts of interest resulting from
-          competitive, collaborative, or other relationships or connections with
-          any of the authors, companies or institutions connected to the
-          manuscript and the work described therein should immediately notify
-          the editors to declare their conflicts of interest and decline the
-          invitation to review so that alternative reviewers can be contacted.
-          Unpublished material disclosed in a submitted manuscript must not be
-          used in a reviewers own research without the express written consent
-          of the authors. Privileged information or ideas obtained through peer
-          review must be kept confidential and not used for the reviewers
-          personal advantage. This applies also to invited reviewers who decline
-          the review invitation.
-        </p>
         <p>
           <br />
           <b className="sub-heading">Duties of Authors</b>
@@ -395,6 +182,147 @@ const ReviewPolicy = () => {
         </p>
         <p>
           <br />
+          <b className="sub-heading">Duties of Reviewers</b>
+          <br />
+          <br />
+          <b>Contribution to editorial decisions</b> Peer review assists editors
+          in making editorial decisions and, through editorial communications
+          with authors, may assist authors in improving their manuscripts. Peer
+          review is an essential component of formal scholarly communication and
+          lies at the heart of scientific endeavour. AP-SMART shares the view of
+          many that all scholars who wish to contribute to the scientific
+          process have an obligation to do a fair share of reviewing.
+        </p>
+        <p>
+          <br />
+          <b> Promptness</b>
+          <br />
+          Any invited referee who feels unqualified to review the research
+          reported in a manuscript or knows that its prompt review will be
+          impossible should immediately notify the editors and decline the
+          invitation to review so that alternative reviewers can be contacted.
+        </p>
+        <p>
+          <br />
+          <b> Confidentiality</b>
+          <br />
+          Any manuscripts received for review are confidential documents and
+          must be treated as such; they must not be shown to or discussed with
+          others except if authorized by the Editor-in-Chief (who would only do
+          so under exceptional and specific circumstances). This applies also to
+          invited reviewers who decline the review invitation.
+        </p>
+        <p>
+          <br />
+          <b> Standards of objectivity </b>
+          <br />
+          Reviews should be conducted objectively and observations formulated
+          clearly with supporting arguments so that authors can use them for
+          improving the manuscript. Personal criticism of the authors is
+          inappropriate.
+        </p>
+        <p>
+          <br />
+          <b> Acknowledgement of sources</b>
+          <br />
+          Reviewers should identify relevant published work that has not been
+          cited by the authors. Any statement that is an observation, derivation
+          or argument that has been reported in previous publications should be
+          accompanied by the relevant citation. A reviewer should also notify
+          the editors of any substantial similarity or overlap between the
+          manuscript under consideration and any other manuscript (published or
+          unpublished) of which they have personal knowledge.
+        </p>
+        <p>
+          <br />
+          <b> Disclosure and conflicts of interest</b>
+          <br />
+          Any invited referee who has conflicts of interest resulting from
+          competitive, collaborative, or other relationships or connections with
+          any of the authors, companies or institutions connected to the
+          manuscript and the work described therein should immediately notify
+          the editors to declare their conflicts of interest and decline the
+          invitation to review so that alternative reviewers can be contacted.
+          Unpublished material disclosed in a submitted manuscript must not be
+          used in a reviewers own research without the express written consent
+          of the authors. Privileged information or ideas obtained through peer
+          review must be kept confidential and not used for the reviewers
+          personal advantage. This applies also to invited reviewers who decline
+          the review invitation.
+        </p>
+
+        <p>
+          <br />
+          <b className="sub-heading"> Duties of Editors </b>
+          <br />
+          <br />
+          <b> Fair play and editorial independence </b>
+          <br />
+          Editors evaluate submitted manuscripts exclusively on the basis of
+          their academic merit (importance, originality, clarity) and its
+          relevance to the journals scope, without regard to the authorsrace,
+          gender, sexual orientation, ethnic origin, citizenship, religious
+          belief, political philosophy or institutional affiliation. Decisions
+          to edit and publish are not determined by the policies of governments
+          or any other agencies outside of the journal itself. The
+          Editor-in-Chief has full authority over the entire editorial content
+          of the journal and the timing of publication of that content.
+        </p>
+        <p>
+          <br />
+          <b> Confidentiality</b>
+          <br />
+          Editors and editorial staff will not disclose any information about a
+          submitted manuscript to anyone other than the corresponding author,
+          reviewers, potential reviewers, other editorial advisers, and the
+          publisher, as appropriate.
+        </p>
+        <p>
+          <br />
+          <b>Disclosure and conflicts of interest</b>
+          <br />
+          Editors and editorial board members will not use unpublished
+          information disclosed in a submitted manuscript for their own research
+          purposes without the authorsâ€™ explicit written consent. Privileged
+          information or ideas obtained by editors as a result of handling the
+          manuscript will be kept confidential and not used for their personal
+          advantage. Editors will recuse themselves from considering manuscripts
+          in which they have conflicts of interest resulting from competitive,
+          collaborative, or other relationships/connections with any of the
+          authors, companies or institutions connected to the papers; instead,
+          they will ask another member of the editorial board to handle the
+          manuscript.
+        </p>
+        <p>
+          <br />
+          <b>Publication decisions </b>
+          <br />
+          The editors ensure that all submitted manuscripts being considered for
+          publication undergo peer-review by at least two reviewers who are
+          expert in the field. The Editor-in-Chief is responsible for deciding
+          which of the manuscripts submitted to the journal will be published,
+          based on the validation of the work in question, its importance to
+          researchers and readers, the reviewers comments, and such legal
+          requirements as are currently in force regarding libel, copyright
+          infringement and plagiarism. The Editor-in-Chief may confer with other
+          editors or reviewers in making this decision.
+        </p>
+        <p>
+          <br />
+          <b>Involvement and cooperation in investigations Editors </b>
+          <br />
+          (in conjunction with the publisher and/or society) will take
+          responsive measures when ethical concerns are raised with regard to a
+          submitted manuscript or published paper. Every reported act of
+          unethical publishing behaviour will be looked into, even if it is
+          discovered years after publication. AP-SMART editors follow the COPE
+          Flowcharts when dealing with cases of suspected misconduct. If, on
+          investigation, the ethical concern is well-founded, a correction,
+          retraction, expression of concern or other note as may be relevant,
+          will be published in the journal.
+        </p>
+        <p>
+          <br />
           <b className="sub-heading"> Duties of the Publisher </b>
           <br />
           <br />
@@ -491,29 +419,27 @@ const ReviewPolicy = () => {
         </p>
         <ol>
           <li>
-            &lt;15 % Plagiarism:The manuscript will be given an ID and the
-            manuscript is sent to author for content revision. 15- 20%
-            Plagiarism:The manuscript will not be given an ID and the manuscript
-            is sent back to author for content revision.
+            <b> &lt;15 % Plagiarism:</b> The manuscript will be given an ID and
+            They will be advised to wait for the next process through the mail.
           </li>
           <li>
-            &gt;20% Plagiarism: The manuscript will be rejected without the
-            review. The authors are advised to revise the manuscript and
-            resubmit the manuscript.
+            <b>15 - 30% Plagiarism:</b> The manuscript will not be given an ID
+            and the manuscript will be sent back to author for content revision.
           </li>
           <li>
-            15- 20% Plagiarism:The manuscript will not be given an ID and the
-            manuscript is sent back to author for content revision.
+            <b>&gt;30% Plagiarism:</b>The manuscript will be rejected without
+            the review. The authors will be advised to revise the manuscript and
+            resubmit the manuscript as a new submission.
           </li>
         </ol>
         <p>
           <br />
-          <b> Why manuscripts with &gt; 20% Plagiarism is rejected?</b>
+          <b>Why manuscripts with &gt;30% Plagiarism is rejected?</b>
           <br />
-          If the plagiarism is detected more than 30%, it is found that the
-          authors are very unlikely to revise the manuscript and submit the
-          revised version. However, authors are welcome to do the required
-          revisions and submit the manuscript as a new submission.
+          If the plagiarism is detected more than 30%,authors are unlikely to
+          revise and resubmit the manuscript. Nevertheless, authors are
+          encouraged to undertake necessary revisions and submit the improved
+          manuscript as a new submission.
         </p>
         <p>
           <br />

@@ -19,14 +19,14 @@ const EditorialPolicies = () => {
           <b>IJSRGI</b> is an open access peer-reviewed journal which considers
           manuscripts which comply our instruction with authors. The manuscripts
           are initially screened by the editorial members for its scientific
-          content, format and relevance of the topic to IJMRGE. Once the
+          content, format and relevance of the topic to IJSRGI . Once the
           manuscript is selected for peer review, the manuscript goes through a
-          blinded peer review by competent individuals in the concerned
-          specialty. All communications will be through e-mail.
+          blind peer review by competent individuals in the concerned specialty.
+          All communications will be through e-mail.
         </p>
         <br />
         <p>
-          Strict confidentiality will be maintained by the editorial board
+         Strict confidentiality will be maintained by the editorial board
           during review process with regards to identity of the authors and
           reviewers. Authors are expected to mention about all conflicts of
           interest related to the manuscript during initial and final
@@ -42,17 +42,17 @@ const EditorialPolicies = () => {
         <p>
           Once accepted for publication the authors will have to sign the
           copyright agreement with the journal indicating authors willingness to
-          give the first publication rights to IJMRGE and permit the journal to
+          give the first publication rights to IJSRGI, and permit the journal to
           share the article with global database and libraries. The author
           retains the copyright of the material and will be acknowledged when
           utilized by the journal after the initial publication.
         </p>
-      <br />
+        <br />
         <p>
-          IJSRGI follows a continuous publication model in which article will be
-          published as and when they are accepted. Articles published in a
-          calendar year will then be submitted for indexing purposes. All
-          articles published in IJMRGE can be utilized by the scientific
+          <b>IJSRGI</b> follows a continuous publication model in which article
+          will be published as and when they are accepted. Articles published in
+          a calendar year will then be submitted for indexing purposes. All
+          articles published in IJSRGI can be utilized by the scientific
           community without any need for obtaining permission for off-prints
           from the journal.
         </p>

@@ -3,6 +3,24 @@ import "../CSS/Footer.css";
 import { useLocation } from "react-router-dom";
 
 const Footer = () => {
+  const footerStyle = {
+    position: "fixed",
+    bottom: "0",
+  };
+
+  const defaultStyle = {
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    fontFamily: "overpass",
+    backgroundColor: "#333",
+    color: "#fff",
+    textAlign: "center",
+    minHeight: "50px",
+    padding: "10px",
+    width: "100%",
+  };
+
   const location = useLocation();
   const [route, setRoute] = useState("/");
   useEffect(() => {
@@ -20,7 +38,10 @@ const Footer = () => {
   return route === "/login" || route === "/signup" ? (
     ""
   ) : (
-    <footer className="footer">
+    <footer
+      style={route === "/contact-us" ? footerStyle : defaultStyle}
+      className="footer"
+    >
       <p>
         © Copyright <b>IJSRGI.</b> All Rights Reserved.
       </p>

@@ -2,13 +2,6 @@
 export const editorsList =
     [
         {
-            name: "Dr. Saket Rungta",
-            designation: "Director",
-            degree: "",
-            college: "Sanjay Rungta Group of Institution",
-            email: "saket.rungta@rungtacolleges.com",
-        },
-        {
             name: "Dr. Kuldeep Bansal",
             designation: "Adjunct Professor",
             degree: "",
@@ -23,7 +16,20 @@ export const editorsList =
             email: "",
         },
         {
-
+            name: "Sashi Debnath",
+            degree: "",
+            designation: "Research Instructor",
+            college: "University of Texas Southwestern Medical Center",
+            email: "sashi.debnath@utsouthwestern.edu",
+        },
+        {
+            name: "Dr. Saket Rungta",
+            designation: "Director",
+            degree: "",
+            college: "Sanjay Rungta Group of Institution",
+            email: "saket.rungta@rungtacolleges.com",
+        },
+        {
             name: "Dr. Shrikant Burje",
             degree: "(M.E.PhD)",
             designation: "Professor & Director Academics",
@@ -38,39 +44,11 @@ export const editorsList =
             email: "rajeshKumar.nema@rungtacolleges.com"
         },
         {
-            name: "Dr. Ranjeeta Tiwari Mishra",
-            degree: "(MBA, UGC - NET, PhD., PGDRD)",
-            designation: "Associate Professor Department of Management",
-            college: "Sanjay Rungta Group of Institutions Bhilai",
-            email: "ranjeetatiwari.mishra@rungtacolleges.com",
-        },
-        {
-            name: "Dr. Bhumika Chandrakar",
-            degree: "(Pharm D, MBA)",
-            designation: "Associate professor",
-            college: "Rungta Institute of pharmaceutical sciences, Bhilai, Chhattisgarh, India .",
-            email: "bhumika.chandrakar@rungtacolleges.com",
-        },
-        {
             name: "Dr. Anurag Sharma",
             degree: "M.Tech., Ph.D. (Computer Science & Engineering)",
             designation: "Principal",
             college: "RSR Rungta College of Engineering and Technology, Bhilai",
             email: "principal.rsrrcet@rungtacolleges.com",
-        },
-        {
-            name: "Dr. Ashish Kumar Tamrakar",
-            degree: "M.Sc(CS), M.Tech.(CSE), Ph.D. (Computer Science & Engineering)",
-            designation: "Associate Professor,",
-            college: "RSR Rungta College of Engineering and Technology, Bhilai",
-            email: "ashish.tamrakar@rungtacolleges.com",
-        },
-        {
-            name: "Dr. Abhijeet Ganguly ",
-            degree: "M.Tech.(Production Engineering), Ph.D. (Mechanical Engineering)",
-            designation: "Assistant Professor and Head Mechanical Engineering Department,",
-            college: "RSR Rungta College of Engineering and Technology, Bhilai",
-            email: "abhijeet.ganguly@rungtacolleges.com",
         },
         {
             name: "Dr. Tripti Agrawal jain",
@@ -80,10 +58,45 @@ export const editorsList =
             email: "principal.rcst@rungtacolleges.com"
         },
         {
-            name: "Sashi Debnath",
+            name: "Dr Karthik Krishna M",
             degree: "",
-            designation: "Research Instructor",
-            college: "University of Texas Southwestern Medical Center",
-            email: "sashi.debnath@utsouthwestern.edu",
-        }
+            designation: "Dean",
+            college: "Rungta College of Dental Sciences and Research Bhilai",
+            email: "kartik.krishna@rungtacolleges.com"
+        },
+        {
+            name: "Dr. S. Fatima Khan",
+            degree: "",
+            designation: "Vice Dean",
+            college: "Rungta College of Dental Sciences and Research, Bhilai",
+            email: "fatima.khan@rungtacollege.com"
+        },
+        {
+            name: "Dr. Bhumika Chandrakar",
+            degree: "(Pharm D, MBA)",
+            designation: "Associate professor",
+            college: "Rungta Institute of pharmaceutical sciences, Bhilai, Chhattisgarh, India .",
+            email: "bhumika.chandrakar@rungtacolleges.com",
+        },
+        {
+            name: "Dr. Ashish Kumar Tamrakar",
+            degree: "M.Sc(CS), M.Tech.(CSE), Ph.D. (Computer Science & Engineering)",
+            designation: "Associate Professor,",
+            college: "RSR Rungta College of Engineering and Technology, Bhilai",
+            email: "ashish.tamrakar@rungtacolleges.com",
+        },
+        {
+            name: "Dr. Ranjeeta Tiwari Mishra",
+            degree: "(MBA, UGC - NET, PhD., PGDRD)",
+            designation: "Associate Professor Department of Management",
+            college: "Sanjay Rungta Group of Institutions Bhilai",
+            email: "ranjeetatiwari.mishra@rungtacolleges.com",
+        },
+        {
+            name: "Dr. Abhijeet Ganguly ",
+            degree: "M.Tech.(Production Engineering), Ph.D. (Mechanical Engineering)",
+            designation: "Assistant Professor and Head Mechanical Engineering Department,",
+            college: "RSR Rungta College of Engineering and Technology, Bhilai",
+            email: "abhijeet.ganguly@rungtacolleges.com",
+        },
     ]

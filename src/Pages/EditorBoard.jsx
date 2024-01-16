@@ -15,11 +15,11 @@ const EditorBoard = () => {
             <div className="chief_image">
             <b className="chief_name">Dr. Gyanesh Shrivastava</b>
             </div>
-            <p className="chief_college">
-             Principal of Rungta Institute of Science and Management, Bhilai
-            </p>
             <p className="chief_degree">
               M.Sc., M. Phil. (CS), PhD Computer Science & Applications
+            </p>
+            <p className="chief_college">
+             Principal <br /> Rungta Institute of Science and Management, Bhilai
             </p>
             {/* <p className="chief_designation">Principal</p> */}
             <p>

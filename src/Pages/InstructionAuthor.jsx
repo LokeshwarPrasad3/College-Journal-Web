@@ -17,13 +17,14 @@ const InstructionAuthor = () => {
         <h2>Instructions to Author</h2>
         <br />
         <p>
-          The Journal is published monthly adopting the continuous publication
-          model and submission is open to researchers in the field of
-          medicalsubjects areas across the globe. All papers are subject to
-          screening by the Editorial Board followed by a blinded peer-review by
-          experts in the concerned field. Authors are advised to read our
-          editorial policies to understand our review process. All papers are
-          accepted subject to editorial change
+          The journal operates on a biannual schedule, following the continuous
+          publication model, and welcomes submissions from researchers worldwide
+          in various multidisciplinary fields. Submissions undergo initial
+          screening by the Editorial Board, followed by a blind peer-review
+          conducted by experts in the relevant field. Authors are encouraged to
+          familiarize themselves with our editorial policies to grasp the
+          intricacies of our review process. Acceptance of papers is contingent
+          upon editorial considerations.
         </p>
         <br />
         <h3>Authorship</h3>
@@ -51,93 +52,120 @@ const InstructionAuthor = () => {
         </p>
         <br />
         <p>
-          Preparation of the Manuscript: Manuscript must be written in clear and
-          concise English. Either British or American spelling is acceptable. It
-          must be sent in Microsoft Word format (.doc or .docx). General format
-          of the research papers should be as follows in given template:
+          <b>Preparation of the Manuscript:</b>
+          <br />
+          The manuscript should be composed in clear and concise English, with
+          either British or American spelling accepted. Please submit the
+          manuscript in Microsoft Word format (.doc or .docx). The general
+          format for research papers should adhere to the provided template,
+          which includes the following sections:
         </p>
         <br />
-        <ol>
-          <li>Title page</li>
-          <li>Abstractand keywords</li>
+        <ol className="instructionAuthorOL" style={{ marginLeft: "1rem" }}>
+          <li>Title </li>
+          <li>Abstract</li>
+          <li>Keywords</li>
           <li>Introduction</li>
-          <li>Materials and methods</li>
-          <li>Results</li>
+          <li>Research Materials and Methods</li>
+          <li>Results including Tables and/or Figures</li>
           <li>Discussion</li>
           <li>Conclusion</li>
           <li>Acknowledgement (if any) </li>
           <li>References</li>
+          <li>Appendixes (if necessary)</li>
+          <li>Abbreviations used (if necessary)</li>
         </ol>
         <br />
-        <h3>Title Page</h3>
+        <b>Title Page</b>
         <p>
-          The title page should include: The title of the article, should be
-          concise and informative. Name of all the authors limited to 6 authors
-          (with one forename of each author in full) followed by their
-          affiliations: department, institution, city, pin code and country. If
-          more than one department or institution is involved, authors name
-          should be linked to appropriate institutions/departments by inserting
-          consecutive numbers in superscript after relevant names to which the
-          work should be attributed. Name, mailing address, fax, phone number
-          and e-mail ID of the corresponding author. Running title-containing
-          not more than 50 characters.
+          The article title should be brief and informative. The list of
+          authors, limited to six, must include Name of each author in full.
+          Following the authors&apos; names, provide their affiliations,
+          including department, institution, city, pin code, and country. In
+          cases where multiple departments or institutions are involved, link
+          authors&apos; names to the appropriate institutions/departments by
+          inserting consecutive superscript numbers after the relevant names to
+          attribute the work accordingly. Additionally, include the names and
+          mailing addresses of the authors.
         </p>
         <p>
           <br />
           <b>Abstract:</b>
-          The second page should carry an abstract of not more than 250 words.
-          For full research paper, the abstract should be structured into four
-          components-
+          <br />
+          The abstract should adhere to a structured format and be confined to a
+          maximum of 250 words. Provide a concise overview of the research,
+          organizing the content into subheadings such as Introduction, Methods,
+          Results, and Conclusions.
           <br />
           <br />
-          <b> Keywords: </b>
+          <b>Keywords:</b>
+          <br />
           Below the abstract, provide keywords (minimum three but not more than
           six) in alphabetical orders separated by a comma.
           <br />
           <br />
-          <b> Introduction:</b>
-          Clearly state the purpose of the study. Briefly summarize the
-          rationale of the study and clearly indicate the lacunae or
-          deficiencies in previous studies for which present study has been
-          taken up. Give only pertinent references. Do not review the subject
-          extensively.
+          <b> Introduction:</b> <br />
+          This section should encompass an exploration of the research area,
+          relevant background details, and the hypotheses examined in the study.
+          It is essential for the introduction to furnish ample background
+          information, allowing a scientifically literate reader to comprehend
+          and value the forthcoming work. While an exhaustive literature review
+          is unnecessary in this section, it is imperative to clearly articulate
+          the project&apos;s specific objectives and provide a rationale for the
+          conducted experiments and related work. The introduction must
+          incorporate in-text citations, including pertinent references that
+          contribute to the background and justification of the study.
           <br />
           <br />
-          <b>Research Methods or Methodology:</b>
-          The paper must clearly define the research methods or methodologies
-          used in it. (Mandatory for research articles)
+          <b> Research Materials and Methods::</b> <br />
+          This section outlines the materials and/or subjects employed in the
+          study, along with the procedures undertaken to execute the work. The
+          methods should be articulated in comprehensive detail to enable
+          replication by a proficient researcher. The origins of all significant
+          instruments and reagents utilized, including kits, drugs, etc., must
+          be explicitly provided within parentheses. For intricate equipment or
+          detailed procedures, the use of illustrations and/or tables is
+          recommended. Additionally, the statistical tool employed for data
+          analysis should be specified. Any procedures involving experimental
+          animals or human subjects must be accompanied by a statement
+          confirming ethical approval obtained from the relevant ethics
+          committee.
           <br />
           <br />
-          <b> Results:</b>
-          Include number of observations and the statistical significance of the
-          findings appropriately. Detailed statistical analyses, mathematical
-          derivations, and the like may sometimes be suitably presented in the
-          form of one or more appendices. Present your results in logical
-          sequence in the text, tables and illustrations. Do not repeat in the
-          text all the data already given in tables, illustrations or both.
-          Emphasize and summarize only important observations. Each table should
-          be typed continuously with the text. Legends for illustrations/figures
-          should be typed continuously with the text (as shown in the template).
+          <b> Tables: </b> <br />
+          Tables should be numbered with Roman numerals according to their
+          sequence in the text, and have a short self-explanatory heading. Use
+          SI units.
           <br />
           <br />
-          <b>Discussion </b> Emphasize the new and important aspects of the
-          study and conclusions derived from them. Do not repeat in details data
-          given in the results section. Include in the discussion the
-          implications of the findings and their limitations and relate the
-          research topics. Link the conclusion with the goals of the study but
-          avoid unqualified statements and conclusions not completely supported
-          by your data. Discussion should be relevant and an unnecessary lengthy
-          presentation should be avoided.
+          <b> Table and Figure captions: </b> <br />
+          Figure captions/legends should include a statement at the end of each
+          caption/legend about reproduction size (e.g. at full page width, at
+          column width). They should be single spaced and typed in the journal
+          format. Explanations should be brief and authors should keep in mind
+          that captions/legends will be placed below figures.
           <br />
           <br />
-          <b>Conclusion: </b> A very brief summary note of the work with a
-          concluding remark should be given. This should include the novelty and
-          implication of the work and its contribution to the upliftment of the
-          present scientific knowledge in general.
+          <b>Discussion/Conclusion: </b> <br /> This section serves to connect
+          the findings outlined in the results section with the current
+          understanding of scientific issues within the field of investigation.
+          It includes a description of pertinent references to other works in
+          the same field. Moreover, the author has the opportunity to delve into
+          the significance of the results, examining whether the data aligns
+          with the initially proposed hypotheses. The conclusion of this section
+          should encompass new answers or questions that arise as a consequence
+          of the author&apos;s work.
           <br />
           <br />
-          <b> References should be in the following format</b>
+          <b> Acknowledgements: </b> <br />
+          Those who have helped the authors carry out the study and/or prepare
+          the manuscript but have not made significant intellectual contribution
+          to deserve authorship must be acknowledged. Mention all applicable
+          grants and other funding that supported the work.
+          <br />
+          <br />
         </p>
+        <b>References should be in the following format</b>
         <div className="paper_formats">
           <a href="./Formats/IJSRGI-paper-Template.docx">
             IJSRGI-Paper-Template

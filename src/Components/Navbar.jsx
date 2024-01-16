@@ -100,12 +100,17 @@ const Navbar = () => {
               </Link>
             </li>
             <li className="nav_list">
+              <Link onClick={toggleResNavbar} className="nav_link " to="/login">
+                Paper Submission
+              </Link>
+            </li>
+            <li className="nav_list">
               <Link
                 onClick={toggleResNavbar}
                 className="nav_link "
-                to="/login"
+                to="/contact-us"
               >
-                Submit Your Article
+                Contact Us
               </Link>
             </li>
           </ul>
