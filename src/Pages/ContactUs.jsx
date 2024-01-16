@@ -10,21 +10,20 @@ const ContactUs = () => {
         <div className="add-lists">
           <ul className="aboutus_points">
             <li>
-              Girija Apartment, Third Floor, 100 Feet Road, Jawaharlal Nehru
-              Salai, Arumbakkam, Chennai, Tamil Nadu 600106.
+              {" "}
+              Sanjay Rungta Group of Institutions, Rungta Knowledge city, Kohka-
+              Kurud road, Bhilai- 490024
             </li>
             <li>
-              <a href="mailto:info@ardaconference.com">
-                info@ardaconference.com
-              </a>
+              <a href="mailto:editor@ijsrgi.com">editor@ijsrgi.com</a>
             </li>
             <li>
               For Conference Queries :{" "}
-              <span className="mono"> +91 9344535349</span>
+              <span className="mono"> +91 78282 49416</span>
             </li>
             <li>
               For Publication Queries :{" "}
-              <span className="mono"> +91 9345684472</span>{" "}
+              <span className="mono"> +91 922911555</span>{" "}
             </li>
           </ul>
         </div>

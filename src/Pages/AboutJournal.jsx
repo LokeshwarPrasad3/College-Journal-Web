@@ -1,8 +1,7 @@
-import { useEffect } from "react";
+import React, { useEffect } from "react";
+import { themeList } from "../Utils/interdisciplinaryTheme";
 
 const AboutJournal = () => {
-
- 
   useEffect(() => {
     // Scroll to the top when the location changes (route change) or on component mount
     window.scrollTo(0, 0);
@@ -19,37 +18,48 @@ const AboutJournal = () => {
         </div>
         <br />
         <div className="about_para">
-          <b>
-            International Journal of Scientific research for global Innovation
-          </b>{" "}
-          is designed to publish research articles in Engineering & Technology,
-          Mathematics, Management, Medical Sciences, Medicine, Social Science,
-          Education, Agriculture, Geography, Advertising, Accounting & Finance,
-          Botany, Business Research, Chemistry, Commerce, Computer Application,
-          Consumer Behaviour & Relationship Management, Corporate Governance,
-          Earth Sciences, Economics, E-commerce, Bioscience, Entrepreneurship,
-          Fisheries, History, Human Resources Management, Information
-          Technology, Library Science, International Business, Law /
-          Criminology, Life Sciences, Logistics and Supply Chain Management,
-          Performing Arts, Physics, Psychology, Health Care, Fine Art,
-          Industrial Relations, Architecture, Marketing communication, Marketing
-          Management, Microbiology, Nursing / Pharmacy, Nutraceuticals, Physical
-          Education, Philosophy, Political Sciences, Psychology, Population
-          Studies, Selling and Marketing techniques, Strategic Management, Total
-          Quality Management Training and Development, Sociology, English,
-          Veterinary Sciences, Apiology, Arachnology, Arthropodology, Cetology,
-          Conchology, Mosquito Taxonomical Studies, Vector (Mosquito) Biology,
-          Vector Ecology, Prevention and Control of Mosquito/Vector-Borne
-          Diseases, Vector Competence of Vector-Borne Diseases, Renewable
-          Energy, Biopesticides/Botanical Insecticides in Vector Control and
-          Management, Biological Control of Vector Mosquitoes, Epidemiology,
-          Parasitology, Surveillance and Control Technology of Vectors, Applied
-          Fields of Mosquito Research, Entomology, Helminthology, Herpetology,
-          Ichthyology, Malacology, Myrmecology, Nematology, Neuroethology,
-          Ornithology, Paleozoology, Planetology, Primatology, Zooarchaeology,,
-          Vector Molecular Biology, Molecular Endocrinology, Parasitology and
-          Immunobiology, etc.
+          <p>
+            <b>
+              International Journal Of Scientific Research For Global Innovation
+            </b>
+            &nbsp;is a leading international journal for publication of new
+            ideas.The primary goal of the editors is to maintain high quality of
+            publications on theoretical developments and practical applications.
+            Original research papers, state-of-the-art reviews, and high quality
+            technical notes are invited for publications. Authors should note
+            that only original and previously unpublished manuscripts will be
+            considered. The articles that are sent for reviews will have names
+            of the authors deleted with a view towards enhancing the objectivity
+            and fairness of the review process. Time to time, the Journal will
+            publish review articles and bring out special issues on a specific
+            field. Authors are encouraged to contact the Editors if they would
+            like to submit a review article or bring out a special issue of the
+            Journal. Submission of a manuscript is interpreted as a statement of
+            certification that no part of the manuscript is copyrighted by any
+            other publication nor is under review by any other formal
+            publication. It is the primary responsibility of the author to
+            obtain proper permission for the use of any copyrighted materials in
+            the manuscript, prior to the submission of the manuscript to IJSRGI.
+          </p>
+          <br />
+          <p>
+            The aim of this journal is to publish original and unpublished
+            contributions that focus on both theoretical and applied research
+            studies in multidisciplinary and related disciplines, offering
+            diversity and variety to its readers. The journal in each issue
+            through publishing different articles, case studies, and critical
+            reviews intends to present its audience with interdisciplinary
+            themes such as:
+          </p>
+          <br />
         </div>
+        <ul className="interdisciplinaryTheme" style={{ marginLeft: "2rem" }}>
+          {themeList.map((theme, index) => (
+            <React.Fragment key={index}>
+              <li>{theme}</li>
+            </React.Fragment>
+          ))}
+        </ul>
         <br />
         <div className="some_info">
           <h3>Peer Review Process</h3>
@@ -59,7 +69,7 @@ const AboutJournal = () => {
           <b>Accessibility:</b> Open Access <br />
         </div>
         <br />
-          <br />
+        <br />
         <div className="about_points">
           <h2>Area Of Reasearch</h2>
           <br />
@@ -88,7 +98,7 @@ const AboutJournal = () => {
               capital for sustainable development. This encompasses various
               economic strategies and emerging trends.
             </p>
-              <br />
+            <br />
             <ol>
               <li>
                 <b>Sustainable Quality of Life:</b> The primary objective is to
@@ -161,7 +171,8 @@ const AboutJournal = () => {
               </li>
             </ol>
             <br />
-            <p>The primary objective is to establish a platform for scholarly
+            <p>
+              The primary objective is to establish a platform for scholarly
               dialogue encompassing a broad range of topics relevant to
               contemporary times and cultures. This forum aims to facilitate
               intellectual discussions, allowing scholars to explore and
@@ -181,4 +192,3 @@ const AboutJournal = () => {
 };
 
 export default AboutJournal;
- 
