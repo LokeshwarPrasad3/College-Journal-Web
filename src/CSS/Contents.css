@@ -3,7 +3,8 @@
   margin: auto;
   /* width: 60%; */
   padding: 2rem;
-  font-family: "signika negative";
+  /* font-family: "signika negative"; */
+  font-family: "Times New Roman";
   /* display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -11,7 +12,8 @@
 }
 .info_container .heading {
   text-transform: capitalize;
-  font-family: "bree serif";
+  /* font-family: "bree serif"; */
+  font-family: "Times New Roman";
   text-align: center;
   font-size: 1.7rem;
   letter-spacing: 1px;

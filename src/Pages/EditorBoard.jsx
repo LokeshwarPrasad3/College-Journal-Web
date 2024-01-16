@@ -6,7 +6,7 @@ const EditorBoard = () => {
   return (
     <>
       <div className="editorboard_container page">
-        <h1 className="main_heading" style={{fontFamily: "overpass ", textTransform: "capatilize", fontSize: '2rem'}} >List of Editor&apos;s Board</h1>
+        <h1 className="main_heading" style={{textTransform: "capatilize", fontSize: '2rem'}} >List of Editor&apos;s Board</h1>
 
         {/* chief of editor container */}
         <div className="chief_container">

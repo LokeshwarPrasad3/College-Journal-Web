@@ -6,7 +6,7 @@
 /* 👉 for about page */
 .about_container {
   padding: 2rem 15rem;
-  font-family: "overpass";
+  font-family: "Times New Roman";
 }
 @media only screen and (max-width: 1200px) {
   .about_container {
@@ -48,7 +48,7 @@ ol {
   gap: 10px;
 }
 .author_container {
-  font-family: "overpass";
+  font-family: "Times New Roman";
   padding: 2rem 15rem;
   text-align: justify;
 }
@@ -72,7 +72,7 @@ ol {
 .editorial_policies_container {
   margin: auto;
   width: 50%;
-  font-family: "overpass";
+  font-family: "Times New Roman";
   padding: 2rem 0;
   text-align: justify;
 }
@@ -94,7 +94,7 @@ ol {
 
 /* 👉 Peer review policy */
 .peer_review_policy_container {
-  font-family: "overpass";
+  font-family: "Times New Roman";
   padding: 2rem 15rem;
   text-align: justify;
 }
@@ -121,14 +121,14 @@ ol {
 
 /* page for editors board list */
 .editorboard_container {
-  font-family: "overpass";
+  font-family: "Times New Roman";
   text-align: center;
   padding: 2rem 0;
 }
 
 /* for contact us page */
 .contact_us_container {
-  font-family: "overpass";
+  font-family: "Times New Roman";
   text-align: justify;
   /* height: calc(100vh - (50px + 60px + 4rem)); */
 }

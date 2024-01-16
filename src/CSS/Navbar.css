@@ -42,7 +42,7 @@
   padding-left: 0.5rem;
   font-size: 1.3rem;
   color: white;
-  font-family: "signika negative";
+  font-family: "Times New Roman";
   text-transform: uppercase;
 }
 /* menu bar */
@@ -52,7 +52,7 @@
 }
 #nav_ul {
   display: flex;
-  font-family: "signika negative";
+  font-family: "Times New Roman";
   gap: 0.75rem;
   font-weight: 500;
 }
@@ -112,7 +112,7 @@
   }
   #nav_ul .nav_list a {
     font-size: 1.2rem;
-    font-family: "overpass";
+    font-family: "Times New Roman";
     color: black;
     font-weight: 600;
     margin: 0.8rem 0;

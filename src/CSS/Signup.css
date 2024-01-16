@@ -1,6 +1,6 @@
 
 .container {
-  font-family: "signika negative", sans-serif;
+  font-family: "Times New Roman";
   height: calc(100vh - 4rem);
   width: 100%;
   align-items: center;
@@ -73,7 +73,7 @@
   font-size: 13px;
 }
 ::placeholder{
-    font-family: 'overpass';
+    font-family: 'Times New Roman';
 }
 .card a {
   color: #4796ff;

@@ -12,7 +12,7 @@ const Footer = () => {
     display: "flex",
     alignItems: "center",
     justifyContent: "center",
-    fontFamily: "overpass",
+    fontFamily: "Times New Roman",
     backgroundColor: "#333",
     color: "#fff",
     textAlign: "center",
