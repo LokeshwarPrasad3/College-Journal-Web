@@ -75,6 +75,8 @@ ol {
   font-family: "Times New Roman";
   padding: 2rem 0;
   text-align: justify;
+  margin-bottom: 3rem;
+  margin-top: 4rem;
 }
 @media only screen and (max-width: 1200px) {
   .editorial_policies_container {
@@ -130,10 +132,10 @@ ol {
 .contact_us_container {
   font-family: "Times New Roman";
   text-align: justify;
-  /* height: calc(100vh - (50px + 60px + 4rem)); */
+  margin-top: 6rem;
 }
 .about_heading {
-  font-size: 2rem;
+  font-size: 1.7rem;
   margin: 1rem 0 1rem 0;
   text-align: center;
 }
@@ -143,7 +145,7 @@ ol {
   justify-content: center;
   align-items: center;
 }
-.about_points {
+.aboutus_points {
   margin: 2rem;
   display: flex;
   justify-content: center;
@@ -152,13 +154,13 @@ ol {
   min-width: 50%;
 }
 
-.about_points li {
+.aboutus_points li {
   font-size: 17px;
 }
 .mono {
   text-decoration: underline;
   font-family: "Times New Roman", Times, serif;
 }
-.about_points li a {
+.aboutus_points li a {
   color: black;
 }

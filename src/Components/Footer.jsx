@@ -39,7 +39,11 @@ const Footer = () => {
     ""
   ) : (
     <footer
-      style={route === "/contact-us" ? footerStyle : defaultStyle}
+      style={
+        route === "/contact-us" || route === "/policies"
+          ? footerStyle
+          : defaultStyle
+      }
       className="footer"
     >
       <p>

@@ -8,7 +8,7 @@ const ContactUs = () => {
         <h2 className="about_heading sub-heading">Head Office</h2>
         <hr style={{ opacity: "1" }} />
         <div className="add-lists">
-          <ul className="about_points">
+          <ul className="aboutus_points">
             <li>
               Girija Apartment, Third Floor, 100 Feet Road, Jawaharlal Nehru
               Salai, Arumbakkam, Chennai, Tamil Nadu 600106.
