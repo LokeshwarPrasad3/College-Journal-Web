@@ -1,42 +1,48 @@
 import { editorsList } from "../Utils/EditorsName";
 import React from "react";
-import "../CSS/EditorBoard.css"
+import "../CSS/EditorBoard.css";
 
 const EditorBoard = () => {
   return (
     <>
       <div className="editorboard_container page">
-        <h2 className="main_heading" style={{textTransform: "capatilize", fontSize: '1.7rem'}} >List of Editor&apos;s Board</h2>
+        <h2
+          className="main_heading"
+          style={{ textTransform: "capatilize", fontSize: "1.7rem" }}
+        >
+          List of Editor&apos;s Board
+        </h2>
 
         {/* chief of editor container */}
         <div className="chief_container">
-          <p className="editor_sub_heading" >Editor in Chief</p>
+          <p className="editor_sub_heading">Editor in Chief</p>
           <div className="chief_box">
             <div className="chief_image">
-            <b className="chief_name">Dr. Gyanesh Shrivastava</b>
+              <b className="chief_name">Dr. Gyanesh Shrivastava</b>
             </div>
             <p className="chief_degree">
               M.Sc., M. Phil. (CS), PhD Computer Science & Applications
             </p>
             <p className="chief_college">
-             Principal <br /> Rungta Institute of Science and Management, Bhilai
+              Principal <br /> Rungta Institute of Science and Management,
+              Bhilai
             </p>
             {/* <p className="chief_designation">Principal</p> */}
             <p>
-contact :  &nbsp;
-            <a
-              href="mailto:gyanesh.shrivastava@rungtacolleges.com"
-              className="chief_email"
+              contact :&nbsp;
+              <a
+                href="mailto:gyanesh.shrivastava@rungtacolleges.com"
+                className="chief_email"
               >
-              gyanesh.shrivastava@rungtacolleges.com
-            </a>
-              </p>
+                editor@ijsrgi.com
+              </a>
+            </p>
           </div>
         </div>
 
         {/* another editors name  */}
         <div className="all_editors_container">
-          <p className="editor_sub_heading" >Editors</p>
+          <p className="editor_sub_heading">Editors</p>
           <div className="editor_container">
             {editorsList &&
               editorsList.map((editor, index) => {
@@ -44,17 +50,15 @@ contact :  &nbsp;
                   <React.Fragment key={index}>
                     <div className="editor_box">
                       <div className="editor_image">
-                      <b className="editor_name">{editor?.name}</b>
+                        <b className="editor_name">{editor?.name}</b>
                       </div>
                       <p className="editor_degree">{editor?.degree}</p>
                       <p className="editor_designation">
                         {editor?.designation}
                       </p>
-                      <p className="editor_college">
-                        {editor?.college}
-                      </p>
+                      <p className="editor_college">{editor?.college}</p>
                       <p>
-                        {editor?.email?"contact : ":""}
+                        {editor?.email ? "contact : " : ""}
                         <a
                           href={`mailto:${editor?.email}`}
                           className="editor_email"

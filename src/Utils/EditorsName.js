@@ -4,20 +4,20 @@ export const editorsList =
         {
             name: "Dr. Kuldeep Bansal",
             designation: "Adjunct Professor",
-            degree: "",
+            degree: "Ph.D.",
             college: "Abo Akademi University, Turku, Southwest Finland, Finland",
             email: "kuldeep.bansal@abo.fi",
         },
         {
             name: "Dr. Pramod Kumar",
             designation: "Senior Scientist",
-            degree: "",
+            degree: "Ph.D.",
             college: "Institute of Lung Health and Immunity(LHI), Helmholtz Zentrum München- German Research Center for Environmental Health Ingolstädter Landstraße 1 · D - 85764 Neuherberg, Germany",
-            email: "",
+            email: "pramod.kumar@helmholtz-muenchen.de",
         },
         {
-            name: "Sashi Debnath",
-            degree: "",
+            name: "Dr. Sashi Debnath",
+            degree: "Ph.D.",
             designation: "Research Instructor",
             college: "University of Texas Southwestern Medical Center",
             email: "sashi.debnath@utsouthwestern.edu",
@@ -25,13 +25,13 @@ export const editorsList =
         {
             name: "Dr. Saket Rungta",
             designation: "Director",
-            degree: "",
+            degree: "Ph.D.",
             college: "Sanjay Rungta Group of Institution",
             email: "saket.rungta@rungtacolleges.com",
         },
         {
             name: "Dr. Shrikant Burje",
-            degree: "(M.E.PhD)",
+            degree: "(M.E., PhD)",
             designation: "Professor & Director Academics",
             college: "Sanjay Rungta Group of Institutions Bhilai",
             email: "shrikant.burje@rungtacolleges.com"
@@ -59,21 +59,21 @@ export const editorsList =
         },
         {
             name: "Dr Karthik Krishna M",
-            degree: "",
+            degree: "Ph.D.",
             designation: "Dean",
             college: "Rungta College of Dental Sciences and Research Bhilai",
             email: "kartik.krishna@rungtacolleges.com"
         },
         {
             name: "Dr. S. Fatima Khan",
-            degree: "",
+            degree: "Ph.D.",
             designation: "Vice Dean",
             college: "Rungta College of Dental Sciences and Research, Bhilai",
             email: "fatima.khan@rungtacollege.com"
         },
         {
             name: "Dr. Bhumika Chandrakar",
-            degree: "(Pharm D, MBA)",
+            degree: "(Pharm D, MBA, Ph.D.",
             designation: "Associate professor",
             college: "Rungta Institute of pharmaceutical sciences, Bhilai, Chhattisgarh, India .",
             email: "bhumika.chandrakar@rungtacolleges.com",

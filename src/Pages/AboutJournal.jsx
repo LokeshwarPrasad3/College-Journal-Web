@@ -64,16 +64,16 @@ const AboutJournal = () => {
         <div className="some_info">
           <h3>Peer Review Process</h3>
           <b>Frequency of Publication:</b> Biannually [2 issues per year] <br />
-          <b>Languages:</b> English <br />
-          <h4> Refereed Journalbr </h4>
+          <b>Language:</b> English <br />
+          <h4> Refereed Journal </h4>
           <b>Accessibility:</b> Open Access <br />
         </div>
         <br />
         <br />
         <div className="about_points" style={{ textAlign: "justify" }}>
-          <h2>Area Of Reasearch</h2>
+          <h2>Area Of Research</h2>
           <br />
-          <b> IJSRGI </b> , is a Multidisciplinary Journal focuses on critical
+          <b> IJSRGI</b>, is a Multidisciplinary Journal focuses on critical
           and creative research. This journal aims to encourage unique research
           and foster meaningful conversations that bridge traditional and
           groundbreaking ideas.

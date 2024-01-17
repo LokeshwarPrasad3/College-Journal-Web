@@ -443,7 +443,7 @@ const ReviewPolicy = () => {
         </p>
         <p>
           <br />
-          <b> What if Plagiarism detected after Publication</b>
+          <b> What if Plagiarism detected after Publication?</b>
           <br />
           If plagiarism is detected after publication, the Journals will conduct
           an investigation. If plagiarism is found, the journal editorial office
