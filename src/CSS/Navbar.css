@@ -19,7 +19,7 @@
 }
 
 
-@media (max-width: 1325px) {
+@media (max-width: 1500px) {
   #navbar {
     padding: 0;
   }
@@ -53,13 +53,8 @@
 #nav_ul {
   display: flex;
   font-family: "Times New Roman";
-  gap: 0.75rem;
+  gap: 0;
   font-weight: 500;
-}
-@media (max-width: 1325px) {
-  #nav_ul {
-    gap: 0rem;
-  }
 }
 .nav_list {
   list-style: none;
