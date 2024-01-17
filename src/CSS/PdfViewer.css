@@ -1,0 +1,31 @@
+/* YourComponent.css or PdfViewer.css */
+
+.pdf-container {
+  margin: auto;
+  width: 90%;
+  padding: 15px;
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+}
+.quotes {
+  font-size: 1.2em; /* Adjust the font size as needed */
+  margin-bottom: 10px;
+  /* font-weight: bold; */
+}
+.quotes a{
+  text-decoration: none;
+}
+.author {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.college {
+  font-weight: normal;
+  color: #555; /* Optional: Add a color to the college name */
+}
+@media (max-width: 700px) {
+  .pdf-container {
+    width: 97%;
+  }
+}

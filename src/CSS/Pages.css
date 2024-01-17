@@ -178,3 +178,18 @@ ol {
   font-weight: bold;
   color: black;
 }
+
+/* page of volume1 issue 1 2024 */
+.volumeIssue_container{
+  margin-top: 5rem;
+}
+.volumeIssue_heading{
+  margin: 0.2rem 0 1rem 0;
+}
+.volumeIssue_container h2{
+  text-align: center;
+}
+.volumeIssue_pdf_container{
+  text-align: justify;
+
+}
