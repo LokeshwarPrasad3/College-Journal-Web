@@ -59,14 +59,14 @@ export const editorsList =
         },
         {
             name: "Dr Karthik Krishna M",
-            degree: "Ph.D.",
+            degree: "MDS",
             designation: "Dean",
             college: "Rungta College of Dental Sciences and Research Bhilai",
             email: "kartik.krishna@rungtacolleges.com"
         },
         {
             name: "Dr. S. Fatima Khan",
-            degree: "Ph.D.",
+            degree: "MDS",
             designation: "Vice Dean",
             college: "Rungta College of Dental Sciences and Research, Bhilai",
             email: "fatima.khan@rungtacollege.com"
