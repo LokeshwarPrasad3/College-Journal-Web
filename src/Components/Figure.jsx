@@ -24,12 +24,7 @@ const Figure = () => {
       <div id="main_image_container">
         <img
           id="main_image"
-          // src={`${
-          //   windowWidth > 800
-          //     ? "./temp/10.jpg"
-          //     : "./Images/college-2.png"
-          // } `}
-          src="./Images/main_page_image-1-min.jpg"
+          src="./Images/main_page_image-1-min-min.jpg"
           alt="research-image"
         />
       </div>
