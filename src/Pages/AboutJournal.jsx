@@ -22,19 +22,20 @@ const AboutJournal = () => {
             <b>
               International Journal Of Scientific Research For Global Innovation
             </b>
-            &nbsp;is a leading international journal for publication of new
-            ideas.The primary goal of the editors is to maintain high quality of
-            publications on theoretical developments and practical applications.
-            Original research papers, state-of-the-art reviews, and high quality
-            technical notes are invited for publications. Authors should note
-            that only original and previously unpublished manuscripts will be
-            considered. The articles that are sent for reviews will have names
-            of the authors deleted with a view towards enhancing the objectivity
-            and fairness of the review process. Time to time, the Journal will
-            publish review articles and bring out special issues on a specific
-            field. Authors are encouraged to contact the Editors if they would
-            like to submit a review article or bring out a special issue of the
-            Journal. Submission of a manuscript is interpreted as a statement of
+            &nbsp;was founded in January 2024 and it is a leading international
+            journal for publication of new ideas.The primary goal of the editors
+            is to maintain high quality of publications on theoretical
+            developments and practical applications. Original research papers,
+            state-of-the-art reviews, and high quality technical notes are
+            invited for publications. Authors should note that only original and
+            previously unpublished manuscripts will be considered. The articles
+            that are sent for reviews will have names of the authors deleted
+            with a view towards enhancing the objectivity and fairness of the
+            review process. Time to time, the Journal will publish review
+            articles and bring out special issues on a specific field. Authors
+            are encouraged to contact the Editors if they would like to submit a
+            review article or bring out a special issue of the Journal.
+            Submission of a manuscript is interpreted as a statement of
             certification that no part of the manuscript is copyrighted by any
             other publication nor is under review by any other formal
             publication. It is the primary responsibility of the author to
@@ -63,19 +64,20 @@ const AboutJournal = () => {
         <br />
         <div className="some_info">
           <h3>Peer Review Process</h3>
-          <b>Frequency of Publication:</b> Biannually [2 issues per year] <br />
-          <b>Language:</b> English <br />
-          <h4> Refereed Journal </h4>
-          <b>Accessibility:</b> Open Access <br />
+          <b>Frequency :</b> Half Yearly
+          <br />
+          <b>Mode :</b> Online publication <br />
+          <b>Medium :</b> English <br />
+          <b> Open Access </b> <br />
         </div>
         <br />
         <br />
         <div className="about_points" style={{ textAlign: "justify" }}>
           <h2>Area Of Research</h2>
           <br />
-          <b> IJSRGI</b>, is a Multidisciplinary Journal focuses on critical
-          and creative research. This journal aims to encourage unique research
-          and foster meaningful conversations that bridge traditional and
+          <b> IJSRGI</b>, is a Multidisciplinary Journal focuses on critical and
+          creative research. This journal aims to encourage unique research and
+          foster meaningful conversations that bridge traditional and
           groundbreaking ideas.
           <br />
           <br />
