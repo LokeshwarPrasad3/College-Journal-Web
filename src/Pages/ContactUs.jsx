@@ -14,7 +14,9 @@ const ContactUs = () => {
               Kurud road, Bhilai- 490024
             </li>
             <li>
-              <a href="mailto:editor@ijsrgi.com">editor@ijsrgi.com</a>
+              <a href="mailto:editor.ijsrgi@rungtacolleges.com">
+                editor.ijsrgi@rungtacolleges.com
+              </a>
             </li>
             <li>
               <div

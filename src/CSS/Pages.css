@@ -173,12 +173,22 @@ ol {
   justify-content: center;
   align-items: center;
 }
+.callforpaper_container .instruct_email{
+  font-size: 1.3rem;
+  }  
 .callforpaper_container p a{
   font-size: 1.5rem;
   font-weight: bold;
   color: black;
 }
-
+@media (max-width: 362px){
+  .callforpaper_container .instruct_email{
+    font-size: 1.1rem;
+    }  
+    .callforpaper_container p a{
+  font-size: 1.2rem;
+  }
+}
 /* page of volume1 issue 1 2024 */
 .volumeIssue_container{
   margin-top: 5rem;

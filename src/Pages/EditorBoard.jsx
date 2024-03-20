@@ -31,10 +31,10 @@ const EditorBoard = () => {
             <p>
               contact :&nbsp;
               <a
-                href="mailto:gyanesh.shrivastava@rungtacolleges.com"
+                href="mailto:editor.ijsrgi@rungtacolleges.com"
                 className="chief_email"
               >
-                editor@ijsrgi.com
+                editor.ijsrgi@rungtacolleges.com
               </a>
             </p>
           </div>
