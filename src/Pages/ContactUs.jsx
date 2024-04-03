@@ -30,7 +30,7 @@ const ContactUs = () => {
               padding: "1.3rem 0.4rem",
               textAlign: "center",
               lineHeight: "24px",
-              height: "15rem"
+              height: "14rem",
             }}
           >
             <h3 style={{ marginBottom: "0.6rem" }}>PUBLISHER</h3>
@@ -45,7 +45,9 @@ const ContactUs = () => {
             </p>
             <p>For Publication Queries Contact No : </p>
             <p>
-              <span style={{ textDecoration: "underline" }}>+91 922911555</span>
+              <span style={{ textDecoration: "underline" }}>
+                +91 9229155599
+              </span>
               &nbsp;,&nbsp;
               <span style={{ textDecoration: "underline" }}>
                 +91 7828249416
@@ -65,7 +67,7 @@ const ContactUs = () => {
               padding: "1.3rem 0.4rem",
               textAlign: "center",
               lineHeight: "24px",
-              height: "15rem"
+              height: "14rem",
             }}
           >
             <h3 style={{ marginBottom: "0.6rem" }}>CHIEF EDITOR</h3>
@@ -81,12 +83,6 @@ const ContactUs = () => {
               >
                 editor.ijsrgi@rungtacolleges.com
               </a>
-            </p>
-            <p>
-              Mobile :
-              <span style={{ textDecoration: "underline" }}>
-                +91 9229155599
-              </span>
             </p>
           </div>
         </div>
