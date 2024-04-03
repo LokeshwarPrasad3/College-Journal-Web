@@ -123,12 +123,17 @@ the same is of high importance, otherwise the employability of the graduates wil
     },
     {
         index: 8,
-        data: `India has gone through a new revolution with the advent of digital sector in the business operations in India.
-Digitalization has opened up many opportunities for development in all the major sectors like transportation,
-medicine, sports and commerce. Today, in the modern era, many developing countries have established themselves
-in the world by adopting digital plans and have also achieved economic growth. Today, almost all the countries have
-seen digitalisation as a boon, although few people have criticized it, it has become a threat to the power of humanity,
-but in the race of development, digitalisation is facing us as a true truth.`
+        data: `The growing popularity and awareness of the health advantages of organic food, particularly among young people,
+has increased demand significantly. The majority of population is confused about organic food and agricultural
+goods and lack knowledge about them. Few are typically aware of the relationship between organic food and
+human health, as well as the need of preserving future generations. The lack of acceptable appropriate quality
+evaluations and regulations is the most significant barrier that India has in its quest to become one of the world's
+major organic food producers. The scarcity of organic food goods is a serious issue for society's health-conscious
+youngsters. They mostly purchase organically cultivated fruits, vegetables, cereals, and herbs from branded retail
+outlets. Procuring healthier food, as well as an efficient marketing structure and the required backing from the
+government, as well as improving supply chain management and production planning, were shown to be successful
+in resolving concerns with organic food items. As a result, this research aims to provide a platform for assessing
+reasons and barriers influencing customers to purchase organic food products in Raipur city.`
     },
     {
         index: 9,
