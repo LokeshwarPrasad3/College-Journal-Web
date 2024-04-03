@@ -112,9 +112,9 @@ const Navbar = () => {
               <Link
                 onClick={toggleResNavbar}
                 className="nav_link "
-                to="/volume-1-issue-1-2024"
+                to="/archives"
               >
-                Volume-1 issue-1 2024
+                Archives
               </Link>
             </li>
             <li className="nav_list">

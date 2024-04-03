@@ -34,14 +34,16 @@ const Footer = () => {
       // Cleanup code goes here (optional)
     };
   }, [location]); // Include location in the dependency array to ensure it's updated when the route changes
-
-  return route === "/login" || route === "/signup" ? (
-    ""
+// no need to show footer for that routes
+return route === "/login" || route === "/signup" ? (
+  ""
   ) : (
     <footer
-      style={
+    style={
+        // not need to show footer for that routes
         route === "/contact-us" ||
         route === "/policies" ||
+        route === "/archives" ||
         route === "/call-for-paper"
           ? footerStyle
           : defaultStyle

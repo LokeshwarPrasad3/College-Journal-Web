@@ -12,7 +12,7 @@
   margin-bottom: 10px;
   /* font-weight: bold; */
 }
-.quotes a{
+.quotes a {
   text-decoration: none;
   font-size: 16px;
 }
@@ -30,3 +30,23 @@
     width: 97%;
   }
 }
+
+/* for new abstract and full page pdf links */
+.key_buttons {
+  padding: 1rem 0 0rem 0;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  gap: 4rem;
+  width: 90%;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+@media (max-width: 600px) {
+  .key_buttons {
+    gap: 8vw;
+    width: 100%;
+  }
+}
+
+/* hover effects */

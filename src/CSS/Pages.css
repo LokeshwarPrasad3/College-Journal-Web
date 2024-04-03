@@ -189,6 +189,13 @@ ol {
   font-size: 1.2rem;
   }
 }
+
+/* page of archives */
+.archives_container{
+  margin-top: 5rem;
+}
+
+
 /* page of volume1 issue 1 2024 */
 .volumeIssue_container{
   margin-top: 5rem;

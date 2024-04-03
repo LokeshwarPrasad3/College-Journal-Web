@@ -1,6 +1,6 @@
 import PdfViewer from "../Components/PdfViewer";
-import {AuthorQuote} from "../Utils/AuthorQuote";
-import "../CSS/Pages.css"
+import { AuthorQuote } from "../Utils/AuthorQuote";
+import "../CSS/Pages.css";
 
 const Volume1Issue12024 = () => {
   return (
