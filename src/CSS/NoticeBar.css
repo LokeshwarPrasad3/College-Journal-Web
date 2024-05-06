@@ -27,23 +27,26 @@
 
 .notice-popup {
   position: fixed;
-  top: 40%;
+  top: 23%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: #f5f5ff; /* Light gray background color */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slight box shadow */
-  border-radius: 10px; /* Rounded corners */
+  /* background-color: #f5f5ff; */
+  background-color: #4f5581;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
   padding: 20px;
   z-index: 9999;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 500px; /* Fixed width for desktop */
+  width: 500px;
   height: 300px;
-  overflow-y: auto; /* Enable vertical scrolling if content exceeds max-height */
+  overflow-y: auto;
+  color: white;
 }
 @media (max-width: 500px) {
   .notice-popup {
+    top: 25%;
     width: 97vw;
   }
 }
@@ -73,6 +76,6 @@
 }
 
 .close-btn:hover {
-  background-color: #ddd; /* Light gray background on hover */
-  border-radius: 50%; /* Circular button on hover */
+  background-color: rgb(170, 159, 159); /* Light gray background on hover */
+  border-radius: 100%; /* Circular button on hover */
 }
