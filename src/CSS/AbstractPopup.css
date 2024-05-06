@@ -1,56 +1,66 @@
-.abstract_popup_container {
-  margin-top: 6rem;
-  width: 70vw;
-  position: absolute;
-  left: 1vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.abstract_popup_container .data_box {
-  width: 100%;
-  font-family: "Times new roman";
-  font-size: 1.1rem;
-  padding: 1rem;
-  border: 1px solid gray;
-  /* background-color: rgb(245, 243, 243); */
-  background-color: white;
-  outline: none;
-  height: auto;
+/* NoticePopup.css */
+
+.shadow {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slight box shadow */
 }
 
-@media (max-width: 1650px) {
-  .abstract_popup_container {
-    width: 65vw;
-  }
+.flex {
+  display: flex;
+  align-items: center;
 }
-@media (max-width: 1250px) {
-  .abstract_popup_container {
-    width: 60vw;
-  }
+
+.bg-blue-500 {
+  background-color: #007bff; /* Blue background color */
 }
-@media (max-width: 1015px) {
-  .abstract_popup_container {
-    width: 55vw;
-  }
+
+.bg-white {
+  background-color: #ffffff; /* White background color */
 }
-@media (max-width: 790px) {
-  .abstract_popup_container {
-    font-size: 1rem;
-    top: 1rem;
-    width: 50vw;
-  }
+
+.border-blue-400 {
+  border-color: #007bff; /* Blue border color */
 }
-@media (max-width: 790px) {
-  .abstract_popup_container {
-    font-size: 1rem;
-    top: 1rem;
-    width: 50vw;
-  }
+
+.w-16 {
+  width: 4rem; /* Width for the icon container */
 }
-@media (max-width: 400px) {
-  .abstract_popup_container {
-    width: 80vw;
-    left: 3vw;
-  }
+
+.text-center {
+  text-align: center;
+}
+
+.p-2 {
+  padding: 0.5rem; /* Padding for the icon container */
+}
+
+.h-6 {
+  height: 1.5rem; /* Height for the icon */
+}
+
+.w-6 {
+  width: 1.5rem; /* Width for the icon */
+}
+
+.text-white {
+  color: #ffffff; /* White color for the icon */
+}
+
+.w-full {
+  width: 100%; /* Full width for the content container */
+}
+
+.p-4 {
+  padding: 1rem; /* Padding for the content container */
+}
+
+.text-gray-600 {
+  color: #6c757d; /* Gray color for text */
+}
+
+.font-bold {
+  font-weight: 700; /* Bold font weight */
+}
+
+.text-sm {
+  font-size: 0.875rem; /* Small font size */
 }

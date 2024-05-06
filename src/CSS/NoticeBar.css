@@ -1,0 +1,78 @@
+.notification-bar {
+  background-color: #0348bc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.8rem 0.2rem;
+  margin-top: 4rem;
+  margin-bottom: 0.1rem;
+  color: white;
+  gap: 1rem;
+  font-size: 1.2rem;
+}
+.notice_description {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.notice_description:hover {
+  color: aqua;
+}
+
+/* NoticePopup.css */
+
+.notice-popup {
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f5f5ff; /* Light gray background color */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slight box shadow */
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px; /* Fixed width for desktop */
+  height: 300px;
+  overflow-y: auto; /* Enable vertical scrolling if content exceeds max-height */
+}
+@media (max-width: 500px) {
+  .notice-popup {
+    width: 97vw;
+  }
+}
+.popup-content {
+  text-align: center;
+}
+
+.popup-content h2 {
+  margin-top: 0;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.popup-content p {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.close-btn:hover {
+  background-color: #ddd; /* Light gray background on hover */
+  border-radius: 50%; /* Circular button on hover */
+}

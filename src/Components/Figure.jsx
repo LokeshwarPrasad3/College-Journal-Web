@@ -24,7 +24,7 @@ const Figure = () => {
       <div id="main_image_container">
         <img
           id="main_image"
-          src="./Images/main_page_image-1-min-min.jpg"
+          src="./Images/main_page_image-1-min-min-min.jpg"
           alt="research-image"
         />
       </div>
