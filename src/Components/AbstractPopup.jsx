@@ -1,9 +1,7 @@
-import { useState } from "react";
 import "../CSS/AbstractPopup.css";
 import { abstractContents } from "../data/AbstractContent";
 
 const AbstractPopup = ({ index }) => {
-
   return (
     <>
       <div

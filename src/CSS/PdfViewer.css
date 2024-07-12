@@ -33,7 +33,7 @@
 
 /* for new abstract and full page pdf links */
 .key_buttons {
-  padding: 1rem 0 0rem 0;
+  padding: 0;
   display: flex;
   justify-content: right;
   align-items: center;

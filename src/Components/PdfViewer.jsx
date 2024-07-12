@@ -1,20 +1,21 @@
 import { Link } from "react-router-dom";
 import "../CSS/PdfViewer.css";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import AbstractPopup from "./AbstractPopup";
 
 const PdfViewer = ({ element }) => {
   const [showAbstractPopup, setShowAbstractPopup] = useState(false);
+  const [isHovering, setIsHovering] = useState(false);
 
-  // show abstract when hover
-  const ShowAbstractDocs = (elementIndex) => {
-    console.log(elementIndex);
-    setShowAbstractPopup(true);
-  };
-
-  const HideAbstractDocs = () => {
-    setShowAbstractPopup(false);
-  };
+  useEffect(() => {
+    let timeoutId;
+    if (isHovering) {
+      timeoutId = setTimeout(() => setShowAbstractPopup(true), 100);
+    } else {
+      timeoutId = setTimeout(() => setShowAbstractPopup(false), 100);
+    }
+    return () => clearTimeout(timeoutId);
+  }, [isHovering]);
 
   return (
     <>
@@ -40,9 +41,10 @@ const PdfViewer = ({ element }) => {
               alignItems: "center",
               gap: "0.2rem",
               color: "black",
+              padding: "10px 15px",
             }}
-            onMouseOver={() => ShowAbstractDocs(element.index)}
-            onMouseLeave={() => HideAbstractDocs(element.index)}
+            onMouseEnter={() => setIsHovering(true)}
+            onMouseLeave={() => setIsHovering(false)}
           >
             <i className="ri-file-pdf-line"></i>
             <Link>Abstract</Link>
