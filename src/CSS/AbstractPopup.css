@@ -4,6 +4,7 @@
   background-color: white;
   color: black;
   padding: 0 1rem;
+  z-index: 101;
 }
 
 .shadow {

@@ -29,6 +29,19 @@ const ArchivesPage = () => {
             Volume-1-issue-1-2024
           </Link>
         </div>
+        <div
+          className="list_of_archives"
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            padding: "2rem 0.2rem",
+          }}
+        >
+          <Link to="/volume-1-issue-2-2024" style={{ fontSize: "1.2rem" }}>
+            Volume-1-issue-2-2024
+          </Link>
+        </div>
       </div>
     </>
   );

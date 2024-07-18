@@ -1,13 +1,14 @@
 import { Link } from "react-router-dom";
-import "../CSS/PdfViewer.css";
+import "../../CSS/PdfViewer.css";
 import { useState, useEffect } from "react";
 import AbstractPopup from "./AbstractPopup";
-     
+
 const PdfViewer = ({ element }) => {
-    const [showPopup, setShowPopup] = useState(false);
+
+      const [showPopup, setShowPopup] = useState(false);
     const [popupPosition, setPopupPosition] = useState({ top: 0, left: 0 });
 
-    const handleMouseOver = (event) => {
+  const handleMouseOver = (event) => {
         const rect = event.target.getBoundingClientRect();
         setPopupPosition({ top: rect.bottom + window.scrollY, left: rect.left });
         setShowPopup(true);
@@ -31,12 +32,12 @@ const PdfViewer = ({ element }) => {
 
   return (
     <>
-      {showPopup && <AbstractPopup setShowPopup={setShowPopup} popupPosition={popupPosition} index={element.index} />}
-      <div className="pdf-container">
+      {showPopup && <AbstractPopup setShowPopup={setShowPopup}  popupPosition={popupPosition} index={element.index} />}
+      <div className="pdf-container" >
         <p className="quotes">
           <a
-            href={`./PDF/IJSRGI paper ${
-              element.index < 10 ? `0${element.index}` : element.index
+            href={`./PDF/valume-1-issue-2/IJSRGI-V1-2-${
+                element.index < 10 ? `${element.index}` : element.index
             }.pdf`}
           >
             {element.message}
@@ -54,7 +55,7 @@ const PdfViewer = ({ element }) => {
               gap: "0.2rem",
               color: "black",
               padding: "10px 15px",
-              position:"relative",
+              position:"relative"
             }}
             onMouseOver={ handleMouseOver}
             onMouseOut={handleMouseOut}
@@ -74,8 +75,8 @@ const PdfViewer = ({ element }) => {
             <i className="ri-file-pdf-2-line"></i>
             <a
               style={{ color: "#393987" }}
-              href={`./PDF/IJSRGI paper ${
-                element.index < 10 ? `0${element.index}` : element.index
+              href={`./PDF/valume-1-issue-2/IJSRGI-V1-2-${
+                element.index < 10 ? `${element.index}` : element.index
               }.pdf`}
             >
               Full-Text-PDF
@@ -88,3 +89,6 @@ const PdfViewer = ({ element }) => {
 };
 
 export default PdfViewer;
+
+
+
