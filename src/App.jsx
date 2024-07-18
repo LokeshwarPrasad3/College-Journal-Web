@@ -12,6 +12,7 @@ import EditorBoard from "./Pages/EditorBoard";
 import ContactUs from "./Pages/ContactUs";
 import CallForPaper from "./Pages/CallForPaper";
 import Volume1Issue12024 from "./Pages/Volume1Issue12024";
+import Volume1Issue22024 from "./Pages/Volume1Issue22024";
 import ArchivesPage from "./Pages/ArchivesPage";
 
 
@@ -31,6 +32,7 @@ const App = () => {
         <Route path="/call-for-paper" element={<CallForPaper />} />
         <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/volume-1-issue-1-2024" element={<Volume1Issue12024 />} />
+        <Route path="/volume-1-issue-2-2024" element={<Volume1Issue22024 />} />
         <Route path="/archives" element={<ArchivesPage />} />
         <Route path="/*" element={<HomePage />} />
       </Routes>
