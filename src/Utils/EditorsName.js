@@ -1,13 +1,14 @@
 
 export const editorsList =
     [
-        {
-            name: "Dr. Kuldeep Bansal",
-            designation: "Adjunct Professor",
-            degree: "Ph.D.",
-            college: "Abo Akademi University, Turku, Southwest Finland, Finland",
-            email: "kuldeep.bansal@abo.fi",
-        },
+    {
+           name: "Dr. Sourabh Kumar Soni",
+           designation: "Division of Advanced Materials Engineering",
+           degree: "Ph.D.",
+           college: "Institute for rare metals and Center for Advanced Materials and Parts of Powder, Kongju National University, 275, Budae-dong, Cheonan City 31080, Chungcheongnam-do, Republic of Korea",
+           email: "sourabhknk@gmail.com"
+    },
+
         {
             name: "Dr. Pramod Kumar",
             designation: "Senior Scientist",
@@ -44,11 +45,11 @@ export const editorsList =
             email: "rajeshKumar.nema@rungtacolleges.com"
         },
         {
-            name: "Dr. Anurag Sharma",
-            degree: "M.Tech., Ph.D. (Computer Science & Engineering)",
-            designation: "Principal",
-            college: "RSR Rungta College of Engineering and Technology, Bhilai",
-            email: "principal.rsrrcet@rungtacolleges.com",
+             name: "Prof Ashish Kumar Giri",
+             degree: "ME",
+             designation: "Professor",
+             college: "Department of Mechanical Engineering, Nasser Vocational Training Centre, Kingdom of Bahrain",
+             email: "ashish.giri@nvtc.edu.bh"
         },
         {
             name: "Dr. Tripti Agrawal jain",
