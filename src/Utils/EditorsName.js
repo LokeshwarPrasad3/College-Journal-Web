@@ -1,20 +1,12 @@
 
 export const editorsList =
     [
-    {
-           name: "Dr. Sourabh Kumar Soni",
-           designation: "Division of Advanced Materials Engineering",
-           degree: "Ph.D.",
-           college: "Institute for rare metals and Center for Advanced Materials and Parts of Powder, Kongju National University, 275, Budae-dong, Cheonan City 31080, Chungcheongnam-do, Republic of Korea",
-           email: "sourabhknk@gmail.com"
-    },
-
         {
-            name: "Dr. Pramod Kumar",
-            designation: "Senior Scientist",
+            name: "Dr. Sourabh Kumar Soni",
+            designation: "Division of Advanced Materials Engineering",
             degree: "Ph.D.",
-            college: "Institute of Lung Health and Immunity(LHI), Helmholtz Zentrum München- German Research Center for Environmental Health Ingolstädter Landstraße 1 · D - 85764 Neuherberg, Germany",
-            email: "pramod.kumar@helmholtz-muenchen.de",
+            college: "Institute for rare metals and Center for Advanced Materials and Parts of Powder, Kongju National University, 275, Budae-dong, Cheonan City 31080, Chungcheongnam-do, Republic of Korea",
+            email: "sourabhknk@gmail.com"
         },
         {
             name: "Dr. Sashi Debnath",
@@ -45,11 +37,11 @@ export const editorsList =
             email: "rajeshKumar.nema@rungtacolleges.com"
         },
         {
-             name: "Prof Ashish Kumar Giri",
-             degree: "ME",
-             designation: "Professor",
-             college: "Department of Mechanical Engineering, Nasser Vocational Training Centre, Kingdom of Bahrain",
-             email: "ashish.giri@nvtc.edu.bh"
+            name: "Prof Ashish Kumar Giri",
+            degree: "ME",
+            designation: "Professor",
+            college: "Department of Mechanical Engineering, Nasser Vocational Training Centre, Kingdom of Bahrain",
+            email: "ashish.giri@nvtc.edu.bh"
         },
         {
             name: "Dr. Tripti Agrawal jain",
