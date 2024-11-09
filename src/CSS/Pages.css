@@ -1,6 +1,6 @@
 /* page is hide because of navbar is fixed need margin */
 .page {
-  margin-top: 4rem;
+  /* margin-top: 4rem; */
 }
 
 /* 👉 for about journal page */
@@ -74,7 +74,7 @@ ol {
   font-family: "Times New Roman";
   text-align: justify;
   margin-bottom: 3rem;
-  margin-top: 4rem;
+  /* margin-top: 4rem; */
   padding: 2rem 15rem;
 }
 @media only screen and (max-width: 1200px) {
@@ -131,7 +131,7 @@ ol {
 .contact_us_container {
   font-family: "Times New Roman";
   text-align: justify;
-  margin-top: 6rem;
+  /* margin-top: 6rem; */
 }
 .about_heading {
   font-size: 1.7rem;
@@ -192,13 +192,13 @@ ol {
 
 /* page of archives */
 .archives_container{
-  margin-top: 5rem;
+  /* margin-top: 5rem; */
 }
 
 
 /* page of volume1 issue 1 2024 */
 .volumeIssue_container{
-  margin-top: 5rem;
+  margin-top: 3rem;
 }
 .volumeIssue_heading{
   margin: 0.2rem 0 1rem 0;

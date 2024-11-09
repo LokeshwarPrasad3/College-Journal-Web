@@ -50,7 +50,7 @@ return route === "/login" || route === "/signup" ? (
     }
     className="footer"
   >
-    <p>
+      <p style={{ lineHeight: '26px'}} >
       © Copyright{" "}
       <b>International Journal Of Scientific Research For Global Innovation.</b>{" "}
       All Rights Reserved.

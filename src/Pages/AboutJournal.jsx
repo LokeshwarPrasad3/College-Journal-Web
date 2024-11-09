@@ -40,7 +40,8 @@ const AboutJournal = () => {
             other publication nor is under review by any other formal
             publication. It is the primary responsibility of the author to
             obtain proper permission for the use of any copyrighted materials in
-            the manuscript, prior to the submission of the manuscript to IJSRGI.
+            the manuscript, prior to the submission of the manuscript to
+            International Journal Of Scientific Research For Global Innovation.
           </p>
           <br />
           <p>

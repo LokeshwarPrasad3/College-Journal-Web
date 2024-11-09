@@ -8,28 +8,28 @@
   display: flex;
   justify-content: space-between;
   position: sticky;
-  position: fixed;
+  /* position: fixed; */
   top: 0;
   left: 0;
-  height: 4rem;
   width: 100%; /* Use width instead of min-width */
   /* background-color: #003f5e; */
-  background-color: #274472;
-  padding: 0 5rem;
-}
+  /* background-color: #274472; */
 
-
-@media (max-width: 1500px) {
-  #navbar {
-    padding: 0;
-  }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* padding: 1rem 0.5px; */
 }
 
 .navbar_header {
   display: flex;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
-  padding: 0 0.75rem;
+  background: #274472;
+  width: 100%;
+  padding: 1rem 0; 
 }
 .heading_logo {
   text-transform: none;
@@ -39,21 +39,29 @@
 }
 .heading_name {
   cursor: pointer;
-  padding-left: 0.5rem;
+  padding: 0 1rem;
   font-size: 1.3rem;
+  text-align: center;
   color: white;
+  font-weight: bold;
   font-family: "Times New Roman";
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 /* menu bar */
 #navbar_menu {
   display: flex;
   align-items: center;
+  background: #274472;
+  width: 100%;
+  border-top: 1px solid #716d6d;
 }
 #nav_ul {
   display: flex;
   font-family: "Times New Roman";
   gap: 0;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
   font-weight: 500;
 }
 .nav_list {
@@ -64,7 +72,7 @@
 }
 .nav_link {
   font-size: 1.1rem;
-  padding: 1px 9px;
+  padding: 1rem;
   cursor: pointer;
   color: white;
   border-radius: 7px;
@@ -75,6 +83,9 @@
   color: rgb(113, 230, 113);
 }
 .menu_button {
+  position: absolute;
+  top: 2rem;
+  right: 0rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -90,7 +101,7 @@
 @media (max-width: 800px) {
   #navbar_menu {
     position: absolute;
-    top: 4rem;
+    top: 6.9rem;
     height: 100vh;
     width: 100%;
     flex-direction: column;
@@ -110,11 +121,17 @@
     font-family: "Times New Roman";
     color: black;
     font-weight: 600;
-    margin: 0.8rem 0;
     text-align: left;
     width: 100%;
   }
   #nav_ul .nav_list a:hover {
     color: red;
+  }
+}
+
+
+@media (max-width: 631px) {
+  #navbar_menu {
+    top: 8.2rem;
   }
 }
