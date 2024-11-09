@@ -44,7 +44,7 @@ const Navbar = () => {
         {/* show navbar-menu */}
         <div
           style={{
-            left: `${showResNavbar ? "0%" : "100%"}`,
+            left: `${showResNavbar ? "0%" : "-100%"}`,
             // display: `${windowWidth < 800 ? "none" : "flex"}`,
           }}
           id="navbar_menu"
@@ -128,27 +128,27 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <div
-          className="menu_button"
-          style={{
-            display: `${windowWidth < 800 ? "flex" : "none"}`,
-          }}
-        >
-          {showResNavbar ? (
-            <i
-              onClick={toggleResNavbar}
-              style={{ fontSize: "2.2rem" }}
-              className={`ri-close-line`}
-            ></i>
-          ) : (
-            <i
-              onClick={toggleResNavbar}
-              style={{ fontSize: "2.2rem" }}
-              className={`ri-menu-fill `}
-            ></i>
-          )}
-        </div>
       </nav>
+      <div
+        className="menu_button"
+        style={{
+          display: `${windowWidth < 800 ? "flex" : "none"}`,
+        }}
+      >
+        {showResNavbar ? (
+          <i
+            onClick={toggleResNavbar}
+            style={{ fontSize: "2.2rem" }}
+            className={`ri-close-line`}
+          ></i>
+        ) : (
+          <i
+            onClick={toggleResNavbar}
+            style={{ fontSize: "2.2rem" }}
+            className={`ri-menu-fill `}
+          ></i>
+        )}
+      </div>
     </>
   );
 };
