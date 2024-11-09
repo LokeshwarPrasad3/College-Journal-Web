@@ -31,14 +31,16 @@ const PdfViewer = ({ element }) => {
 
   return (
     <>
-      {showPopup && <AbstractPopup setShowPopup={setShowPopup} popupPosition={popupPosition} index={element.index} />}
+      {showPopup && (
+        <AbstractPopup
+          setShowPopup={setShowPopup}
+          popupPosition={popupPosition}
+          index={element.index}
+        />
+      )}
       <div className="pdf-container">
         <p className="quotes">
-          <a
-            href={`./PDF/IJSRGI paper ${
-              element.index < 10 ? `0${element.index}` : element.index
-            }.pdf`}
-          >
+          <a target="_blank" rel="noreferrer" href={`./PDF/volume-1-issue-1/paper${element.index}.pdf`}>
             {element.message}
           </a>
         </p>
@@ -54,9 +56,9 @@ const PdfViewer = ({ element }) => {
               gap: "0.2rem",
               color: "black",
               padding: "10px 15px",
-              position:"relative",
+              position: "relative",
             }}
-            onMouseOver={ handleMouseOver}
+            onMouseOver={handleMouseOver}
             onMouseOut={handleMouseOut}
           >
             <i className="ri-file-pdf-line"></i>
@@ -74,9 +76,7 @@ const PdfViewer = ({ element }) => {
             <i className="ri-file-pdf-2-line"></i>
             <a
               style={{ color: "#393987" }}
-              href={`./PDF/IJSRGI paper ${
-                element.index < 10 ? `0${element.index}` : element.index
-              }.pdf`}
+              target="_blank" rel="noreferrer" href={`./PDF/volume-1-issue-1/paper${element.index}.pdf`}
             >
               Full-Text-PDF
             </a>

@@ -33,7 +33,8 @@ const Contents = () => {
           <div className="grids" id="grid-4">
             <p className="grid_heading">Editorial Policies</p>
             <p className="grid_para">
-              IJSRGI is an open access peer-reviewed journal which considers
+              International Journal Of Scientific Research For Global Innovation
+              is an open access peer-reviewed journal which considers
               manuscripts which comply our instruction with authors. The
               manuscripts are initially screened by the editorial members for
               its scientific content, format

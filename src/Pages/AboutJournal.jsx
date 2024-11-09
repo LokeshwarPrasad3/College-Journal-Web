@@ -40,7 +40,8 @@ const AboutJournal = () => {
             other publication nor is under review by any other formal
             publication. It is the primary responsibility of the author to
             obtain proper permission for the use of any copyrighted materials in
-            the manuscript, prior to the submission of the manuscript to IJSRGI.
+            the manuscript, prior to the submission of the manuscript to
+            International Journal Of Scientific Research For Global Innovation.
           </p>
           <br />
           <p>
@@ -75,10 +76,14 @@ const AboutJournal = () => {
         <div className="about_points" style={{ textAlign: "justify" }}>
           <h2>Area Of Research</h2>
           <br />
-          <b> IJSRGI</b>, is a Multidisciplinary Journal focuses on critical and
-          creative research. This journal aims to encourage unique research and
-          foster meaningful conversations that bridge traditional and
-          groundbreaking ideas.
+          <b>
+            {" "}
+            International Journal Of Scientific Research For Global Innovation
+          </b>
+          , is a Multidisciplinary Journal focuses on critical and creative
+          research. This journal aims to encourage unique research and foster
+          meaningful conversations that bridge traditional and groundbreaking
+          ideas.
           <br />
           <br />
           <b> Scope: </b> The journal advocates for original scholarly research
