@@ -37,24 +37,26 @@ const Footer = () => {
 // no need to show footer for that routes
 return route === "/login" || route === "/signup" ? (
   ""
-  ) : (
-    <footer
+) : (
+  <footer
     style={
-        // not need to show footer for that routes
-        route === "/contact-us" ||
-        route === "/policies" ||
-        route === "/archives" ||
-        route === "/call-for-paper"
-          ? footerStyle
-          : defaultStyle
-      }
-      className="footer"
-    >
-      <p>
-        © Copyright <b>IJSRGI.</b> All Rights Reserved.
-      </p>
-    </footer>
-  );
+      // not need to show footer for that routes
+      route === "/contact-us" ||
+      route === "/policies" ||
+      route === "/archives" ||
+      route === "/call-for-paper"
+        ? footerStyle
+        : defaultStyle
+    }
+    className="footer"
+  >
+    <p>
+      © Copyright{" "}
+      <b>International Journal Of Scientific Research For Global Innovation.</b>{" "}
+      All Rights Reserved.
+    </p>
+  </footer>
+);
 };
 
 export default Footer;

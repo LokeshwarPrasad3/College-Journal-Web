@@ -4,19 +4,18 @@ import { useState, useEffect } from "react";
 import AbstractPopup from "./AbstractPopup";
 
 const PdfViewer = ({ element }) => {
-
-      const [showPopup, setShowPopup] = useState(false);
-    const [popupPosition, setPopupPosition] = useState({ top: 0, left: 0 });
+  const [showPopup, setShowPopup] = useState(false);
+  const [popupPosition, setPopupPosition] = useState({ top: 0, left: 0 });
 
   const handleMouseOver = (event) => {
-        const rect = event.target.getBoundingClientRect();
-        setPopupPosition({ top: rect.bottom + window.scrollY, left: rect.left });
-        setShowPopup(true);
-    };
+    const rect = event.target.getBoundingClientRect();
+    setPopupPosition({ top: rect.bottom + window.scrollY, left: rect.left });
+    setShowPopup(true);
+  };
 
-    const handleMouseOut = () => {
-        setShowPopup(false);
-    };
+  const handleMouseOut = () => {
+    setShowPopup(false);
+  };
   // const [showAbstractPopup, setShowAbstractPopup] = useState(false);
   // const [isHovering, setIsHovering] = useState(false);
 
@@ -32,13 +31,19 @@ const PdfViewer = ({ element }) => {
 
   return (
     <>
-      {showPopup && <AbstractPopup setShowPopup={setShowPopup}  popupPosition={popupPosition} index={element.index} />}
-      <div className="pdf-container" >
+      {showPopup && (
+        <AbstractPopup
+          setShowPopup={setShowPopup}
+          popupPosition={popupPosition}
+          index={element.index}
+        />
+      )}
+      <div className="pdf-container">
         <p className="quotes">
           <a
-            href={`./PDF/valume-1-issue-2/IJSRGI-V1-2-${
-                element.index < 10 ? `${element.index}` : element.index
-            }.pdf`}
+            target="_blank"
+            rel="noreferrer"
+            href={`./PDF/volume-1-issue-2/paper${element.index}.pdf`}
           >
             {element.message}
           </a>
@@ -55,9 +60,9 @@ const PdfViewer = ({ element }) => {
               gap: "0.2rem",
               color: "black",
               padding: "10px 15px",
-              position:"relative"
+              position: "relative",
             }}
-            onMouseOver={ handleMouseOver}
+            onMouseOver={handleMouseOver}
             onMouseOut={handleMouseOut}
           >
             <i className="ri-file-pdf-line"></i>
@@ -74,10 +79,10 @@ const PdfViewer = ({ element }) => {
           >
             <i className="ri-file-pdf-2-line"></i>
             <a
+              target="_blank"
+              rel="noreferrer"
               style={{ color: "#393987" }}
-              href={`./PDF/valume-1-issue-2/IJSRGI-V1-2-${
-                element.index < 10 ? `${element.index}` : element.index
-              }.pdf`}
+              href={`./PDF/volume-1-issue-2/paper${element.index}.pdf`}
             >
               Full-Text-PDF
             </a>
@@ -89,6 +94,3 @@ const PdfViewer = ({ element }) => {
 };
 
 export default PdfViewer;
-
-
-

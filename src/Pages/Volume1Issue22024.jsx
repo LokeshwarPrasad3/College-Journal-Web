@@ -1,5 +1,5 @@
 import PdfViewer from "../Components/volume-1-issue-2/PdfViewer";
-import { AuthorQuote } from "../Utils/valume-1-issue-2/AuthorQuote";   
+import { AuthorQuote } from "../Utils/AuthorQuotes/valume-1-issue-2/AuthorQuote";   
 import "../CSS/Pages.css";
 
 const Volume1Issue22024 = () => {

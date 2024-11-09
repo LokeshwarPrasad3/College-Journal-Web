@@ -16,9 +16,12 @@ const EditorialPolicies = () => {
         <h2>Editorial Policies</h2>
         <br />
         <p>
-          <b>IJSRGI</b> is an open access peer-reviewed journal which considers
-          manuscripts which comply our instruction with authors. The manuscripts
-          are initially screened by the editorial members for its scientific
+          <b>
+            International Journal Of Scientific Research For Global Innovation
+          </b>{" "}
+          is an open access peer-reviewed journal which considers manuscripts
+          which comply our instruction with authors. The manuscripts are
+          initially screened by the editorial members for its scientific
           content, format and relevance of the topic to IJSRGI . Once the
           manuscript is selected for peer review, the manuscript goes through a
           blind peer review by competent individuals in the concerned specialty.
@@ -26,7 +29,7 @@ const EditorialPolicies = () => {
         </p>
         <br />
         <p>
-         Strict confidentiality will be maintained by the editorial board
+          Strict confidentiality will be maintained by the editorial board
           during review process with regards to identity of the authors and
           reviewers. Authors are expected to mention about all conflicts of
           interest related to the manuscript during initial and final
@@ -49,9 +52,12 @@ const EditorialPolicies = () => {
         </p>
         <br />
         <p>
-          <b>IJSRGI</b> follows a continuous publication model in which article
-          will be published as and when they are accepted. Articles published in
-          a calendar year will then be submitted for indexing purposes. All
+          <b>
+            International Journal Of Scientific Research For Global Innovation
+          </b>{" "}
+          follows a continuous publication model in which article will be
+          published as and when they are accepted. Articles published in a
+          calendar year will then be submitted for indexing purposes. All
           articles published in IJSRGI can be utilized by the scientific
           community without any need for obtaining permission for off-prints
           from the journal.

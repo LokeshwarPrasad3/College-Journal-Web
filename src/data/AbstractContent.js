@@ -19,25 +19,6 @@ the feasibility of formulating a topical gel containing kojic acid and nicotinam
     },
     {
         index: 2,
-        data: `Today a wide variety of investment vehicles exists including stocks, bonds, commodities, mutual funds, exchangetraded funds, options, futures, foreign exchange, gold, silver, retirement plans and real estate. Investment
-preference is related to the activities of individual investors regarding searching, evaluating, selecting and
-reviewing the investment products, if necessary, disposing such investment products and acquiring other
-investment products. A study of investment preference reveals how the individual investors allocate their savings
-to various available instruments. This process includes, why they invest, where they invest, how they get required
-information, what factors they use and who influences them and how they act after investment decisions are taken.
-The individual investors differ in terms of age, family circumstances, level of income, residence, insurance
-coverage, tax incidence etc. In this study, an attempt has been made to study the demographic profile of women
-teachers working in Government Higher Secondary Schools in Chhattisgarh and to identify the preference of
-women teachers in various investments alternatives such as gold, silver, bank deposits, post office savings scheme,
-LIC insurance schemes, chit funds, real estate, shares, mutual funds, government securities and precious objects. In
-addition, their sources of information for investments, decision maker in investments, annual investment and time
-horizon of investment are also taken in to consideration. The study results are purely based on the opinions of 200
-teachers selected by employing random sampling method. The statistical tools such as frequency tables, Friedman
-test and chi-square test has been used. The information collected from the teachers’ formed the basis for analysis
-and interpretation of data, to derive the findings and to arrive at conclusion`,
-    },
-    {
-        index: 3,
         data: `Everyone in today's culture and corporate environment is stressed out as a result of the increased competition.
 According to the definition of stress, it is "the force, pressure, or force exerted on a material, object, or person that
 resists these forces and attempts to sustain its unique state." Stress is the body's physical and emotional response to
@@ -48,7 +29,7 @@ prolonged periods of time spent awake, security guards experience stress from an
 mental tension. hence this study is based on job stress among private security guards in Raipur city.`,
     },
     {
-        index: 4,
+        index: 3,
         data: `In August 2019, Government of India passed a legislation that requires large companies to spend at least 2 percent
 of their profits every year on Corporate Social Responsibility (CSR). The High Level Committee of Public
 Accountability attached to Public Sector Undertakings (PSUs) in India as a result of their public ownership makes
@@ -75,7 +56,7 @@ The information collected from the employees’ formed the basis for analysis an
 the findings and to arrive at conclusion`
     },
     {
-        index: 5,
+        index: 4,
         data: `Online shopping technically refers to the uses of electronic commerce in which the consumer purchases goods and
 services on a voluntary basis over the Internet. This study was carried out in the district of Raipur to know the level
 of consumer satisfaction with online purchases in order to analyze their level of satisfaction, problems during
@@ -87,7 +68,7 @@ the sales of products and consumers, since they will obtain a product with much 
 it will be of great help to understand the resolution of the consumer complaints against online shopping.`
     },
     {
-        index: 6,
+        index: 5,
         data: `The Refrigerators and air conditioners based on vapour compression refrigeration cycle are one of the important
 elements of the society either for domestic or industrial purposes. it is essential in view of energy crisis to reduce the
 power consumed by these refrigerators. This paper presents a new dimension and or specification for monitoring the
@@ -105,7 +86,7 @@ product of irreversibility rate & ambient temperature. This analysis when applie
 power saving mode, we have in a personal computer`
     },
     {
-        index: 7,
+        index: 6,
         data: `The industry 5.0 era is in the near future and will impact the workplace and the working system. The workforce
 needs to be transformed to adapt the drastic changes expected in the industry 5.0 era to avoid skill gaps. The trends
 and requirements need to be identified well in advance to create a competent workforce to avoid disruptions.
@@ -122,7 +103,7 @@ the same is of high importance, otherwise the employability of the graduates wil
 `
     },
     {
-        index: 8,
+        index: 7,
         data: `The growing popularity and awareness of the health advantages of organic food, particularly among young people,
 has increased demand significantly. The majority of population is confused about organic food and agricultural
 goods and lack knowledge about them. Few are typically aware of the relationship between organic food and
@@ -136,7 +117,7 @@ in resolving concerns with organic food items. As a result, this research aims t
 reasons and barriers influencing customers to purchase organic food products in Raipur city.`
     },
     {
-        index: 9,
+        index: 8,
         data: `India has gone through a new revolution with the advent of digital sector in the business operations in India.
 Digitalization has opened up many opportunities for development in all the major sectors like transportation,
 medicine, sports and commerce. Today, in the modern era, many developing countries have established themselves
@@ -145,11 +126,30 @@ seen digitalisation as a boon, although few people have criticized it, it has be
 but in the race of development, digitalisation is facing us as a true truth.`
     },
     {
-        index: 10,
+        index: 9,
         data: `Tourism is one of the largest service industry its true potential of the sector is not only revenue generation but also
 employment generation as tourism accounts of one of largest movement of people across the cultural boundaries of
 the world.it has multifunctional realm tourism is a socio-economic phenomenon ,cultural and the transformative
 power .Chhattisgarh in the heart of India covers all such aspects it can do a lot with its tourism potential this study
 has been carried for current position and future aspects for the state`
-    }
+    },
+    {
+        index: 10,
+        data: `Today a wide variety of investment vehicles exists including stocks, bonds, commodities, mutual funds, exchangetraded funds, options, futures, foreign exchange, gold, silver, retirement plans and real estate. Investment
+preference is related to the activities of individual investors regarding searching, evaluating, selecting and
+reviewing the investment products, if necessary, disposing such investment products and acquiring other
+investment products. A study of investment preference reveals how the individual investors allocate their savings
+to various available instruments. This process includes, why they invest, where they invest, how they get required
+information, what factors they use and who influences them and how they act after investment decisions are taken.
+The individual investors differ in terms of age, family circumstances, level of income, residence, insurance
+coverage, tax incidence etc. In this study, an attempt has been made to study the demographic profile of women
+teachers working in Government Higher Secondary Schools in Chhattisgarh and to identify the preference of
+women teachers in various investments alternatives such as gold, silver, bank deposits, post office savings scheme,
+LIC insurance schemes, chit funds, real estate, shares, mutual funds, government securities and precious objects. In
+addition, their sources of information for investments, decision maker in investments, annual investment and time
+horizon of investment are also taken in to consideration. The study results are purely based on the opinions of 200
+teachers selected by employing random sampling method. The statistical tools such as frequency tables, Friedman
+test and chi-square test has been used. The information collected from the teachers’ formed the basis for analysis
+and interpretation of data, to derive the findings and to arrive at conclusion`,
+    },
 ]
