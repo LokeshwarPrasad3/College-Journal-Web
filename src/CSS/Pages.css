@@ -73,7 +73,7 @@ ol {
 .editorial_policies_container {
   font-family: "Times New Roman";
   text-align: justify;
-  margin-bottom: 3rem;
+  margin-bottom: 7rem;
   /* margin-top: 4rem; */
   padding: 2rem 15rem;
 }
@@ -186,7 +186,7 @@ ol {
     font-size: 1.1rem;
     }  
     .callforpaper_container p a{
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   }
 }
 

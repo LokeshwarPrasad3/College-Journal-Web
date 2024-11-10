@@ -12,8 +12,8 @@ const NoticeBar = () => {
               src="./Images/new-new.gif"
             />
             <span> Call for paper , </span>
-            <span> Volume-1 Issue-2 ,&nbsp;</span>
-            <span> Last date of submission : 30th June 2024</span>
+            <span> Volume 2 Issue 1 ,&nbsp;</span>
+            <span> Last date of submission : 31st December 2024</span>
           </p>
         </Link>
       </div>

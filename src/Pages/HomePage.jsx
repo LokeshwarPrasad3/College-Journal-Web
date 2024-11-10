@@ -2,7 +2,6 @@ import { useEffect } from "react";
 import Contents from "../Components/Contents";
 import Figure from "../Components/Figure";
 import NoticeBar from "../Components/ui/NoticeBar";
-// import NoticePopup from "../Components/ui/NoticePopup";
 
 const HomePage = () => {
   useEffect(() => {
@@ -16,7 +15,6 @@ const HomePage = () => {
   return (
     <>
       <NoticeBar />
-      {/* <NoticePopup /> */}
       <Figure />
       <Contents />
     </>
