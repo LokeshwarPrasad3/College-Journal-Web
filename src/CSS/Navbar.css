@@ -132,8 +132,20 @@
 }
 
 
+.issn_number{
+  position: absolute;
+  top: 21px;
+  left: 21px;
+  font-size: 16px;
+  font-weight: 600;
+}
 @media (max-width: 631px) {
   #navbar_menu {
-    top: 8.2rem;
+    top: 9.9rem;
+  }
+  .issn_number{
+    position: static;
+    text-align: center;
+    margin-top: 10px;
   }
 }

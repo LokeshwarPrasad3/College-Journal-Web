@@ -30,6 +30,13 @@ export const editorsList =
             email: "shrikant.burje@rungtacolleges.com"
         },
         {
+            name: "Dr. Yogesh Chhabra",
+            degree: "(M.Tech., Ph.D.)",
+            designation: "Principal",
+            college: "RSR-Rungta College of Engineering & Technology",
+            email: "principal.rsrrcet@rungtacolleges.com"
+        },
+        {
             name: "Dr. Rajesh Kumar Nema",
             degree: "(M.Pharm, PhD)",
             designation: "Principal",
@@ -55,18 +62,18 @@ export const editorsList =
             degree: "MDS",
             designation: "Dean",
             college: "Rungta College of Dental Sciences and Research Bhilai",
-            email: "kartik.krishna@rungtacolleges.com"
+            email: "karthik.mk@rungtacolleges.com"
         },
         {
             name: "Dr. S. Fatima Khan",
             degree: "MDS",
             designation: "Vice Dean",
             college: "Rungta College of Dental Sciences and Research, Bhilai",
-            email: "fatima.khan@rungtacollege.com"
+            email: "fatima.khan@rungtacolleges.com"
         },
         {
             name: "Dr. Bhumika Chandrakar",
-            degree: "(Pharm D, MBA, Ph.D.",
+            degree: "(Pharm. D, MBA)",
             designation: "Associate professor",
             college: "Rungta Institute of pharmaceutical sciences, Bhilai, Chhattisgarh, India .",
             email: "bhumika.chandrakar@rungtacolleges.com",

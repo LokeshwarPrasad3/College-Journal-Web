@@ -40,6 +40,7 @@ const Navbar = () => {
           <h1 onClick={() => navigate("/")} className="heading_name">
             International Journal Of Scientific Research For Global Innovation
           </h1>
+          <p className="issn_number">ISSN: 3049-009X (Online)</p>
         </header>
         {/* show navbar-menu */}
         <div
