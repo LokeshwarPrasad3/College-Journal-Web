@@ -167,7 +167,7 @@ const InstructionAuthor = () => {
         </p>
         <b>References should be in the following format</b>
         <div className="paper_formats">
-          <a href="./Formats/IJSRGI-paper-Template.docx">
+          <a href="./Formats/IJSRGI-paper-Template-2025.docx">
             Paper-Template
           </a>
           <a href="./Formats/Copyright-form.docx">Copyright-Form</a>
