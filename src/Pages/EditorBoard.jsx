@@ -1,6 +1,6 @@
-import { editorsList } from "../Utils/EditorsName";
-import React from "react";
-import "../CSS/EditorBoard.css";
+import { editorsList } from '../Utils/EditorsName';
+import React from 'react';
+import '../CSS/EditorBoard.css';
 
 const EditorBoard = () => {
   return (
@@ -8,7 +8,7 @@ const EditorBoard = () => {
       <div className="editorboard_container page">
         <h2
           className="main_heading"
-          style={{ textTransform: "capatilize", fontSize: "1.7rem" }}
+          style={{ textTransform: 'capatilize', fontSize: '1.7rem' }}
         >
           List of Editor&apos;s Board
         </h2>
@@ -58,7 +58,7 @@ const EditorBoard = () => {
                       </p>
                       <p className="editor_college">{editor?.college}</p>
                       <p>
-                        {editor?.email ? "contact : " : ""}
+                        {editor?.email ? 'contact : ' : ''}
                         <a
                           href={`mailto:${editor?.email}`}
                           className="editor_email"

@@ -1,7 +1,6 @@
-import { useEffect } from "react";
+import { useEffect } from 'react';
 
 const EditorialPolicies = () => {
-  
   useEffect(() => {
     // Scroll to the top when the location changes (route change) or on component mount
     window.scrollTo(0, 0);
@@ -9,7 +8,7 @@ const EditorialPolicies = () => {
     // For additional support on mobile devices
     document.body.scrollTop = 0;
   }, []);
-  
+
   return (
     <>
       <div className="editorial_policies_container page">
@@ -18,14 +17,15 @@ const EditorialPolicies = () => {
         <p>
           <b>
             International Journal Of Scientific Research For Global Innovation
-          </b>{" "}
+          </b>{' '}
           is an open access peer-reviewed journal which considers manuscripts
           which comply our instruction with authors. The manuscripts are
           initially screened by the editorial members for its scientific
-          content, format and relevance of the topic to International Journal Of Scientific Research For Global Innovation . Once the
-          manuscript is selected for peer review, the manuscript goes through a
-          blind peer review by competent individuals in the concerned specialty.
-          All communications will be through e-mail.
+          content, format and relevance of the topic to International Journal Of
+          Scientific Research For Global Innovation . Once the manuscript is
+          selected for peer review, the manuscript goes through a blind peer
+          review by competent individuals in the concerned specialty. All
+          communications will be through e-mail.
         </p>
         <br />
         <p>
@@ -45,7 +45,8 @@ const EditorialPolicies = () => {
         <p>
           Once accepted for publication the authors will have to sign the
           copyright agreement with the journal indicating authors willingness to
-          give the first publication rights to International Journal Of Scientific Research For Global Innovation, and permit the journal to
+          give the first publication rights to International Journal Of
+          Scientific Research For Global Innovation, and permit the journal to
           share the article with global database and libraries. The author
           retains the copyright of the material and will be acknowledged when
           utilized by the journal after the initial publication.
@@ -54,17 +55,17 @@ const EditorialPolicies = () => {
         <p>
           <b>
             International Journal Of Scientific Research For Global Innovation
-          </b>{" "}
+          </b>{' '}
           follows a continuous publication model in which article will be
           published as and when they are accepted. Articles published in a
           calendar year will then be submitted for indexing purposes. All
-          articles published in International Journal Of Scientific Research For Global Innovation can be utilized by the scientific
-          community without any need for obtaining permission for off-prints
-          from the journal.
+          articles published in International Journal Of Scientific Research For
+          Global Innovation can be utilized by the scientific community without
+          any need for obtaining permission for off-prints from the journal.
         </p>
       </div>
     </>
   );
-}
+};
 
-export default EditorialPolicies
+export default EditorialPolicies;

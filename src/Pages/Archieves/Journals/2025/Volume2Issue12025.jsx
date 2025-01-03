@@ -1,6 +1,6 @@
-import PdfViewer from "../../../../Components/Layouts/PdfViewer";
-import { volume_2_issue_1_jouranal_list_data } from "../../../../Utils/JournalsData/2025/volume-2-issue-1/valume-2-issue-1-data";
-import "../../../../CSS/Pages.css";
+import PdfViewer from '../../../../Components/layouts/PdfViewer';
+import { volume_2_issue_1_jouranal_list_data } from '../../../../Utils/JournalsData/2025/volume-2-issue-1/valume-2-issue-1-data';
+import '../../../../CSS/Pages.css';
 
 const Volume2Issue12025 = () => {
   return (

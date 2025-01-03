@@ -1,2 +1,1 @@
-
 International Journal Of Scientific Research For Global Innovation is a multidisciplinary, biannual, open-access journal emphasizing original research for sustainable development. The peer-reviewed process ensures quality, and strict policies address plagiarism and conflicts of interest. Authors are guided on manuscript preparation, and transparency is maintained throughout the editorial process.

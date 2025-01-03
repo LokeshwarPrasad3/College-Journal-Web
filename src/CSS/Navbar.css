@@ -29,7 +29,7 @@
   align-items: center;
   background: #274472;
   width: 100%;
-  padding: 1rem 0; 
+  padding: 1rem 0;
 }
 .heading_logo {
   text-transform: none;
@@ -44,7 +44,7 @@
   text-align: center;
   color: white;
   font-weight: bold;
-  font-family: "Times New Roman";
+  font-family: 'Times New Roman';
   /* text-transform: uppercase; */
 }
 /* menu bar */
@@ -57,7 +57,7 @@
 }
 #nav_ul {
   display: flex;
-  font-family: "Times New Roman";
+  font-family: 'Times New Roman';
   gap: 0;
   justify-content: center;
   align-items: center;
@@ -120,7 +120,7 @@
   }
   #nav_ul .nav_list a {
     font-size: 1.2rem;
-    font-family: "Times New Roman";
+    font-family: 'Times New Roman';
     color: black;
     font-weight: 600;
     text-align: left;
@@ -131,8 +131,7 @@
   }
 }
 
-
-.issn_number{
+.issn_number {
   position: absolute;
   top: 21px;
   left: 21px;
@@ -143,7 +142,7 @@
   #navbar_menu {
     top: 9.9rem;
   }
-  .issn_number{
+  .issn_number {
     position: static;
     text-align: center;
     margin-top: 10px;

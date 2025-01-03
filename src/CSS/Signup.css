@@ -1,6 +1,5 @@
-
 .container {
-  font-family: "Times New Roman";
+  font-family: 'Times New Roman';
   height: calc(100vh - 4rem);
   width: 100%;
   align-items: center;
@@ -13,9 +12,9 @@
   ); */
   background-color: #fff;
 }
-.submit_buttons{
-    position: relative;
-    top: 1rem;
+.submit_buttons {
+  position: relative;
+  top: 1rem;
 }
 .card {
   border-radius: 10px;
@@ -24,7 +23,7 @@
   width: 400px;
   height: auto;
   background-color: #ffffff;
-  padding: 1rem 2rem 3rem ;
+  padding: 1rem 2rem 3rem;
 }
 
 .card_title {
@@ -64,7 +63,7 @@
   padding: 10px;
 }
 
-.card_terms input[type="checkbox"] {
+.card_terms input[type='checkbox'] {
   background-color: #e2e2e2;
 }
 
@@ -72,8 +71,8 @@
   margin: 5px;
   font-size: 13px;
 }
-::placeholder{
-    font-family: 'Times New Roman';
+::placeholder {
+  font-family: 'Times New Roman';
 }
 .card a {
   color: #4796ff;

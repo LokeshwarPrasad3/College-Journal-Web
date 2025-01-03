@@ -7,7 +7,7 @@
 .about_container {
   text-align: justify;
   padding: 2rem 15rem;
-  font-family: "Times New Roman";
+  font-family: 'Times New Roman';
 }
 .about_para {
   display: flex;
@@ -49,7 +49,7 @@ ol {
   gap: 10px;
 }
 .author_container {
-  font-family: "Times New Roman";
+  font-family: 'Times New Roman';
   padding: 2rem 15rem;
   text-align: justify;
 }
@@ -71,7 +71,7 @@ ol {
 
 /* 👉editorial policies page */
 .editorial_policies_container {
-  font-family: "Times New Roman";
+  font-family: 'Times New Roman';
   text-align: justify;
   margin-bottom: 7rem;
   /* margin-top: 4rem; */
@@ -95,7 +95,7 @@ ol {
 
 /* 👉 Peer review policy */
 .peer_review_policy_container {
-  font-family: "Times New Roman";
+  font-family: 'Times New Roman';
   padding: 2rem 15rem;
   text-align: justify;
 }
@@ -122,14 +122,14 @@ ol {
 
 /* page for editors board list */
 .editorboard_container {
-  font-family: "Times New Roman";
+  font-family: 'Times New Roman';
   text-align: center;
   padding: 2rem 0;
 }
 
 /* for contact us page */
 .contact_us_container {
-  font-family: "Times New Roman";
+  font-family: 'Times New Roman';
   text-align: justify;
   /* margin-top: 6rem; */
 }
@@ -159,54 +159,51 @@ ol {
 }
 .mono {
   /* text-decoration: underline; */
-  font-family: "Times New Roman", Times, serif;
+  font-family: 'Times New Roman', Times, serif;
 }
 .aboutus_points li a {
   color: black;
 }
 
-
 /* call for paper page style */
-.callforpaper_container{
+.callforpaper_container {
   margin-top: 6rem;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.callforpaper_container .instruct_email{
+.callforpaper_container .instruct_email {
   font-size: 1.3rem;
-  }  
-.callforpaper_container p a{
+}
+.callforpaper_container p a {
   font-size: 1.5rem;
   font-weight: bold;
   color: black;
 }
-@media (max-width: 362px){
-  .callforpaper_container .instruct_email{
+@media (max-width: 362px) {
+  .callforpaper_container .instruct_email {
     font-size: 1.1rem;
-    }  
-    .callforpaper_container p a{
-  font-size: 1.1rem;
+  }
+  .callforpaper_container p a {
+    font-size: 1.1rem;
   }
 }
 
 /* page of archives */
-.archives_container{
+.archives_container {
   /* margin-top: 5rem; */
 }
 
-
 /* page of volume1 issue 1 2024 */
-.volumeIssue_container{
+.volumeIssue_container {
   margin-top: 3rem;
 }
-.volumeIssue_heading{
+.volumeIssue_heading {
   margin: 0.2rem 0 1rem 0;
 }
-.volumeIssue_container h2{
+.volumeIssue_container h2 {
   text-align: center;
 }
-.volumeIssue_pdf_container{
+.volumeIssue_pdf_container {
   text-align: justify;
-
 }

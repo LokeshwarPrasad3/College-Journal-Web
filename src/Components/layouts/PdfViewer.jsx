@@ -1,7 +1,7 @@
-import { Link } from "react-router-dom";
-import "../../CSS/PdfViewer.css";
-import { useState, useEffect } from "react";
-import AbstractPopup from "./AbstractPopup";
+import { Link } from 'react-router-dom';
+import '../../CSS/PdfViewer.css';
+import { useState, useEffect } from 'react';
+import AbstractPopup from './AbstractPopup';
 
 const PdfViewer = ({ element }) => {
   const [showPopup, setShowPopup] = useState(false);
@@ -29,7 +29,6 @@ const PdfViewer = ({ element }) => {
   //   return () => clearTimeout(timeoutId);
   // }, [isHovering]);
 
-
   return (
     <>
       {showPopup && (
@@ -52,13 +51,13 @@ const PdfViewer = ({ element }) => {
           <div
             className="abstract_link"
             style={{
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-              gap: "0.2rem",
-              color: "black",
-              padding: "10px 15px",
-              position: "relative",
+              display: 'flex',
+              justifyContent: 'center',
+              alignItems: 'center',
+              gap: '0.2rem',
+              color: 'black',
+              padding: '10px 15px',
+              position: 'relative',
             }}
             onMouseOver={handleMouseOver}
             onMouseOut={handleMouseOut}
@@ -69,17 +68,17 @@ const PdfViewer = ({ element }) => {
           <div
             className="full_text_pdf_link"
             style={{
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-              gap: "0.2rem",
+              display: 'flex',
+              justifyContent: 'center',
+              alignItems: 'center',
+              gap: '0.2rem',
             }}
           >
             <i className="ri-file-pdf-2-line"></i>
             <a
               target="_blank"
               rel="noreferrer"
-              style={{ color: "#393987" }}
+              style={{ color: '#393987' }}
               href={element.filePath}
             >
               Full-Text-PDF

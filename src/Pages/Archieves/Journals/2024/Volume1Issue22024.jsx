@@ -1,7 +1,6 @@
-import PdfViewer from "../../../../Components/Layouts/PdfViewer";
-import { volume_1_issue_2_jouranl_list_data } from "../../../../Utils/JournalsData/2024/volume-1-issue-2/valume-1-issue-2-data";
-import "../../../../CSS/Pages.css";
-
+import PdfViewer from '../../../../Components/layouts/PdfViewer';
+import { volume_1_issue_2_jouranl_list_data } from '../../../../Utils/JournalsData/2024/volume-1-issue-2/valume-1-issue-2-data';
+import '../../../../CSS/Pages.css';
 
 const Volume1Issue22024 = () => {
   return (
@@ -12,10 +11,7 @@ const Volume1Issue22024 = () => {
         </div>
         <div className="volumeIssue_pdf_container">
           {volume_1_issue_2_jouranl_list_data.map((element, index) => (
-            <PdfViewer
-              key={index}
-              element={element}
-            />
+            <PdfViewer key={index} element={element} />
           ))}
         </div>
       </div>

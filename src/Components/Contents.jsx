@@ -1,6 +1,6 @@
-import { useEffect } from "react";
-import "../CSS/Contents.css";
-import ReadMore from "./ReadMore";
+import { useEffect } from 'react';
+import '../CSS/Contents.css';
+import ReadMore from './ReadMore';
 
 const Contents = () => {
   useEffect(() => {
@@ -26,7 +26,7 @@ const Contents = () => {
               is a leading international journal for publication of new
               ideas.The primary goal of the editors is to maintain high quality
               of publications on theoretical
-              <ReadMore color={"white"} path={"/about"} />
+              <ReadMore color={'white'} path={'/about'} />
             </p>
             <img className="img-grid" src="./Images/about-us.png" alt="" />
           </div>
@@ -38,7 +38,7 @@ const Contents = () => {
               manuscripts which comply our instruction with authors. The
               manuscripts are initially screened by the editorial members for
               its scientific content, format
-              <ReadMore color={"white"} path={"/policies"} />
+              <ReadMore color={'white'} path={'/policies'} />
             </p>
             <img className="img-grid" src="./Images/review.png" alt="" />
           </div>
@@ -49,7 +49,7 @@ const Contents = () => {
               continuous publication model, and welcomes submissions from
               researchers worldwide in various multidisciplinary fields.
               Submissions undergo initial
-              <ReadMore color={"white"} path={"/instruction-author"} />
+              <ReadMore color={'white'} path={'/instruction-author'} />
             </p>
             <img className="img-grid" src="./Images/author.png" alt="" />
           </div>
@@ -60,7 +60,7 @@ const Contents = () => {
               the work performed and the results, followed by an objective
               discussion of the significance of the work. The manuscript should
               contain sufficient detail
-              <ReadMore color={"white"} path={"/review-policy"} />
+              <ReadMore color={'white'} path={'/review-policy'} />
             </p>
             <img className="img-grid" src="./Images/review-policy.png" alt="" />
           </div>

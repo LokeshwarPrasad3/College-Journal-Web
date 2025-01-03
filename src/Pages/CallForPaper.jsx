@@ -4,11 +4,11 @@ const CallForPaper = () => {
       <div className="callforpaper_container">
         <p
           style={{
-            display: "flex",
-            flexDirection: "column",
-            justifyContent: "center",
-            alignItems: "center",
-            gap: "1rem",
+            display: 'flex',
+            flexDirection: 'column',
+            justifyContent: 'center',
+            alignItems: 'center',
+            gap: '1rem',
           }}
         >
           <span className="instruct_email">

@@ -1,5 +1,5 @@
-import React, { useEffect } from "react";
-import { themeList } from "../Utils/interdisciplinaryTheme";
+import React, { useEffect } from 'react';
+import { themeList } from '../Utils/interdisciplinaryTheme';
 
 const AboutJournal = () => {
   useEffect(() => {
@@ -12,7 +12,7 @@ const AboutJournal = () => {
 
   return (
     <>
-      <div className="about_container page" style={{ textAlign: "justify" }}>
+      <div className="about_container page" style={{ textAlign: 'justify' }}>
         <div className="heading">
           <h2>About the Journal</h2>
         </div>
@@ -55,10 +55,10 @@ const AboutJournal = () => {
           </p>
           <br />
         </div>
-        <ul className="interdisciplinaryTheme" style={{ marginLeft: "2rem" }}>
+        <ul className="interdisciplinaryTheme" style={{ marginLeft: '2rem' }}>
           {themeList.map((theme, index) => (
             <React.Fragment key={index}>
-              <li style={{ textAlign: "start" }}>{theme}</li>
+              <li style={{ textAlign: 'start' }}>{theme}</li>
             </React.Fragment>
           ))}
         </ul>
@@ -73,11 +73,11 @@ const AboutJournal = () => {
         </div>
         <br />
         <br />
-        <div className="about_points" style={{ textAlign: "justify" }}>
+        <div className="about_points" style={{ textAlign: 'justify' }}>
           <h2>Area Of Research</h2>
           <br />
           <b>
-            {" "}
+            {' '}
             International Journal Of Scientific Research For Global Innovation
           </b>
           , is a Multidisciplinary Journal focuses on critical and creative
