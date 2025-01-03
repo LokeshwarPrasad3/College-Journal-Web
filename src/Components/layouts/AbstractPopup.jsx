@@ -1,4 +1,4 @@
-import "../../CSS/AbstractPopup.css";
+import '../../CSS/AbstractPopup.css';
 
 const AbstractPopup = ({ index, popupPosition, setShowPopup, abstract }) => {
   return (

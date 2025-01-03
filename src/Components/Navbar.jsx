@@ -1,6 +1,6 @@
-import "../CSS/Navbar.css";
-import { useEffect, useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import '../CSS/Navbar.css';
+import { useEffect, useState } from 'react';
+import { Link, useNavigate } from 'react-router-dom';
 
 const Navbar = () => {
   const navigate = useNavigate();
@@ -20,11 +20,11 @@ const Navbar = () => {
       console.log(window.innerWidth);
     };
     // Attach event listener for window resize
-    window.addEventListener("resize", handleWindowResize);
+    window.addEventListener('resize', handleWindowResize);
 
     // Clean up the event listener when the component is unmounted
     return () => {
-      window.removeEventListener("resize", handleWindowResize);
+      window.removeEventListener('resize', handleWindowResize);
     };
   }, [windowWidth]);
 
@@ -37,7 +37,7 @@ const Navbar = () => {
           <Link to="/" className="heading_logo">
             <img src="./Images/logo.png" alt="Pet" className="h-12" />
           </Link>
-          <h1 onClick={() => navigate("/")} className="heading_name">
+          <h1 onClick={() => navigate('/')} className="heading_name">
             International Journal Of Scientific Research For Global Innovation
           </h1>
           <p className="issn_number">ISSN: 3049-009X (Online)</p>
@@ -45,12 +45,12 @@ const Navbar = () => {
         {/* show navbar-menu */}
         <div
           style={{
-            left: `${showResNavbar ? "0%" : "-100%"}`,
+            left: `${showResNavbar ? '0%' : '-100%'}`,
             // display: `${windowWidth < 800 ? "none" : "flex"}`,
           }}
           id="navbar_menu"
           className={`custom-transition ${
-            showResNavbar ? "show_menu" : "hide_menu"
+            showResNavbar ? 'show_menu' : 'hide_menu'
           } `}
         >
           <ul id="nav_ul">
@@ -133,19 +133,19 @@ const Navbar = () => {
       <div
         className="menu_button"
         style={{
-          display: `${windowWidth < 800 ? "flex" : "none"}`,
+          display: `${windowWidth < 800 ? 'flex' : 'none'}`,
         }}
       >
         {showResNavbar ? (
           <i
             onClick={toggleResNavbar}
-            style={{ fontSize: "2.2rem" }}
+            style={{ fontSize: '2.2rem' }}
             className={`ri-close-line`}
           ></i>
         ) : (
           <i
             onClick={toggleResNavbar}
-            style={{ fontSize: "2.2rem" }}
+            style={{ fontSize: '2.2rem' }}
             className={`ri-menu-fill `}
           ></i>
         )}

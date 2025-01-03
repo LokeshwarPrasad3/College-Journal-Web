@@ -1,14 +1,18 @@
-import { Link } from "react-router-dom";
-import "../../CSS/NoticeBar.css";
+import { Link } from 'react-router-dom';
+import '../../CSS/NoticeBar.css';
 
 const NoticeBar = () => {
   return (
     <>
       <div className="notification-bar">
-        <Link className="link_call_paper" style={{textDecoration: "none"}} to="/call-for-paper">
+        <Link
+          className="link_call_paper"
+          style={{ textDecoration: 'none' }}
+          to="/call-for-paper"
+        >
           <p className="notice_description">
             <img
-              style={{ height: "30px", marginRight: "0.5vw" }}
+              style={{ height: '30px', marginRight: '0.5vw' }}
               src="./Images/new-new.gif"
             />
             <span> Call for paper , </span>

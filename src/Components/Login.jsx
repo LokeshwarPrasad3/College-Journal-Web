@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom";
-import "../CSS/Login.css";
+import { Link } from 'react-router-dom';
+import '../CSS/Login.css';
 
 const Login = () => {
   return (

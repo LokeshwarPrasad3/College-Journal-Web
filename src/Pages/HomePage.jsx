@@ -1,7 +1,7 @@
-import { useEffect } from "react";
-import Contents from "../Components/Contents";
-import Figure from "../Components/Figure";
-import NoticeBar from "../Components/ui/NoticeBar";
+import { useEffect } from 'react';
+import Contents from '../Components/Contents';
+import Figure from '../Components/Figure';
+import NoticeBar from '../Components/ui/NoticeBar';
 
 const HomePage = () => {
   useEffect(() => {

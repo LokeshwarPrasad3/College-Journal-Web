@@ -1,5 +1,5 @@
-import { useEffect } from "react";
-import { useNavigate } from "react-router-dom";
+import { useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const ReviewPolicy = () => {
   const navigate = useNavigate();
@@ -10,7 +10,7 @@ const ReviewPolicy = () => {
 
     // For additional support on mobile devices
     document.body.scrollTop = 0;
-    navigate("#navbar");
+    navigate('#navbar');
   }, []);
 
   return (
@@ -480,7 +480,7 @@ const ReviewPolicy = () => {
             </li>
             <li> Using exact text downloaded from the internet.</li>
             <li>
-              {" "}
+              {' '}
               Copying or downloading figures, photographs, pictures or diagrams
               without acknowledging your sources.
             </li>

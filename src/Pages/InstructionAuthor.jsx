@@ -1,8 +1,6 @@
-import { useEffect } from "react";
+import { useEffect } from 'react';
 
 const InstructionAuthor = () => {
-
-
   useEffect(() => {
     // Scroll to the top when the location changes (route change) or on component mount
     window.scrollTo(0, 0);
@@ -61,7 +59,7 @@ const InstructionAuthor = () => {
           which includes the following sections:
         </p>
         <br />
-        <ol className="instructionAuthorOL" style={{ marginLeft: "1rem"}}>
+        <ol className="instructionAuthorOL" style={{ marginLeft: '1rem' }}>
           <li>Title </li>
           <li>Abstract</li>
           <li>Keywords</li>
@@ -167,9 +165,7 @@ const InstructionAuthor = () => {
         </p>
         <b>References should be in the following format</b>
         <div className="paper_formats">
-          <a href="./Formats/IJSRGI-paper-Template-2025.docx">
-            Paper-Template
-          </a>
+          <a href="./Formats/IJSRGI-paper-Template-2025.docx">Paper-Template</a>
           <a href="./Formats/Copyright-form.docx">Copyright-Form</a>
         </div>
       </div>

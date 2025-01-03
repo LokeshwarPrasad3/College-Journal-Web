@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState } from 'react';
 
 const Figure = () => {
   // state which store current width of window
@@ -11,11 +11,11 @@ const Figure = () => {
       console.log(window.innerWidth);
     };
     // Attach event listener for window resize
-    window.addEventListener("resize", handleWindowResize);
+    window.addEventListener('resize', handleWindowResize);
 
     // Clean up the event listener when the component is unmounted
     return () => {
-      window.removeEventListener("resize", handleWindowResize);
+      window.removeEventListener('resize', handleWindowResize);
     };
   }, [windowWidth]);
 
