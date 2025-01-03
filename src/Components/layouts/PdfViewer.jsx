@@ -29,6 +29,7 @@ const PdfViewer = ({ element }) => {
   //   return () => clearTimeout(timeoutId);
   // }, [isHovering]);
 
+
   return (
     <>
       {showPopup && (
@@ -36,15 +37,12 @@ const PdfViewer = ({ element }) => {
           setShowPopup={setShowPopup}
           popupPosition={popupPosition}
           index={element.index}
+          abstract={element.abstract}
         />
       )}
       <div className="pdf-container">
         <p className="quotes">
-          <a
-            target="_blank"
-            rel="noreferrer"
-            href={`./PDF/volume-1-issue-2/paper${element.index}.pdf`}
-          >
+          <a target="_blank" rel="noreferrer" href={element.filePath}>
             {element.message}
           </a>
         </p>
@@ -82,7 +80,7 @@ const PdfViewer = ({ element }) => {
               target="_blank"
               rel="noreferrer"
               style={{ color: "#393987" }}
-              href={`./PDF/volume-1-issue-2/paper${element.index}.pdf`}
+              href={element.filePath}
             >
               Full-Text-PDF
             </a>

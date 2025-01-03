@@ -11,10 +11,10 @@ import EditorBoard from "./Pages/EditorBoard";
 // import Signup from "./Components/Signup";
 import ContactUs from "./Pages/ContactUs";
 import CallForPaper from "./Pages/CallForPaper";
-import Volume1Issue12024 from "./Pages/Volume1Issue12024";
-import Volume1Issue22024 from "./Pages/Volume1Issue22024";
-import ArchivesPage from "./Pages/ArchivesPage";
-
+import Volume1Issue12024 from "./Pages/Archieves/Journals/2024/Volume1Issue12024";
+import Volume1Issue22024 from "./Pages/Archieves/Journals/2024/Volume1Issue22024";
+import ArchivesPage from "./Pages/Archieves/ArchivesPage";
+import Volume2Issue12025 from "./Pages/Archieves/Journals/2025/Volume2Issue12025";
 
 const App = () => {
   return (
@@ -33,6 +33,7 @@ const App = () => {
         <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/volume-1-issue-1-2024" element={<Volume1Issue12024 />} />
         <Route path="/volume-1-issue-2-2024" element={<Volume1Issue22024 />} />
+        <Route path="/volume-2-issue-1-2025" element={<Volume2Issue12025 />} />
         <Route path="/archives" element={<ArchivesPage />} />
         <Route path="/*" element={<HomePage />} />
       </Routes>
