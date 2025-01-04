@@ -18,31 +18,10 @@ const ArchivesPage = () => {
 
   return (
     <>
-      <div
-        className="archives_container"
-        style={{
-          display: 'flex',
-          justifyContent: 'center',
-          alignItems: 'center',
-          flexDirection: 'column',
-          padding: '2rem 0.2rem',
-        }}
-      >
-        {/* <h2>Archives</h2> */}
-        {/* <br /> */}
-        {/* <hr style={{ opacity: "0.7" }} /> */}
+      <div className="max_width_content_page px-5 flex flex-col justify-center items-center gap-6 text-justify py-8">
         {archievesData.map(({ name, link }, index) => (
-          <div
-            key={index}
-            className="list_of_archives"
-            style={{
-              display: 'flex',
-              justifyContent: 'center',
-              alignItems: 'center',
-              padding: '1rem 0.2rem',
-            }}
-          >
-            <Link to={link} style={{ fontSize: '1.2rem' }}>
+          <div key={index} className="list_of_archives flex flex-col">
+            <Link to={link} className="text-xl underline">
               {name}
             </Link>
           </div>

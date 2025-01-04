@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react';
-import '../CSS/Footer.css';
 import { useLocation } from 'react-router-dom';
 
 const Footer = () => {
@@ -26,7 +25,7 @@ const Footer = () => {
   useEffect(() => {
     // This code will run when the component is first mounted
     const currentRoute = location.pathname;
-    console.log('Current Route:', currentRoute);
+    // console.log('Current Route:', currentRoute);
     setRoute(currentRoute);
 
     // If you want to perform some cleanup when the component is unmounted, return a function from useEffect
@@ -48,7 +47,7 @@ const Footer = () => {
           ? footerStyle
           : defaultStyle
       }
-      className="footer"
+      className="footer flex justify-center items-center bg-[#333] text-white text-center py-3 px-2 w-full"
     >
       <p style={{ lineHeight: '26px' }}>
         © Copyright{' '}

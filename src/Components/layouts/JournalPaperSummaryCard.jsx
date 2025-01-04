@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom';
-import '../../CSS/JournalPaperSummaryCard.css';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import AbstractPopup from './AbstractPopup';
 
 const JournalPaperSummaryCard = ({ element }) => {
@@ -16,18 +15,6 @@ const JournalPaperSummaryCard = ({ element }) => {
   const handleMouseOut = () => {
     setShowPopup(false);
   };
-  // const [showAbstractPopup, setShowAbstractPopup] = useState(false);
-  // const [isHovering, setIsHovering] = useState(false);
-
-  // useEffect(() => {
-  //   let timeoutId;
-  //   if (isHovering) {
-  //     timeoutId = setTimeout(() => setShowAbstractPopup(true), 100);
-  //   } else {
-  //     timeoutId = setTimeout(() => setShowAbstractPopup(false), 100);
-  //   }
-  //   return () => clearTimeout(timeoutId);
-  // }, [isHovering]);
 
   return (
     <>
@@ -39,41 +26,31 @@ const JournalPaperSummaryCard = ({ element }) => {
           abstract={element.abstract}
         />
       )}
-      <div className="pdf-container">
-        <p className="quotes">
-          <a target="_blank" rel="noreferrer" href={element.filePath}>
-            {element.message}
+      <div className=" mx-auto w-[90%] p-4 flex flex-col justify-start items-start gap-0 border border-slate-200 rounded-md small_shadow">
+        <p className="">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            className="text-link_text text-base"
+            href={element?.filePath}
+          >
+            {element?.message}
           </a>
         </p>
-        <p className="author">{element.author}</p>
-        <p className="college">{element.college_name}</p>
-        <div className="key_buttons">
+        <p className="author text-base font-semibold">{element?.author}</p>
+        {element?.college_name && (
+          <p className="college font-normal ">{element?.college_name}</p>
+        )}
+        <div className="key_buttons flex justify-end items-center gap-5 w-full text-sm font-medium">
           <div
-            className="abstract_link"
-            style={{
-              display: 'flex',
-              justifyContent: 'center',
-              alignItems: 'center',
-              gap: '0.2rem',
-              color: 'black',
-              padding: '10px 15px',
-              position: 'relative',
-            }}
+            className="abstract_link flex justify-center items-center gap-1 text-black py-2 px-4 "
             onMouseOver={handleMouseOver}
             onMouseOut={handleMouseOut}
           >
             <i className="ri-file-pdf-line"></i>
             <Link>Abstract</Link>
           </div>
-          <div
-            className="full_text_pdf_link"
-            style={{
-              display: 'flex',
-              justifyContent: 'center',
-              alignItems: 'center',
-              gap: '0.2rem',
-            }}
-          >
+          <div className="full_text_pdf_link flex justify-center items-center gap-1 text-black py-2 px-4">
             <i className="ri-file-pdf-2-line"></i>
             <a
               target="_blank"

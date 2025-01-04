@@ -1,69 +1,36 @@
-import { useEffect } from 'react';
-import '../CSS/Contents.css';
-import ReadMore from './ReadMore';
+import { mainPageSummaryBoxData } from '../Utils/SummaryBoxContent';
+import { Link } from 'react-router-dom';
 
 const Contents = () => {
-  useEffect(() => {
-    // Scroll to the top when the location changes (route change) or on component mount
-    window.scrollTo(0, 0);
-
-    // For additional support on mobile devices
-    document.body.scrollTop = 0;
-  }, []);
-
   return (
     <>
-      <div className="info_container">
+      <div className="info_container md:p-8 mx-auto md:mb-0 mb-8 px-2 py-5 text-black">
         {/* <h2 className="heading">Contents</h2> */}
-        <h2 className="heading">
+        <h2 className="heading capitalize text-center px-2 font-semibold text-2xl mb-4">
           International Journal of Scientific research for global Innovation
         </h2>
-        <div className="info_grid">
-          <div className="grids" id="grid-3">
-            <p className="grid_heading">About the Journal</p>
-            <p className="grid_para">
-              International Journal Of Scientific Research For Global Innovation
-              is a leading international journal for publication of new
-              ideas.The primary goal of the editors is to maintain high quality
-              of publications on theoretical
-              <ReadMore color={'white'} path={'/about'} />
-            </p>
-            <img className="img-grid" src="./Images/about-us.png" alt="" />
-          </div>
-          <div className="grids" id="grid-4">
-            <p className="grid_heading">Editorial Policies</p>
-            <p className="grid_para">
-              International Journal Of Scientific Research For Global Innovation
-              is an open access peer-reviewed journal which considers
-              manuscripts which comply our instruction with authors. The
-              manuscripts are initially screened by the editorial members for
-              its scientific content, format
-              <ReadMore color={'white'} path={'/policies'} />
-            </p>
-            <img className="img-grid" src="./Images/review.png" alt="" />
-          </div>
-          <div className="grids" id="grid-2">
-            <p className="grid_heading">Instructions to Author</p>
-            <p className="grid_para">
-              The journal operates on a biannual schedule, following the
-              continuous publication model, and welcomes submissions from
-              researchers worldwide in various multidisciplinary fields.
-              Submissions undergo initial
-              <ReadMore color={'white'} path={'/instruction-author'} />
-            </p>
-            <img className="img-grid" src="./Images/author.png" alt="" />
-          </div>
-          <div className="grids" id="grid-3">
-            <p className="grid_heading">Peer Review Policy</p>
-            <p className="grid_para">
-              Authors of original research should present an accurate account of
-              the work performed and the results, followed by an objective
-              discussion of the significance of the work. The manuscript should
-              contain sufficient detail
-              <ReadMore color={'white'} path={'/review-policy'} />
-            </p>
-            <img className="img-grid" src="./Images/review-policy.png" alt="" />
-          </div>
+        <div className="info_grid grid gap-0 text-white grid-cols-12 col-span-12 text-justify">
+          {mainPageSummaryBoxData?.map(
+            ({ heading, content, bg, path, imagePath }, index) => (
+              <div
+                key={index}
+                style={{ background: bg }}
+                className={`col-span-12 rounded-md md:col-span-6 lg:col-span-3 p-5 border border-[#ccc] flex gap-4 flex-col`}
+              >
+                <p className="grid_heading m-0 text-xl">{heading}</p>
+                <p className="grid_para capitalize text-base my-2 mx-0">
+                  {content}&nbsp;
+                  <Link
+                    className="read_more text-[#ffffff] font-bold text-base transition-all duration-300 ease-in"
+                    to={path}
+                  >
+                    Read More..
+                  </Link>
+                </p>
+                {/* <img className="img-grid w-20" src={imagePath} alt="" /> */}
+              </div>
+            )
+          )}
         </div>
       </div>
     </>
