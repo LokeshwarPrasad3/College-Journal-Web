@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+#root {
+  /* margin-top: 5rem; */
+}
+/* 👉 new section image of main page */
+#main_image_container {
+  height: 400px;
+}
+
+#main_image {
+  position: relative;
+  z-index: -4;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.7;
+}
+/* 👉  read more  */
+.read_more {
+  margin: 0 0.5rem;
+  color: blue;
+  font-size: 16px;
+  transition: transform 0.3s ease;
+}

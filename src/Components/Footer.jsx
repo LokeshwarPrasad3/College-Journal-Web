@@ -26,7 +26,7 @@ const Footer = () => {
   useEffect(() => {
     // This code will run when the component is first mounted
     const currentRoute = location.pathname;
-    console.log('Current Route:', currentRoute);
+    // console.log('Current Route:', currentRoute);
     setRoute(currentRoute);
 
     // If you want to perform some cleanup when the component is unmounted, return a function from useEffect

@@ -58,6 +58,7 @@ const JournalPaperSummaryCard = ({ element }) => {
               color: 'black',
               padding: '10px 15px',
               position: 'relative',
+              zIndex: '-10'
             }}
             onMouseOver={handleMouseOver}
             onMouseOut={handleMouseOut}

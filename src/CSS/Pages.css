@@ -7,7 +7,6 @@
 .about_container {
   text-align: justify;
   padding: 2rem 15rem;
-  font-family: 'Times New Roman';
 }
 .about_para {
   display: flex;
@@ -49,7 +48,6 @@ ol {
   gap: 10px;
 }
 .author_container {
-  font-family: 'Times New Roman';
   padding: 2rem 15rem;
   text-align: justify;
 }
@@ -71,7 +69,6 @@ ol {
 
 /* 👉editorial policies page */
 .editorial_policies_container {
-  font-family: 'Times New Roman';
   text-align: justify;
   margin-bottom: 7rem;
   /* margin-top: 4rem; */
@@ -95,7 +92,6 @@ ol {
 
 /* 👉 Peer review policy */
 .peer_review_policy_container {
-  font-family: 'Times New Roman';
   padding: 2rem 15rem;
   text-align: justify;
 }
@@ -122,14 +118,12 @@ ol {
 
 /* page for editors board list */
 .editorboard_container {
-  font-family: 'Times New Roman';
   text-align: center;
   padding: 2rem 0;
 }
 
 /* for contact us page */
 .contact_us_container {
-  font-family: 'Times New Roman';
   text-align: justify;
   /* margin-top: 6rem; */
 }
@@ -156,10 +150,6 @@ ol {
 
 .aboutus_points li {
   font-size: 17px;
-}
-.mono {
-  /* text-decoration: underline; */
-  font-family: 'Times New Roman', Times, serif;
 }
 .aboutus_points li a {
   color: black;
