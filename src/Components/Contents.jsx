@@ -1,16 +1,7 @@
-import { useEffect } from 'react';
 import { mainPageSummaryBoxData } from '../Utils/SummaryBoxContent';
 import { Link } from 'react-router-dom';
 
 const Contents = () => {
-  useEffect(() => {
-    // Scroll to the top when the location changes (route change) or on component mount
-    window.scrollTo(0, 0);
-
-    // For additional support on mobile devices
-    document.body.scrollTop = 0;
-  }, []);
-
   return (
     <>
       <div className="info_container md:p-8 mx-auto md:mb-0 mb-8 px-2 py-5 text-black">

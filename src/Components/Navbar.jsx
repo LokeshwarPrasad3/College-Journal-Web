@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { NavbarLinks } from '../Utils/NavbarLinks';
-import AppLogoImage from "../assets/Images/logo.png";
+import AppLogoImage from '../assets/Images/logo.png';
 
 const Navbar = () => {
   // state which store current width of window
@@ -17,7 +17,7 @@ const Navbar = () => {
     // function set current innerWidth
     const handleWindowResize = () => {
       setWindowWidth(window.innerWidth);
-      console.log(window.innerWidth);
+      // console.log(window.innerWidth);
     };
     // Attach event listener for window resize
     window.addEventListener('resize', handleWindowResize);
@@ -62,7 +62,7 @@ const Navbar = () => {
               >
                 <Link
                   onClick={toggleResNavbar}
-                  className="nav_link lg:hover:bg-[#395a8f] hover:bg-slate-200 lg:hover:text-white text-black lg:text-white custom_transtion text-base lg:text-lg py-1 px-3 cursor-pointer rounded-md custom_transtion "
+                  className="nav_link font-semibold lg:font-normal lg:hover:bg-[#395a8f] hover:bg-slate-200 lg:hover:text-white text-black lg:text-white custom_transtion text-base lg:text-lg py-1 px-3 cursor-pointer rounded-md custom_transtion "
                   to={link}
                 >
                   {name}

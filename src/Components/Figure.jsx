@@ -9,7 +9,7 @@ const Figure = () => {
     // function set current innerWidth
     const handleWindowResize = () => {
       setWindowWidth(window.innerWidth);
-      console.log(window.innerWidth);
+      // console.log(window.innerWidth);
     };
     // Attach event listener for window resize
     window.addEventListener('resize', handleWindowResize);

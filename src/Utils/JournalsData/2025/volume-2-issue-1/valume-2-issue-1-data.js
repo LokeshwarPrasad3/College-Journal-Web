@@ -56,8 +56,7 @@ important structural factors such base shear, story drift, overturning moment, a
     index: 4,
     message:
       'Staphylococcus Epidermidis: Friend Or FOE: A Commensal Bacterium but Highly Opportunistic Pathogen: A Review',
-    author:
-      'Dr. Reena Kulshrestha, Mrs. Pooja Sitholay, Ms. Sangita Roy',
+    author: 'Dr. Reena Kulshrestha, Mrs. Pooja Sitholay, Ms. Sangita Roy',
     filePath: `./PDF/Journals/2025/volume-2-issue-1/paper4.pdf`,
     abstract: `Staphylococcus epidermidis is a Gram-positive bacterium that is a predominant component of the normal human skin
 and mucous membrane microbiota. While generally benign in its natural habitat, it has emerged as a significant

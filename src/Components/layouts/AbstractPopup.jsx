@@ -1,14 +1,12 @@
-import '../../CSS/AbstractPopup.css';
-
-const AbstractPopup = ({ index, popupPosition, setShowPopup, abstract }) => {
+const AbstractPopup = ({ popupPosition, setShowPopup, abstract }) => {
   return (
     <>
       <div
         onMouseOver={() => setShowPopup(true)}
         onMouseLeave={() => setShowPopup(false)}
-        className="abstract_popup_container"
+        className="abstract_popup_container absolute max-w-7xl bg-white text-black p-4 rounded-md basic_shadow z-[101]"
         style={{
-          display: `${abstract}?"":"none"`,
+          display: `${abstract} ? "" : "none"`,
           top: popupPosition.top,
         }}
       >

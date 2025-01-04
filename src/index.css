@@ -2,10 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
-.custom_transtion{
+.custom_transtion {
   @apply transition-all duration-200 ease-in;
 }
 
-.responsive_navbar_height{
+.max_width_content_page {
+  @apply container max-w-7xl mx-auto;
+}
+
+.responsive_navbar_height {
   height: calc(100vh - 9rem);
+}
+
+.basic_shadow {
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+}
+.small_shadow {
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+}
+
+p {
+  word-break: break-word !important;
 }
