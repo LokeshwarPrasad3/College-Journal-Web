@@ -39,7 +39,7 @@ const ArchivesPage = () => {
               display: 'flex',
               justifyContent: 'center',
               alignItems: 'center',
-              padding: '2rem 0.2rem',
+              padding: '1rem 0.2rem',
             }}
           >
             <Link to={link} style={{ fontSize: '1.2rem' }}>
