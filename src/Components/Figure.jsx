@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import HeroSectionImage from '../assets/Images/hero_section_image.jpg';
 
 const Figure = () => {
   // state which store current width of window
@@ -21,10 +22,10 @@ const Figure = () => {
 
   return (
     <>
-      <div id="main_image_container">
+      <div className="main_image_container h-[400px]">
         <img
-          id="main_image"
-          src="./Images/main_page_image-1-min-min-min.jpg"
+          className="main_image relative z-[-4] w-full h-full object-cover opacity-70"
+          src={HeroSectionImage}
           alt="research-image"
         />
       </div>

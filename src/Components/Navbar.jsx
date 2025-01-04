@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { NavbarLinks } from '../Utils/NavbarLinks';
+import AppLogoImage from "../assets/Images/logo.png";
 
 const Navbar = () => {
   // state which store current width of window
@@ -37,7 +38,7 @@ const Navbar = () => {
         {/* header section where name and logo of business */}
         <header className="navbar_header flex justify-center items-center flex-col bg-app_header_bg w-full py-4">
           <Link to="/" className="heading_logo  transform-none h-12">
-            <img src="./Images/logo.png" alt="logo" className="h-full" />
+            <img src={AppLogoImage} alt="logo" className="h-full" />
           </Link>
           <Link className="heading_name cursor-pointer px-4 text-xl text-center font-semibold">
             International Journal Of Scientific Research For Global Innovation
@@ -48,7 +49,7 @@ const Navbar = () => {
         </header>
         {/* show navbar-menu */}
         <div
-          className={`${showResNavbar ? 'absolute lg:static -top-[72vh]' : 'absolute lg:static top-full'} flex lg:items-center items-start justify-center flex-row px-0 lg:p-3 bg-white lg:bg-app_header_bg w-full transition-all duration-300 ease-in-out -z-10 pb-0 border-0 border-t border-app_border lg:h-auto responsive_navbar_height`}
+          className={`${showResNavbar ? 'absolute lg:static -top-[72vh]' : 'absolute lg:static top-full'} flex lg:items-center items-start justify-center flex-row px-0 lg:p-2 bg-white lg:bg-app_header_bg w-full transition-all duration-300 ease-in-out -z-10 pb-0 border-0 border-t border-app_border lg:h-auto responsive_navbar_height`}
         >
           <ul
             id="nav_ul"

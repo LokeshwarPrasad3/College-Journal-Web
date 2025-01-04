@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import NewNoticeGif from '../../assets/Images/new-notice.gif';
 
 const NoticeBar = () => {
   return (
@@ -12,7 +13,7 @@ const NoticeBar = () => {
           <p className="notice_description hover:text-[#00ffff] text-base flex justify-center items-center flex-wrap text-center ">
             <img
               style={{ height: '30px', marginRight: '0.5vw' }}
-              src="./Images/new-new.gif"
+              src={NewNoticeGif}
             />
             <span> Call for paper , </span>
             <span> Volume 2 Issue 2 ,&nbsp;</span>
