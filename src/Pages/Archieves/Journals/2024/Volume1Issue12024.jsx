@@ -1,6 +1,6 @@
 import { volume_1_issue_1_journal_list_data } from '../../../../Utils/JournalsData/2024/volume-1-issue-1/valume-1-issue-1-data';
 import '../../../../CSS/Pages.css';
-import PdfViewer from '../../../../Components/layouts/PdfViewer';
+import JournalPaperSummaryCard from '../../../../Components/layouts/JournalPaperSummaryCard';
 
 const Volume1Issue12024 = () => {
   return (
@@ -11,7 +11,7 @@ const Volume1Issue12024 = () => {
         </div>
         <div className="volumeIssue_pdf_container">
           {volume_1_issue_1_journal_list_data.map((element, index) => (
-            <PdfViewer key={index} element={element} />
+            <JournalPaperSummaryCard key={index} element={element} />
           ))}
         </div>
       </div>

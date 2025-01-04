@@ -3,7 +3,7 @@ export const volume_2_issue_1_jouranal_list_data = [
     index: 1,
     message:
       'A Review on Harnessing Large Language Models to Transform Conversational Information Retrieval',
-    author: '1. Amit Raj, 2. Kusum Sharma, 3. Parineeta Jha',
+    author: 'Amit Raj, Kusum Sharma, Parineeta Jha',
     filePath: `./PDF/Journals/2025/volume-2-issue-1/paper1.pdf`,
     abstract: `The exponential growth of unstructured data has made conventional search systems insufficient for addressing
 modern needs. Cognitive search refers to an advanced form of search technology that uses AI and ML to
@@ -24,7 +24,7 @@ CIR System relied on rule-based approaches and rigid query structures.`,
     index: 2,
     message:
       'Assessment of Antioxidant Activity and Phytochemical Composition in Brassica nigra L. and Brassica oleracea var. Botrytis Microgreens',
-    author: '1. Arpan Dey, 2. Geetanjali Sahu, 3. Tripti Agrawal Jain',
+    author: 'Arpan Dey, Geetanjali Sahu, Tripti Agrawal Jain',
     filePath: `./PDF/Journals/2025/volume-2-issue-1/paper2.pdf`,
     abstract: `The growing global population presents significant food security challenges, demanding innovative agricultural
 solutions that are climate-resilient, space-efficient, and sustainable. Brassicaceae microgreens (BM) emerge as a
@@ -43,7 +43,7 @@ botrytis microgreens exhibited the highest antioxidant content and activity. The
     index: 3,
     message:
       'A Review paper of Comparative analysis of a T shaped structure considering viscous dampers with general framed structure under seismic load using analysis tool',
-    author: '1. Deepak Kumar, 2. Pradeep Nirmal, 3. Anita Chaturvedi',
+    author: 'Deepak Kumar, Pradeep Nirmal, Anita Chaturvedi',
     filePath: `./PDF/Journals/2025/volume-2-issue-1/paper3.pdf`,
     abstract: `In this paper, the seismic performance of a 33-meter-tall, irregular T-shaped structure with viscosity dampers is examined and
 contrasted with a standard RCC model without dampers. The analysis is carried out in the setting of soil type III, which relates
@@ -57,7 +57,7 @@ important structural factors such base shear, story drift, overturning moment, a
     message:
       'Staphylococcus Epidermidis: Friend Or FOE: A Commensal Bacterium but Highly Opportunistic Pathogen: A Review',
     author:
-      '1. Dr. Reena Kulshrestha, 2. Mrs. Pooja Sitholay, 3. Ms. Sangita Roy',
+      'Dr. Reena Kulshrestha, Mrs. Pooja Sitholay, Ms. Sangita Roy',
     filePath: `./PDF/Journals/2025/volume-2-issue-1/paper4.pdf`,
     abstract: `Staphylococcus epidermidis is a Gram-positive bacterium that is a predominant component of the normal human skin
 and mucous membrane microbiota. While generally benign in its natural habitat, it has emerged as a significant
@@ -69,7 +69,7 @@ challenges it poses in clinical environments. `,
     index: 5,
     message:
       'Analysis of a Circular Water Tank Considering Lateral Load Using Analysis Tool',
-    author: '1. Kusum, 2. Pradeep Nirmal, 3. Pratik Kathale',
+    author: 'Kusum, Pradeep Nirmal, Pratik Kathale',
     filePath: `./PDF/Journals/2025/volume-2-issue-1/paper5.pdf`,
     abstract: `Circular water tanks are widely used in water distribution systems due to their efficient design and costeffectiveness for storing moderate water volumes. However, ensuring their structural integrity under water
 pressure and external loads is crucial. This research utilizes STAAD Pro, a popular structural analysis and design
@@ -79,7 +79,7 @@ software, to model and analyze a circular water tank, evaluating its response to
     index: 6,
     message:
       'Formulation and Evaluation of Herbal Extract Sublingual Tablet for Peanut Allergy',
-    author: '1. Bhumika Chandrakar, 1. Nishu Aditya, 2. Preetam Sinha',
+    author: 'Bhumika Chandrakar, Nishu Aditya, Preetam Sinha',
     filePath: `./PDF/Journals/2025/volume-2-issue-1/paper6.pdf`,
     abstract: `Rhinitis is characterised by nasal symptoms such as anterior or posterior rhinorrhoea, sneezing, nasal obstruction,
 and/or nose itching. Rhinitis is defined as an inflammation of the nose lining. Many days, these symptoms last for
@@ -96,7 +96,7 @@ linked to remarkably low levels of daily inhaled corticosteroid use, asthma aggr
     index: 7,
     message:
       'The Role of Innovative Financial Inclusion Technologies in Economic Development of India',
-    author: '1. Dr. Anjaneya Sharma, 2. Mr. Narender Singh',
+    author: 'Dr. Anjaneya Sharma, Mr. Narender Singh',
     filePath: `./PDF/Journals/2025/volume-2-issue-1/paper7.pdf`,
     abstract: `Financial Inclusion is the universal access to the financial service by every person of the society at an affordable price.
 Covid 19 pandemic imposed social distancing and lockdown all over the world, then digital payment become the lifeline of
@@ -115,7 +115,7 @@ India to reach the unserved population and leading to economic development in In
   {
     index: 8,
     message: 'Role of Capital Budgeting in Long Term Investment',
-    author: '1. Narender Singh',
+    author: 'Narender Singh',
     filePath: `./PDF/Journals/2025/volume-2-issue-1/paper8.pdf`,
     abstract: `Planning, managing, and allocating resources strategically are all important extremities on making the best
 possible decisions in any business. The implementation of capital budgeting strategies to meet any company
@@ -135,7 +135,7 @@ cash flows as determined by the discounted cash flow technique.
     index: 9,
     message:
       'Performance Appraisal of Faculty Members in Higher Educational Institutions: A Study',
-    author: '1. Dr. Anjaneya Sharma, 2. Dr. Tripti Agrawal Jain',
+    author: 'Dr. Anjaneya Sharma, Dr. Tripti Agrawal Jain',
     filePath: `./PDF/Journals/2025/volume-2-issue-1/paper9.pdf`,
     abstract: `The performance appraisal of faculty members is an essential component for imparting quality education and institutional
 effectiveness in higher education. It provides insights into the strengths and areas of improvement for faculty members
@@ -155,7 +155,7 @@ members.
     message:
       'In-vitro Release Study of Diacerein Loaded Microemulsion-Based Hydrogels in the Treatment of Osteoarthritis',
     author:
-      '1. Suchita Wamankar, 2. Tilotma Sahu, 3. Gyanesh Kumar Sahu, 4. Rajesh Kumar Nema',
+      'Suchita Wamankar, Tilotma Sahu, Gyanesh Kumar Sahu, Rajesh Kumar Nema',
     filePath: `./PDF/Journals/2025/volume-2-issue-1/paper10.pdf`,
     abstract: `: The prime goal of this work is to improve the effectiveness of Diacerine by delivering it to the targeted topical
 site by applying a microemulsion-based hydrogel system and at the same time reduce the risk of adverse drug-related effects.`,
@@ -164,7 +164,7 @@ site by applying a microemulsion-based hydrogel system and at the same time redu
     index: 11,
     message: 'From Healing to Aesthetics: Hyaluronic Acid in Dental Practice',
     author:
-      '1. Dr. Akanksha Raut, 2. Dr. Karthik Krishna M., 3. Dr. Nidhi Adyalkar, 4. Dr. Mayank Jain',
+      'Dr. Akanksha Raut, Dr. Karthik Krishna M., Dr. Nidhi Adyalkar, Dr. Mayank Jain',
     filePath: `./PDF/Journals/2025/volume-2-issue-1/paper11.pdf`,
     abstract: `Hyaluronic acid (HA) is a naturally occurring glycosaminoglycan with unique physicochemical properties that
 make it an essential component of extracellular matrices in various tissues. In dentistry, HA has garnered significant attention

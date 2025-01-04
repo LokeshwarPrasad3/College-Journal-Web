@@ -1,9 +1,9 @@
 import { Link } from 'react-router-dom';
-import '../../CSS/PdfViewer.css';
+import '../../CSS/JournalPaperSummaryCard.css';
 import { useState, useEffect } from 'react';
 import AbstractPopup from './AbstractPopup';
 
-const PdfViewer = ({ element }) => {
+const JournalPaperSummaryCard = ({ element }) => {
   const [showPopup, setShowPopup] = useState(false);
   const [popupPosition, setPopupPosition] = useState({ top: 0, left: 0 });
 
@@ -90,4 +90,4 @@ const PdfViewer = ({ element }) => {
   );
 };
 
-export default PdfViewer;
+export default JournalPaperSummaryCard;
