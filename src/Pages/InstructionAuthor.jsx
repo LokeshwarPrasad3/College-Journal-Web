@@ -165,12 +165,12 @@ const InstructionAuthor = () => {
           <div className="flex flex-col justify-start items-start gap-2 w-full">
             <b>References should be in the following format</b>
             <div className="flex flex-col justify-start items-start gap-1">
-              <a
+              {/* <a
                 className="text-link_text text-base underline"
                 href="./Formats/IJSRGI-paper-Template-2025.docx"
               >
                 Paper-Template
-              </a>
+              </a> */}
               <a
                 className="text-link_text text-base underline"
                 href="./Formats/Copyright-form.docx"
